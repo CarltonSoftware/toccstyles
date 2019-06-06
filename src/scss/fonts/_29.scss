@@ -1,0 +1,28 @@
+@import '../variables/29';
+
+@import 'vanilla';
+
+@font-face {
+    font-family: 'jenna_sueregular';
+    src: url('#{$tocc-site-fonts-dir}/jennasue/jennasue-webfont.woff2') format('woff2'),
+         url('#{$tocc-site-fonts-dir}/jennasue/jennasue-webfont.woff') format('woff'),
+         url('#{$tocc-site-fonts-dir}/jennasue/jennasue-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TeX Gyre Adventor';
+    src: url('#{$tocc-site-fonts-dir}/texgyreadventor/texgyreadventor-regular-webfont.woff') format('woff'),
+         url('#{$tocc-site-fonts-dir}/texgyreadventor/texgyreadventor-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TeX Gyre Adventor Bold';
+    src: url('#{$tocc-site-fonts-dir}/texgyreadventor/texgyreadventor-bold-webfont.woff') format('woff'),
+         url('#{$tocc-site-fonts-dir}/texgyreadventor/texgyreadventor-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}

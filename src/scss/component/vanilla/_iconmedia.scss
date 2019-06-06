@@ -1,0 +1,110 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _iconmedia.scss
+ * @brand    Vanilla
+ * @name     iconmedia
+ * @author   Alex Wyett
+ * @date     2019-05-24
+ */
+// Include Utilities
+@import '../../utils/index';
+
+.tocc__iconmedia {
+    border-radius: $site-global-radius;
+    display: block;
+    padding: $site-global-padding $site-global-padding $site-global-padding $site-global-padding * 3;
+    position: relative;
+    transition-duration: 86ms;
+    transition-property: background-color, color;
+    background: $site-color-reallylightgrey;
+    
+    &__title {
+        //@extend .tocc__title--h4;
+        line-height: 1.25;
+        margin-bottom: .25em;
+        position: relative;
+        
+        i {
+            position: absolute;
+            right: calc(100% + 0.5rem);
+            text-align: center;
+            top: 0;
+            min-width: 1.5em;
+            
+            &:before {
+                @include fa-icon;
+                content: fa-content($fa-var-user);
+            }
+        }
+    }
+    
+    &[href^='/myaccount/bookings'] {
+        .tocc__iconnav__title i {
+            &:before {
+                content: fa-content($fa-var-calendar-check);
+            }
+        }
+    }
+    
+    &[href^='/myaccount/marketingpreferences'] {
+        .tocc__iconnav__title i {
+            &:before {
+                content: fa-content($fa-var-tasks);
+            }
+        }
+    }
+    
+    &[href^='/myaccount/change_password'] {
+        .tocc__iconnav__title i {
+            &:before {
+                content: fa-content($fa-var-user-lock);
+            }
+        }
+    }
+    
+    &[href^='/myaccount/pastbookings'],
+    &[href^='/myaccount/bookings'] {
+        .tocc__iconnav__title i {
+            &:before {
+                content: fa-content($fa-var-book);
+            }
+        }
+    }
+    
+    &[href^='/myaccount/logout'] {
+        .tocc__iconnav__title i {
+            &:before {
+                content: fa-content($fa-var-sign-out-alt);
+            }
+        }
+    }
+    
+    
+    
+    &__description {
+        margin: 0;
+    }
+}
+
+.tocc__iconmedias {
+    .tocc__iconmedia {
+        margin-bottom: $site-global-margin;
+    }
+        
+    @include breakpoint(medium) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -$site-global-margin;
+        
+        .tocc__iconmedia {
+            width: calc(50% - 1rem);
+            margin-right: $site-global-margin;
+        }
+    }
+    @include breakpoint(large) {
+        .tocc__iconmedia {
+            width: calc(25% - 1rem);
+        }
+    }
+}

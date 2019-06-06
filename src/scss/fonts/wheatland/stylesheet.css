@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'wheatland';
+    src: url('wheatland.eot');
+    src: url('wheatland.eot?#iefix') format('embedded-opentype'),
+        url('wheatland.woff2') format('woff2'),
+        url('wheatland.woff') format('woff'),
+        url('wheatland.ttf') format('truetype'),
+        url('wheatland.svg#wheatland') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

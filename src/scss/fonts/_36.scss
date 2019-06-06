@@ -1,0 +1,48 @@
+@import '../variables/36';
+
+@import 'vanilla';
+
+@import url("//hello.myfonts.net/count/377e09");
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3636745, 2018-09-07T04:13:04-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BauhausStd-Light by ITC
+ * URL: https://www.myfonts.com/fonts/itc/bauhaus/std-light-177552/
+ * 
+ * Webfont: BauhausStd-Medium by ITC
+ * URL: https://www.myfonts.com/fonts/itc/bauhaus/std-medium-177552/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3636745
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 Monotype ITC Inc. All rights reserved.
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+@font-face {
+    font-family: 'Bauhaus';
+    src: url('#{$tocc-site-fonts-dir}/bauhaus/377E09_0_0.eot');
+    src: url('#{$tocc-site-fonts-dir}/bauhaus/377E09_0_0.eot?#iefix') format('embedded-opentype'),
+        url('#{$tocc-site-fonts-dir}/bauhaus/377E09_0_0.woff2') format('woff2'),
+        url('#{$tocc-site-fonts-dir}/bauhaus/377E09_0_0.woff') format('woff'),
+        url('#{$tocc-site-fonts-dir}/bauhaus/377E09_0_0.ttf') format('truetype');
+} 
+  
+@font-face {
+    font-family: 'Bauhaus';
+    font-weight: bold;
+    src: url('#{$tocc-site-fonts-dir}/bauhaus/377E09_1_0.eot');
+    src: url('#{$tocc-site-fonts-dir}/bauhaus/377E09_1_0.eot?#iefix') format('embedded-opentype'),
+        url('#{$tocc-site-fonts-dir}/bauhaus/377E09_1_0.woff2') format('woff2'),
+        url('#{$tocc-site-fonts-dir}/bauhaus/377E09_1_0.woff') format('woff'),
+        url('#{$tocc-site-fonts-dir}/bauhaus/377E09_1_0.ttf') format('truetype');
+}

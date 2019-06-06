@@ -1,0 +1,18 @@
+@import '../variables/5';
+@import 'vanilla';
+
+@font-face {
+    font-family: 'Arcon Regular';
+    src: url('#{$tocc-site-fonts-dir}/arconregular/arcon-regular-webfont.woff2') format('woff2'),
+         url('#{$tocc-site-fonts-dir}/arconregular/arcon-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arcon Regular Bold';
+    src: url('#{$tocc-site-fonts-dir}/arconregular/arcon-regular-webfont.woff2') format('woff2'),
+         url('#{$tocc-site-fonts-dir}/arconregular/arcon-regular-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+}

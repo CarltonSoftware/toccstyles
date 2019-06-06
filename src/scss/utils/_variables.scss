@@ -1,0 +1,57 @@
+$fa-font-path: "../fonts/fontawesome";
+
+@import '@fortawesome/fontawesome-pro/scss/variables';
+@import '@fortawesome/fontawesome-pro/scss/mixins';
+
+$site-padding: 1rem;
+$site-font-size: (
+  "h1": 38px,
+  "h2": 30px,
+  "h3": 24px,
+  "h4": 20px,
+  "h5": 18px,
+  "p": 14px
+);
+$site-font-line-height: (
+  "h1": 48px,
+  "h2": 40px,
+  "h3": 34px,
+  "h4": 28px,
+  "h5": 22px,
+  "p": 1.8
+);
+
+$site-breakpoints: (
+    "xsmall":      480px,
+    "small":       640px,
+    "medium":      768px,
+    "medium-wide": 1024px,
+    "large":       1170px,
+    "xlarge":      1200px
+) !default;
+
+$site-color-one: #555555 !default;
+$site-color-two: #666666 !default;
+$site-color-three: #777777 !default;
+$site-color-four: #888888 !default;
+$site-color-five: #999999 !default;
+$site-color-six: #AAAAAA !default;
+$site-color-seven: #BBBBBB !default;
+
+$site-color-reallylightgrey: #F8F8F8 !default;
+
+$tocc-site-fonts-dir: '/fonts' !default;
+$tocc-google-fonts: 'Open+Sans' !default;
+
+$site-global-padding: 1rem;
+$site-global-margin: 1rem;
+$site-global-radius: 2px;
+
+$site-content-header-font-color: $site-color-one !default;
+$site-content-header-font-weight: normal !default;
+$site-content-header-font-family: 'Open Sans', sans-serif !default;
+$site-content-header-text-transform: none !default;
+$site-content-paragraph-font-color: #5b5b5b !default;
+$site-content-paragraph-font-family: 'Open Sans', sans-serif !default;
+
+$site-strapline-font-size: 14px !default;

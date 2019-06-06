@@ -1,0 +1,14 @@
+@import '../variables/24';
+@import 'vanilla';
+
+@font-face {
+  font-family: 'wheatland';
+  src: url('#{$tocc-site-fonts-dir}/wheatland/wheatland.eot');
+  src: url('#{$tocc-site-fonts-dir}/wheatland/wheatland.eot?#iefix') format('embedded-opentype'),
+      url('#{$tocc-site-fonts-dir}/wheatland/wheatland.woff2') format('woff2'),
+      url('#{$tocc-site-fonts-dir}/wheatland/wheatland.woff') format('woff'),
+      url('#{$tocc-site-fonts-dir}/wheatland/wheatland.ttf') format('truetype'),
+      url('#{$tocc-site-fonts-dir}/wheatland/wheatland.svg#wheatland') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

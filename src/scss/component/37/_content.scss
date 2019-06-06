@@ -1,0 +1,17 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _content.scss
+ * @brand    Northumbria Byways
+ * @name     content
+ * @author   Tabs System User
+ * @date     2019-06-06
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/37';
+
+
+@import '../vanilla/content';

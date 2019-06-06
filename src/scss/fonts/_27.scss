@@ -1,0 +1,36 @@
+@import '../variables/27';
+@import 'vanilla';
+
+
+@font-face {
+    font-family: 'sharpsansbook';
+    src: url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-Book.woff2') format('woff2'),
+         url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-Book.woff') format('woff'),
+         url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-Book.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sharpsansbook';
+    src: url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-BookItalic.woff2') format('woff2'),
+         url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-BookItalic.woff') format('woff'),
+         url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-BookItalic.eot') format('eot');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'sharpsansbook';
+    src: url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-Semibold.woff2') format('woff2'),
+         url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-Semibold.woff') format('woff'),
+         url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-Semibold.eot') format('eot');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sharpsansbook';
+    src: url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-SemiboldItalic.woff2') format('woff2'),
+         url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-SemiboldItalic.woff') format('woff'),
+         url('#{$tocc-site-fonts-dir}/sharpsansbook/SharpSans-SemiboldItalic.eot') format('eot');
+    font-weight: bold;
+    font-style: italic;
+}

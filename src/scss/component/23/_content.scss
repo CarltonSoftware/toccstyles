@@ -1,0 +1,17 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _content.scss
+ * @brand    So Southwold
+ * @name     content
+ * @author   Tabs System User
+ * @date     2019-06-06
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/23';
+
+
+@import '../vanilla/content';

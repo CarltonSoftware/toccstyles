@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+@import url("//fast.fonts.net/lt/1.css?apiType=css&c=2e98ef88-ba20-44a4-bdf3-22e5b874b65b&fontids=1475500,1475548");
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../fonts/fontawesome/fa-brands-400.eot");
+  src: url("../fonts/fontawesome/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome/fa-brands-400.woff2") format("woff2"), url("../fonts/fontawesome/fa-brands-400.woff") format("woff"), url("../fonts/fontawesome/fa-brands-400.ttf") format("truetype"), url("../fonts/fontawesome/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+}
+
+/*!
+ * Font Awesome Pro 5.9.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Commercial License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("../fonts/fontawesome/fa-solid-900.eot");
+  src: url("../fonts/fontawesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome/fa-solid-900.woff2") format("woff2"), url("../fonts/fontawesome/fa-solid-900.woff") format("woff"), url("../fonts/fontawesome/fa-solid-900.ttf") format("truetype"), url("../fonts/fontawesome/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+}
+
+/*!
+ * Font Awesome Pro 5.9.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Commercial License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("../fonts/fontawesome/fa-regular-400.eot");
+  src: url("../fonts/fontawesome/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome/fa-regular-400.woff2") format("woff2"), url("../fonts/fontawesome/fa-regular-400.woff") format("woff"), url("../fonts/fontawesome/fa-regular-400.ttf") format("truetype"), url("../fonts/fontawesome/fa-regular-400.svg#fontawesome") format("svg");
+}
+
+.far {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 400;
+}
+
+.fa,
+.fas,
+.far,
+.fal,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+@font-face {
+  font-family: "Avenir LT";
+  src: url("/fonts/avenirlt/1475500/c886ac4d-0476-43f2-859c-69521d566f36.eot?#iefix");
+  src: url("/fonts/avenirlt/1475500/c886ac4d-0476-43f2-859c-69521d566f36.eot?#iefix") format("eot"), url("/fonts/avenirlt/1475500/57fd8d3b-c855-4bd8-9e49-04ae9a760f9d.svg#57fd8d3b-c855-4bd8-9e49-04ae9a760f9d") format("svg"), url("/fonts/avenirlt/1475500/bfb11081-e571-43ad-bed9-8953cfd4133e.woff2") format("woff2"), url("/fonts/avenirlt/1475500/e35493b4-782b-41f0-b3f0-b7e5d0ceab0b.woff") format("woff"), url("/fonts/avenirlt/1475500/3441ac36-8e74-4708-8a0e-bc7eb293b307.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Avenir LT";
+  src: url("/fonts/avenirlt/1475548/7ed39c78-4da5-42df-831b-798b2272d1ac.eot?#iefix");
+  src: url("/fonts/avenirlt/1475548/7ed39c78-4da5-42df-831b-798b2272d1ac.eot?#iefix") format("eot"), url("/fonts/avenirlt/1475548/b1b086a3-6c38-4045-97a7-d96baabf6392.svg#b1b086a3-6c38-4045-97a7-d96baabf6392") format("svg"), url("/fonts/avenirlt/1475548/e9b44b79-923f-49b3-837c-290bc70628cc.woff2") format("woff2"), url("/fonts/avenirlt/1475548/fbd14ec6-aa86-4ccd-af83-931d5eb79910.woff") format("woff"), url("/fonts/avenirlt/1475548/0d230b6d-eb52-48b7-9c4b-c3f876465fe6.ttf") format("truetype");
+  font-weight: bold;
+}

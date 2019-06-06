@@ -1,0 +1,24 @@
+@import '../variables/18';
+@import 'vanilla';
+
+@import url("//fast.fonts.net/lt/1.css?apiType=css&c=2e98ef88-ba20-44a4-bdf3-22e5b874b65b&fontids=1475500,1475548");
+@font-face{
+    font-family:"Avenir LT";
+    src: url("#{$tocc-site-fonts-dir}/avenirlt/1475500/c886ac4d-0476-43f2-859c-69521d566f36.eot?#iefix");
+    src: url("#{$tocc-site-fonts-dir}/avenirlt/1475500/c886ac4d-0476-43f2-859c-69521d566f36.eot?#iefix") format("eot"),
+      url("#{$tocc-site-fonts-dir}/avenirlt/1475500/57fd8d3b-c855-4bd8-9e49-04ae9a760f9d.svg#57fd8d3b-c855-4bd8-9e49-04ae9a760f9d") format("svg"),
+      url("#{$tocc-site-fonts-dir}/avenirlt/1475500/bfb11081-e571-43ad-bed9-8953cfd4133e.woff2") format("woff2"),
+      url("#{$tocc-site-fonts-dir}/avenirlt/1475500/e35493b4-782b-41f0-b3f0-b7e5d0ceab0b.woff") format("woff"),
+      url("#{$tocc-site-fonts-dir}/avenirlt/1475500/3441ac36-8e74-4708-8a0e-bc7eb293b307.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face{
+    font-family:"Avenir LT";
+    src: url("#{$tocc-site-fonts-dir}/avenirlt/1475548/7ed39c78-4da5-42df-831b-798b2272d1ac.eot?#iefix");
+    src: url("#{$tocc-site-fonts-dir}/avenirlt/1475548/7ed39c78-4da5-42df-831b-798b2272d1ac.eot?#iefix") format("eot"),
+      url("#{$tocc-site-fonts-dir}/avenirlt/1475548/b1b086a3-6c38-4045-97a7-d96baabf6392.svg#b1b086a3-6c38-4045-97a7-d96baabf6392") format("svg"),
+      url("#{$tocc-site-fonts-dir}/avenirlt/1475548/e9b44b79-923f-49b3-837c-290bc70628cc.woff2") format("woff2"),
+      url("#{$tocc-site-fonts-dir}/avenirlt/1475548/fbd14ec6-aa86-4ccd-af83-931d5eb79910.woff") format("woff"),
+      url("#{$tocc-site-fonts-dir}/avenirlt/1475548/0d230b6d-eb52-48b7-9c4b-c3f876465fe6.ttf") format("truetype");
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+@mixin ellipsis() {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@mixin clearfix() {
+    &:before,
+    &:after{
+        content: " "; 
+        display: table; 
+    }
+
+    &:after{
+        display: block;
+        clear: both;
+        height: 1px;
+        margin-top: -1px;
+        visibility: hidden;
+    }
+    &{
+        *zoom: 1;
+    }
+}
+
+@mixin title($size: h1) {
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    padding: 0;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+    font-size: map-get($site-font-size, $size);
+    line-height: map-get($site-font-line-height, $size);
+}
+
+@mixin breakpoint($width, $type: min) {
+    @if map_has_key($site-breakpoints, $width) {
+        $width: map_get($site-breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
+        }
+
+        @media only screen and (#{$type}-width: $width) {
+            @content;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _strapline.scss
+ * @brand    Curlew Cottages
+ * @name     strapline
+ * @author   Tabs System User
+ * @date     2019-06-06
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/9';
+
+
+@import '../vanilla/strapline';

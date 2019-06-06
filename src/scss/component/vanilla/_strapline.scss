@@ -1,0 +1,30 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _strapline.scss
+ * @brand    Vanilla
+ * @name     strapline
+ * @author   Tabs System User
+ * @date     2019-06-06
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+.strapline {
+  &--specialoffer {
+    border: 1px solid black;
+    padding: 5px 5px 5px 15px;
+    width: 100%;
+    font-size: $site-strapline-font-size;
+
+    span {
+      color: red;
+      padding-right: 10px;
+      font-size: $site-strapline-font-size;
+      font-weight: bold;
+    }
+  }
+}

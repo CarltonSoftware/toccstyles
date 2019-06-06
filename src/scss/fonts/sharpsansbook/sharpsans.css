@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'sharpsansbook';
+    src: url('SharpSans-Book.woff2') format('woff2'),
+         url('SharpSans-Book.woff') format('woff'),
+         url('SharpSans-Book.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sharpsansbook';
+    src: url('SharpSans-BookItalic.woff2') format('woff2'),
+         url('SharpSans-BookItalic.woff') format('woff'),
+         url('SharpSans-BookItalic.eot') format('eot');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'sharpsansbook';
+    src: url('SharpSans-Semibold.woff2') format('woff2'),
+         url('SharpSans-Semibold.woff') format('woff'),
+         url('SharpSans-Semibold.eot') format('eot');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sharpsansbook';
+    src: url('SharpSans-SemiboldItalic.woff2') format('woff2'),
+         url('SharpSans-SemiboldItalic.woff') format('woff'),
+         url('SharpSans-SemiboldItalic.eot') format('eot');
+    font-weight: bold;
+    font-style: italic;
+}

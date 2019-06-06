@@ -1,0 +1,8 @@
+uploadtos3.sh
+.env
+node_modules
+yarn-error.log
+yarn.lock
+build
+/nbproject
+src/scss/fonts/fontawesome

@@ -1,0 +1,252 @@
+
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _slogan.scss
+ * @brand    Vanilla
+ * @name     slogan
+ * @author   Alex Wyett
+ * @date     2019-04-24
+ */
+.tocc__slogan {
+  font-size: 36px;
+  line-height: 28px;
+  margin: 0;
+  padding: 0.5rem 0;
+  border: 0 none;
+  color: #739600;
+  font-family: "jenna_sueregular", "Segoe Script", "BradleyHandITCTT-Bold", sans-serif;
+}
+
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _iconmedia.scss
+ * @brand    Yorkshire Holiday Cottages
+ * @name     iconmedia
+ * @author   Tabs System User
+ * @date     2019-06-06
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _iconmedia.scss
+ * @brand    Vanilla
+ * @name     iconmedia
+ * @author   Alex Wyett
+ * @date     2019-05-24
+ */
+.tocc__iconmedia {
+  border-radius: 2px;
+  display: block;
+  padding: 1rem 1rem 1rem 3rem;
+  position: relative;
+  transition-duration: 86ms;
+  transition-property: background-color, color;
+  background: #F8F8F8;
+}
+
+.tocc__iconmedia__title {
+  line-height: 1.25;
+  margin-bottom: .25em;
+  position: relative;
+}
+
+.tocc__iconmedia__title i {
+  position: absolute;
+  right: calc(100% + 0.5rem);
+  text-align: center;
+  top: 0;
+  min-width: 1.5em;
+}
+
+.tocc__iconmedia__title i:before {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  content: "\f007";
+}
+
+.tocc__iconmedia[href^='/myaccount/bookings'] .tocc__iconnav__title i:before {
+  content: "\f274";
+}
+
+.tocc__iconmedia[href^='/myaccount/marketingpreferences'] .tocc__iconnav__title i:before {
+  content: "\f0ae";
+}
+
+.tocc__iconmedia[href^='/myaccount/change_password'] .tocc__iconnav__title i:before {
+  content: "\f502";
+}
+
+.tocc__iconmedia[href^='/myaccount/pastbookings'] .tocc__iconnav__title i:before, .tocc__iconmedia[href^='/myaccount/bookings'] .tocc__iconnav__title i:before {
+  content: "\f02d";
+}
+
+.tocc__iconmedia[href^='/myaccount/logout'] .tocc__iconnav__title i:before {
+  content: "\f2f5";
+}
+
+.tocc__iconmedia__description {
+  margin: 0;
+}
+
+.tocc__iconmedias .tocc__iconmedia {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .tocc__iconmedias {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+  }
+  .tocc__iconmedias .tocc__iconmedia {
+    width: calc(50% - 1rem);
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .tocc__iconmedias .tocc__iconmedia {
+    width: calc(25% - 1rem);
+  }
+}
+
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _content.scss
+ * @brand    Yorkshire Holiday Cottages
+ * @name     content
+ * @author   Tabs System User
+ * @date     2019-06-06
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _content.scss
+ * @brand    Vanilla
+ * @name     content
+ * @author   Alex Wyett
+ * @date     2019-04-25
+ */
+.tocc__content h1,
+.tocc__content h2,
+.tocc__content h3,
+.tocc__content h4,
+.tocc__content h5 {
+  padding: 0 0 0.5rem 0;
+  margin: 0 0 0.5rem 0;
+  color: #555555;
+  font-weight: normal;
+  font-family: "Century Gothic", "TeX Gyre Adventor", "Futura", "Tw Cen MT", sans-serif;
+  text-transform: none;
+}
+
+.tocc__content h1 {
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.tocc__content h2 {
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.tocc__content h3 {
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.tocc__content h4 {
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.tocc__content h5 {
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.tocc__content p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tocc__content p:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _strapline.scss
+ * @brand    Yorkshire Holiday Cottages
+ * @name     strapline
+ * @author   Tabs System User
+ * @date     2019-06-06
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _strapline.scss
+ * @brand    Vanilla
+ * @name     strapline
+ * @author   Tabs System User
+ * @date     2019-06-06
+ */
+.strapline--specialoffer {
+  border: 1px solid black;
+  padding: 5px 5px 5px 15px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.strapline--specialoffer span {
+  color: red;
+  padding-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}

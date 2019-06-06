@@ -1,0 +1,14 @@
+@import '../variables/12';
+@import 'vanilla';
+
+// This is needed for font license
+@import url("//hello.myfonts.net/count/37bc59");
+  
+@font-face {
+  font-family: 'AvenirLTPro-Heavy';
+  src: url('#{$tocc-site-fonts-dir}/avenirltpro/37BC59_0_0.eot');
+  src: url('#{$tocc-site-fonts-dir}/avenirltpro/37BC59_0_0.eot?#iefix') format('embedded-opentype'),
+    url('#{$tocc-site-fonts-dir}/avenirltpro/37BC59_0_0.woff2') format('woff2'),
+    url('#{$tocc-site-fonts-dir}/avenirltpro/37BC59_0_0.woff') format('woff'),
+    url('#{$tocc-site-fonts-dir}/avenirltpro/37BC59_0_0.ttf') format('truetype');
+}
