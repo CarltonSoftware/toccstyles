@@ -8,10 +8,16 @@
         "createelements": "node src/createelements.js",
         "buildcss": "node src/buildcss.js",
         "watchcss": "node src/watchcss.js",
-        "postinstall": "cp -R node_modules/@fortawesome/fontawesome-pro/webfonts src/scss/fonts/fontawesome",
+        "postinstall": "vendor-copy",
         "upload": "node src/uploadToS3.js"
     },
-    "dependencies": {
+    "devVendorCopy": [
+        {
+            "from": "node_modules/@fortawesome/fontawesome-pro/webfonts",
+            "to": "./src/scss/fonts/fontawesome"
+        }
+    ],
+    "devDependencies": {
         "@fortawesome/fontawesome-pro": "^5.8.2",
         "aws-sdk": "^2.462.0",
         "dotenv": "^8.0.0",
