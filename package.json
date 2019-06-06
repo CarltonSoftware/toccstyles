@@ -8,15 +8,22 @@
         "createelements": "node src/createelements.js",
         "buildcss": "node src/buildcss.js",
         "watchcss": "node src/watchcss.js",
-        "postinstall": "cp -R node_modules/@fortawesome/fontawesome-pro/webfonts ./src/scss/fonts/fontawesome",
+        "postinstall": "vendor-copy",
         "upload": "node src/uploadToS3.js"
     },
+    "vendorCopy": [
+        {
+            "from": "node_modules/@fortawesome/fontawesome-pro/webfonts",
+            "to": "./src/scss/fonts/fontawesome"
+        }
+    ],
     "dependencies": {
         "@fortawesome/fontawesome-pro": "^5.8.2",
         "aws-sdk": "^2.462.0",
         "dotenv": "^8.0.0",
         "fs-extra": "^7.0.1",
         "node-sass": "^4.12.0",
-        "tabsutils": "github:carltonsoftware/tabsutils"
+        "tabsutils": "github:carltonsoftware/tabsutils",
+        "vendor-copy": "^2.0.0"
     }
 }
