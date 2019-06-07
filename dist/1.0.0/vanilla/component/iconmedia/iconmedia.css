@@ -1,4 +1,12 @@
-
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _iconmedia.scss
+ * @brand    Vanilla
+ * @name     iconmedia
+ * @author   Alex Wyett
+ * @date     2019-05-24
+ */
 .tocc__iconmedia {
   border-radius: 2px;
   display: block;

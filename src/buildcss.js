@@ -54,7 +54,7 @@ const { exec } = require('child_process');
     }
     
     const scssToString = (s) => {
-      return s.css.toString().replace(/\/\*[^*]*\*+([^\/][^*]*\*+)*\//, '')//.replace(/\/fonts\//g, '../../fonts/');
+      return s.css.toString()//.replace(/\/\*[^*]*\*+([^\/][^*]*\*+)*\//, '')//.replace(/\/fonts\//g, '../../fonts/');
     };
 
     fs.writeFileSync(

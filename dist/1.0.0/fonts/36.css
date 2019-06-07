@@ -1,6 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-
+/*!
+ * Font Awesome Pro 5.9.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Commercial License)
+ */
 @import url("//hello.myfonts.net/count/377e09");
 @font-face {
   font-family: 'Font Awesome 5 Brands';
