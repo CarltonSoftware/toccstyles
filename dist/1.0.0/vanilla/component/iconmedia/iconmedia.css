@@ -9,13 +9,13 @@
   background: #F8F8F8;
 }
 
-.tocc__iconmedia__title {
+.tocc__iconmedia .tocc__title {
   line-height: 1.25;
   margin-bottom: .25em;
   position: relative;
 }
 
-.tocc__iconmedia__title i {
+.tocc__iconmedia .tocc__title i {
   position: absolute;
   right: calc(100% + 0.5rem);
   text-align: center;
@@ -23,7 +23,7 @@
   min-width: 1.5em;
 }
 
-.tocc__iconmedia__title i:before {
+.tocc__iconmedia .tocc__title i.icon:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -31,31 +31,29 @@
   font-variant: normal;
   font-weight: normal;
   line-height: 1;
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
   content: "\f007";
 }
 
-.tocc__iconmedia[href^='/myaccount/bookings'] .tocc__iconnav__title i:before {
+.tocc__iconmedia[href^='/myaccount/bookings'] .tocc__iconnav__title i.icon:before {
   content: "\f274";
 }
 
-.tocc__iconmedia[href^='/myaccount/marketingpreferences'] .tocc__iconnav__title i:before {
+.tocc__iconmedia[href^='/myaccount/marketingpreferences'] .tocc__iconnav__title i.icon:before {
   content: "\f0ae";
 }
 
-.tocc__iconmedia[href^='/myaccount/change_password'] .tocc__iconnav__title i:before {
+.tocc__iconmedia[href^='/myaccount/change_password'] .tocc__iconnav__title i.icon:before {
   content: "\f502";
 }
 
-.tocc__iconmedia[href^='/myaccount/pastbookings'] .tocc__iconnav__title i:before, .tocc__iconmedia[href^='/myaccount/bookings'] .tocc__iconnav__title i:before {
+.tocc__iconmedia[href^='/myaccount/pastbookings'] .tocc__iconnav__title i.icon:before, .tocc__iconmedia[href^='/myaccount/bookings'] .tocc__iconnav__title i.icon:before {
   content: "\f02d";
 }
 
-.tocc__iconmedia[href^='/myaccount/logout'] .tocc__iconnav__title i:before {
+.tocc__iconmedia[href^='/myaccount/logout'] .tocc__iconnav__title i.icon:before {
   content: "\f2f5";
-}
-
-.tocc__iconmedia__description {
-  margin: 0;
 }
 
 .tocc__iconmedias .tocc__iconmedia {

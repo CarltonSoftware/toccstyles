@@ -47,3 +47,13 @@
         }
     }
 }
+
+@mixin fa() {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+}
+
+@mixin far() {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 400;
+}
