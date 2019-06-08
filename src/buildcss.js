@@ -42,6 +42,7 @@ const { exec } = require('child_process');
       'utils'
     );
     lines = lines.concat(utillines);
+    lines.push('@import \'utils/globals\';');
     lines.push('');
     lines.push('');
     

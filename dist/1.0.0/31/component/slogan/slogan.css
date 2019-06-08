@@ -5,7 +5,7 @@
  * @brand    Best of Wales
  * @name     slogan
  * @author   Tabs System User
- * @date     2019-06-06
+ * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -23,5 +23,6 @@
   padding: 0.5rem 0;
   border: 0 none;
   color: #263545;
+  font-weight: normal;
   font-family: "Museo Sans 300", Helvetica Neue, Helvetica, Arial, sans-serif;
 }

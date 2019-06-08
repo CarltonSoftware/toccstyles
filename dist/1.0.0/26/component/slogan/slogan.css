@@ -5,7 +5,7 @@
  * @brand    Good Life Lake District Cottages
  * @name     slogan
  * @author   Tabs System User
- * @date     2019-06-06
+ * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -23,5 +23,7 @@
   padding: 0.5rem 0;
   border: 0 none;
   color: #54284E;
+  font-weight: normal;
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }

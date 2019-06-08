@@ -24,8 +24,6 @@
 }
 
 @mixin title($size: h1) {
-    font-style: normal;
-    font-weight: normal;
     text-rendering: optimizeLegibility;
     margin: 0;
     padding: 0;
@@ -49,11 +47,11 @@
 }
 
 @mixin fa() {
-  font-family: 'Font Awesome 5 Pro';
-  font-weight: 900;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
 }
 
 @mixin far() {
-  font-family: 'Font Awesome 5 Pro';
-  font-weight: 400;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 400;
 }

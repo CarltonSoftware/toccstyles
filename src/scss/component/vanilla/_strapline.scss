@@ -13,18 +13,28 @@
 // Include global variables
 @import '../../variables/vanilla';
 
+$site-strapline-font-size: 14px !default;
+$site-strapline-title-color: red !default;
+$site-strapline-border: 1px solid black !default;
+
 .strapline {
-  &--specialoffer {
-    border: 1px solid black;
-    padding: 5px 5px 5px 15px;
+    border: $site-strapline-border;
+    padding: $site-padding / 2;
     width: 100%;
     font-size: $site-strapline-font-size;
-
+    
     span {
-      color: red;
-      padding-right: 10px;
-      font-size: $site-strapline-font-size;
-      font-weight: bold;
+        color: $site-strapline-title-color;
+        padding-right: $site-padding / 2;
+        font-size: $site-strapline-font-size;
+        font-weight: bold;
     }
-  }
+
+    &--specialoffer {
+        span {
+            &:before {
+                content: "Special Offer"
+            }
+        }
+    }
 }

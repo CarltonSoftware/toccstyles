@@ -1,3 +1,87 @@
+.c--one {
+  color: #555555 !important;
+}
+
+.c--two {
+  color: #666666 !important;
+}
+
+.c--three {
+  color: #777777 !important;
+}
+
+.c--four {
+  color: #888888 !important;
+}
+
+.c--five {
+  color: #999999 !important;
+}
+
+.c--six {
+  color: #AAAAAA !important;
+}
+
+.c--seven {
+  color: #BBBBBB !important;
+}
+
+.bd--one {
+  border-color: #555555 !important;
+}
+
+.bd--two {
+  border-color: #666666 !important;
+}
+
+.bd--three {
+  border-color: #777777 !important;
+}
+
+.bd--four {
+  border-color: #888888 !important;
+}
+
+.bd--five {
+  border-color: #999999 !important;
+}
+
+.bd--six {
+  border-color: #AAAAAA !important;
+}
+
+.bd--seven {
+  border-color: #BBBBBB !important;
+}
+
+.bg--one {
+  background-color: #555555 !important;
+}
+
+.bg--two {
+  background-color: #666666 !important;
+}
+
+.bg--three {
+  background-color: #777777 !important;
+}
+
+.bg--four {
+  background-color: #888888 !important;
+}
+
+.bg--five {
+  background-color: #999999 !important;
+}
+
+.bg--six {
+  background-color: #AAAAAA !important;
+}
+
+.bg--seven {
+  background-color: #BBBBBB !important;
+}
+
 /**
  * TOCC Style Guide Element
  * 
@@ -5,7 +89,7 @@
  * @brand    Best of Wales
  * @name     slogan
  * @author   Tabs System User
- * @date     2019-06-06
+ * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -23,6 +107,7 @@
   padding: 0.5rem 0;
   border: 0 none;
   color: #263545;
+  font-weight: normal;
   font-family: "Museo Sans 300", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
@@ -33,7 +118,7 @@
  * @brand    Best of Wales
  * @name     iconmedia
  * @author   Tabs System User
- * @date     2019-06-06
+ * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -134,7 +219,7 @@
  * @brand    Best of Wales
  * @name     content
  * @author   Tabs System User
- * @date     2019-06-06
+ * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -145,93 +230,7 @@
  * @author   Alex Wyett
  * @date     2019-04-25
  */
-.tocc__content h1 {
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 38px;
-  line-height: 48px;
-}
-
-.tocc__content h2 {
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 30px;
-  line-height: 40px;
-}
-
-.tocc__content h3 {
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 24px;
-  line-height: 34px;
-}
-
-.tocc__content h4 {
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 20px;
-  line-height: 28px;
-}
-
-.tocc__content h5 {
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.tocc__content p {
-  font-size: 14px;
-  line-height: 1.8;
-  color: #5b5b5b;
-  font-family: "Open Sans", sans-serif;
-}
-
-.tocc__content p:not(:last-child) {
-  margin-bottom: 1.2rem;
-}
-
-.tocc__title, .tocc__content h1,
-.tocc__content h2,
-.tocc__content h3,
-.tocc__content h4,
-.tocc__content h5 {
-  padding: 0 0 0.5rem 0;
-  margin: 0 0 0.5rem 0;
-  color: #555555;
-  font-weight: normal;
-  font-family: "Museo Sans 300", Helvetica Neue, Helvetica, Arial, sans-serif;
-  text-transform: none;
-}
-
 h1.tocc__title, .tocc__content h1 {
-  font-style: normal;
-  font-weight: normal;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -243,8 +242,6 @@ h1.tocc__title, .tocc__content h1 {
 
 h2.tocc__title,
 .tocc__content h2 {
-  font-style: normal;
-  font-weight: normal;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -256,8 +253,6 @@ h2.tocc__title,
 
 h3.tocc__title,
 .tocc__content h3 {
-  font-style: normal;
-  font-weight: normal;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -269,8 +264,6 @@ h3.tocc__title,
 
 h4.tocc__title,
 .tocc__content h4 {
-  font-style: normal;
-  font-weight: normal;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -282,8 +275,6 @@ h4.tocc__title,
 
 h5.tocc__title,
 .tocc__content h5 {
-  font-style: normal;
-  font-weight: normal;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -293,6 +284,91 @@ h5.tocc__title,
   line-height: 22px;
 }
 
+.tocc__content h1 {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.tocc__content h2 {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.tocc__content h3 {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.tocc__content h4 {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.tocc__content h5 {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.tocc__content h1,
+.tocc__content h2,
+.tocc__content h3,
+.tocc__content h4,
+.tocc__content h5 {
+  color: #263545;
+  font-weight: normal;
+  font-family: "Museo Sans 300", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+
+.tocc__content p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tocc__content p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.tocc__title, .tocc__content h1,
+.tocc__content h2,
+.tocc__content h3,
+.tocc__content h4,
+.tocc__content h5 {
+  padding: 0 0 0.5rem 0;
+  margin: 0 0 0.5rem 0;
+  color: #263545;
+  font-weight: normal;
+  font-family: "Museo Sans 300", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: none;
+}
+
 /**
  * TOCC Style Guide Element
  * 
@@ -300,7 +376,7 @@ h5.tocc__title,
  * @brand    Best of Wales
  * @name     strapline
  * @author   Tabs System User
- * @date     2019-06-06
+ * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -311,16 +387,20 @@ h5.tocc__title,
  * @author   Tabs System User
  * @date     2019-06-06
  */
-.strapline--specialoffer {
+.strapline {
   border: 1px solid black;
-  padding: 5px 5px 5px 15px;
+  padding: 0.5rem;
   width: 100%;
   font-size: 14px;
 }
 
-.strapline--specialoffer span {
+.strapline span {
   color: red;
-  padding-right: 10px;
+  padding-right: 0.5rem;
   font-size: 14px;
   font-weight: bold;
+}
+
+.strapline--specialoffer span:before {
+  content: "Special Offer";
 }

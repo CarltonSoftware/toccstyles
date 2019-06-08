@@ -5,7 +5,7 @@
  * @brand    Cornish Quay
  * @name     content
  * @author   Tabs System User
- * @date     2019-06-06
+ * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -16,9 +16,61 @@
  * @author   Alex Wyett
  * @date     2019-04-25
  */
+h1.tocc__title, .tocc__content h1 {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+h2.tocc__title,
+.tocc__content h2 {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h3.tocc__title,
+.tocc__content h3 {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+h4.tocc__title,
+.tocc__content h4 {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h5.tocc__title,
+.tocc__content h5 {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: .5rem;
+  padding-bottom: .5rem;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 .tocc__content h1 {
-  font-style: normal;
-  font-weight: normal;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -29,8 +81,6 @@
 }
 
 .tocc__content h2 {
-  font-style: normal;
-  font-weight: normal;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -41,8 +91,6 @@
 }
 
 .tocc__content h3 {
-  font-style: normal;
-  font-weight: normal;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -53,8 +101,6 @@
 }
 
 .tocc__content h4 {
-  font-style: normal;
-  font-weight: normal;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -65,8 +111,6 @@
 }
 
 .tocc__content h5 {
-  font-style: normal;
-  font-weight: normal;
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -74,6 +118,17 @@
   padding-bottom: .5rem;
   font-size: 18px;
   line-height: 22px;
+}
+
+.tocc__content h1,
+.tocc__content h2,
+.tocc__content h3,
+.tocc__content h4,
+.tocc__content h5 {
+  color: #555555;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  text-transform: none;
 }
 
 .tocc__content p {
@@ -84,7 +139,7 @@
 }
 
 .tocc__content p:not(:last-child) {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 .tocc__title, .tocc__content h1,
@@ -98,68 +153,4 @@
   font-weight: normal;
   font-family: "Open Sans", sans-serif;
   text-transform: none;
-}
-
-h1.tocc__title, .tocc__content h1 {
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 38px;
-  line-height: 48px;
-}
-
-h2.tocc__title,
-.tocc__content h2 {
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 30px;
-  line-height: 40px;
-}
-
-h3.tocc__title,
-.tocc__content h3 {
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 24px;
-  line-height: 34px;
-}
-
-h4.tocc__title,
-.tocc__content h4 {
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 20px;
-  line-height: 28px;
-}
-
-h5.tocc__title,
-.tocc__content h5 {
-  font-style: normal;
-  font-weight: normal;
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 18px;
-  line-height: 22px;
 }

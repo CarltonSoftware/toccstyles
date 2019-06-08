@@ -5,7 +5,7 @@
  * @brand    Norfolk Cottages
  * @name     strapline
  * @author   Tabs System User
- * @date     2019-06-06
+ * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -16,16 +16,20 @@
  * @author   Tabs System User
  * @date     2019-06-06
  */
-.strapline--specialoffer {
+.strapline {
   border: 1px solid black;
-  padding: 5px 5px 5px 15px;
+  padding: 0.5rem;
   width: 100%;
   font-size: 14px;
 }
 
-.strapline--specialoffer span {
+.strapline span {
   color: red;
-  padding-right: 10px;
+  padding-right: 0.5rem;
   font-size: 14px;
   font-weight: bold;
+}
+
+.strapline--specialoffer span:before {
+  content: "Special Offer";
 }
