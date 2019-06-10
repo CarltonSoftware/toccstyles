@@ -55,7 +55,10 @@ h5.tocc__title {
 }
 
 .tocc__content {
-    p {
+    p,
+    table thead tr th,
+    table tbody tr td,
+    table tfoot tr td {
         font-size: map-get($site-font-size, p);
         line-height: map-get($site-font-line-height, p);
         color: $site-content-paragraph-font-color;
@@ -64,5 +67,72 @@ h5.tocc__title {
 
     p:not(:last-child) {
         margin-bottom: $site-padding;
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: $site-global-margin;
+        border-radius: $site-global-radius;
+        
+        thead {
+            display: none;
+        
+            @include breakpoint(medium) {
+                display: table-header-group;
+            }
+        }
+        
+        thead,
+        tbody,
+        tfoot {
+            border: 1px solid $site-color-lightgrey;
+            background-color: $site-color-almostwhite;
+            tr {
+                th,
+                td {
+                    padding: $site-global-padding / 2;
+                    
+                    .tocc__button {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        
+        thead,
+        tfoot {
+            background-color: $site-color-reallylightgrey;
+            tr {
+                background-color: transparent;
+            }
+        }
+        
+        tbody {
+            tr {
+                &:nth-child(even) {
+                    background-color: $site-color-reallylightgrey;
+                }
+            }
+        }
+        
+        tbody,
+        tfoot {
+            &,
+            tr,
+            td td {
+                display: block;
+            }
+        
+            @include breakpoint(medium) {
+                display: table-row-group;
+                tr {
+                    display: table-row;
+                    td {
+                        display: table-cell;
+                    }
+                }
+            }
+        }
     }
 }

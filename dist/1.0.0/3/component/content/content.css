@@ -78,7 +78,10 @@ h5.tocc__title {
   text-transform: uppercase;
 }
 
-.tocc__content p {
+.tocc__content p,
+.tocc__content table thead tr th,
+.tocc__content table tbody tr td,
+.tocc__content table tfoot tr td {
   font-size: 14px;
   line-height: 1.8;
   color: #5b5b5b;
@@ -87,4 +90,84 @@ h5.tocc__title {
 
 .tocc__content p:not(:last-child) {
   margin-bottom: 1rem;
+}
+
+.tocc__content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+}
+
+.tocc__content table thead {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .tocc__content table thead {
+    display: table-header-group;
+  }
+}
+
+.tocc__content table thead,
+.tocc__content table tbody,
+.tocc__content table tfoot {
+  border: 1px solid #F1F1F1;
+  background-color: #FEFEFE;
+}
+
+.tocc__content table thead tr th,
+.tocc__content table thead tr td,
+.tocc__content table tbody tr th,
+.tocc__content table tbody tr td,
+.tocc__content table tfoot tr th,
+.tocc__content table tfoot tr td {
+  padding: 0.5rem;
+}
+
+.tocc__content table thead tr th .tocc__btn,
+.tocc__content table thead tr td .tocc__btn,
+.tocc__content table tbody tr th .tocc__btn,
+.tocc__content table tbody tr td .tocc__btn,
+.tocc__content table tfoot tr th .tocc__btn,
+.tocc__content table tfoot tr td .tocc__btn {
+  margin-bottom: 0;
+}
+
+.tocc__content table thead,
+.tocc__content table tfoot {
+  background-color: #F8F8F8;
+}
+
+.tocc__content table thead tr,
+.tocc__content table tfoot tr {
+  background-color: transparent;
+}
+
+.tocc__content table tbody tr:nth-child(even) {
+  background-color: #F8F8F8;
+}
+
+.tocc__content table tbody,
+.tocc__content table tbody tr,
+.tocc__content table tbody td td,
+.tocc__content table tfoot,
+.tocc__content table tfoot tr,
+.tocc__content table tfoot td td {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .tocc__content table tbody,
+  .tocc__content table tfoot {
+    display: table-row-group;
+  }
+  .tocc__content table tbody tr,
+  .tocc__content table tfoot tr {
+    display: table-row;
+  }
+  .tocc__content table tbody tr td,
+  .tocc__content table tfoot tr td {
+    display: table-cell;
+  }
 }
