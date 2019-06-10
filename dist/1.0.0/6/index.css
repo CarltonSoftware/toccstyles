@@ -139,17 +139,13 @@
   background: #F8F8F8;
 }
 
-.tocc__iconmedia .tocc__title, .tocc__iconmedia .tocc__content h1, .tocc__content .tocc__iconmedia h1,
-.tocc__iconmedia .tocc__content h2, .tocc__content .tocc__iconmedia h2,
-.tocc__iconmedia .tocc__content h3, .tocc__content .tocc__iconmedia h3,
-.tocc__iconmedia .tocc__content h4, .tocc__content .tocc__iconmedia h4,
-.tocc__iconmedia .tocc__content h5, .tocc__content .tocc__iconmedia h5 {
+.tocc__iconmedia .tocc__title {
   line-height: 1.25;
   margin-bottom: .25em;
   position: relative;
 }
 
-.tocc__iconmedia .tocc__title i, .tocc__iconmedia .tocc__content h1 i, .tocc__content .tocc__iconmedia h1 i, .tocc__iconmedia .tocc__content h2 i, .tocc__content .tocc__iconmedia h2 i, .tocc__iconmedia .tocc__content h3 i, .tocc__content .tocc__iconmedia h3 i, .tocc__iconmedia .tocc__content h4 i, .tocc__content .tocc__iconmedia h4 i, .tocc__iconmedia .tocc__content h5 i, .tocc__content .tocc__iconmedia h5 i {
+.tocc__iconmedia .tocc__title i {
   position: absolute;
   right: calc(100% + 0.5rem);
   text-align: center;
@@ -157,7 +153,7 @@
   min-width: 1.5em;
 }
 
-.tocc__iconmedia .tocc__title i.icon:before, .tocc__iconmedia .tocc__content h1 i.icon:before, .tocc__content .tocc__iconmedia h1 i.icon:before, .tocc__iconmedia .tocc__content h2 i.icon:before, .tocc__content .tocc__iconmedia h2 i.icon:before, .tocc__iconmedia .tocc__content h3 i.icon:before, .tocc__content .tocc__iconmedia h3 i.icon:before, .tocc__iconmedia .tocc__content h4 i.icon:before, .tocc__content .tocc__iconmedia h4 i.icon:before, .tocc__iconmedia .tocc__content h5 i.icon:before, .tocc__content .tocc__iconmedia h5 i.icon:before {
+.tocc__iconmedia .tocc__title i.icon:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -230,110 +226,57 @@
  * @author   Alex Wyett
  * @date     2019-04-25
  */
-h1.tocc__title, .tocc__content h1 {
+.tocc__content h1,
+h1.tocc__title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 38px;
   line-height: 48px;
 }
 
-h2.tocc__title,
-.tocc__content h2 {
+.tocc__content h2,
+h2.tocc__title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 30px;
   line-height: 40px;
 }
 
-h3.tocc__title,
-.tocc__content h3 {
+.tocc__content h3,
+h3.tocc__title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 24px;
   line-height: 34px;
 }
 
-h4.tocc__title,
-.tocc__content h4 {
+.tocc__content h4,
+h4.tocc__title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 20px;
   line-height: 28px;
 }
 
-h5.tocc__title,
-.tocc__content h5 {
+.tocc__content h5,
+h5.tocc__title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 18px;
   line-height: 22px;
 }
 
-.tocc__content h1 {
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 38px;
-  line-height: 48px;
-}
-
-.tocc__content h2 {
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 30px;
-  line-height: 40px;
-}
-
-.tocc__content h3 {
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 24px;
-  line-height: 34px;
-}
-
-.tocc__content h4 {
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 20px;
-  line-height: 28px;
-}
-
-.tocc__content h5 {
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 18px;
-  line-height: 22px;
-}
-
+.tocc__title,
 .tocc__content h1,
 .tocc__content h2,
 .tocc__content h3,
@@ -354,19 +297,6 @@ h5.tocc__title,
 
 .tocc__content p:not(:last-child) {
   margin-bottom: 1rem;
-}
-
-.tocc__title, .tocc__content h1,
-.tocc__content h2,
-.tocc__content h3,
-.tocc__content h4,
-.tocc__content h5 {
-  padding: 0 0 0.5rem 0;
-  margin: 0 0 0.5rem 0;
-  color: #626366;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  text-transform: none;
 }
 
 /**

@@ -16,110 +16,57 @@
  * @author   Alex Wyett
  * @date     2019-04-25
  */
-h1.tocc__title, .tocc__content h1 {
+.tocc__content h1,
+h1.tocc__title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 38px;
   line-height: 48px;
 }
 
-h2.tocc__title,
-.tocc__content h2 {
+.tocc__content h2,
+h2.tocc__title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 30px;
   line-height: 40px;
 }
 
-h3.tocc__title,
-.tocc__content h3 {
+.tocc__content h3,
+h3.tocc__title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 24px;
   line-height: 34px;
 }
 
-h4.tocc__title,
-.tocc__content h4 {
+.tocc__content h4,
+h4.tocc__title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 20px;
   line-height: 28px;
 }
 
-h5.tocc__title,
-.tocc__content h5 {
+.tocc__content h5,
+h5.tocc__title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
+  margin-bottom: 0.5rem;
   font-size: 18px;
   line-height: 22px;
 }
 
-.tocc__content h1 {
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 38px;
-  line-height: 48px;
-}
-
-.tocc__content h2 {
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 30px;
-  line-height: 40px;
-}
-
-.tocc__content h3 {
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 24px;
-  line-height: 34px;
-}
-
-.tocc__content h4 {
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 20px;
-  line-height: 28px;
-}
-
-.tocc__content h5 {
-  text-rendering: optimizeLegibility;
-  margin: 0;
-  padding: 0;
-  margin-bottom: .5rem;
-  padding-bottom: .5rem;
-  font-size: 18px;
-  line-height: 22px;
-}
-
+.tocc__title,
 .tocc__content h1,
 .tocc__content h2,
 .tocc__content h3,
@@ -140,17 +87,4 @@ h5.tocc__title,
 
 .tocc__content p:not(:last-child) {
   margin-bottom: 1rem;
-}
-
-.tocc__title, .tocc__content h1,
-.tocc__content h2,
-.tocc__content h3,
-.tocc__content h4,
-.tocc__content h5 {
-  padding: 0 0 0.5rem 0;
-  margin: 0 0 0.5rem 0;
-  color: #4E4E4C;
-  font-weight: bold;
-  font-family: "Avenir LT";
-  text-transform: none;
 }

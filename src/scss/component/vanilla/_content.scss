@@ -17,59 +17,44 @@ $site-content-header-text-transform: none !default;
 $site-content-paragraph-font-color: #5b5b5b !default;
 $site-content-paragraph-font-family: 'Open Sans', sans-serif !default;
 
+.tocc__content h1,
 h1.tocc__title {
     @include title(h1);
 }
 
+.tocc__content h2,
 h2.tocc__title {
     @include title(h2);
 }
 
+.tocc__content h3,
 h3.tocc__title {
     @include title(h3);
 }
 
+.tocc__content h4,
 h4.tocc__title {
     @include title(h4);
 }
 
+.tocc__content h5,
 h5.tocc__title {
     @include title(h5);
 }
 
+.tocc__title,
+.tocc__content h1,
+.tocc__content h2,
+.tocc__content h3,
+.tocc__content h4,
+.tocc__content h5 {
+    color: $site-content-header-font-color;
+    font-weight: $site-content-header-font-weight;
+    font-family: $site-content-header-font-family;
+    text-transform: $site-content-header-text-transform;
+}
+
 .tocc__content {
-    h1 {
-        @include title(h1);
-    }
-
-    h2 {
-        @include title(h2);
-    }
-
-    h3 {
-        @include title(h3);
-    }
-
-    h4 {
-        @include title(h4);
-    }
-
-    h5 {
-        @include title(h5);
-    }
-  
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-        @extend .tocc__title;
-        color: $site-content-header-font-color;
-        font-weight: $site-content-header-font-weight;
-        font-family: $site-content-header-font-family;
-        text-transform: $site-content-header-text-transform;
-    }
-
     p {
         font-size: map-get($site-font-size, p);
         line-height: map-get($site-font-line-height, p);
@@ -80,13 +65,4 @@ h5.tocc__title {
     p:not(:last-child) {
         margin-bottom: $site-padding;
     }
-}
-
-.tocc__title {
-    padding: 0 0 $site-padding / 2 0;
-    margin: 0 0 $site-padding / 2 0;
-    color: $site-content-header-font-color;
-    font-weight: $site-content-header-font-weight;
-    font-family: $site-content-header-font-family;
-    text-transform: $site-content-header-text-transform;
 }
