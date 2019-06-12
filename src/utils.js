@@ -87,7 +87,6 @@ module.exports = {
         ' * @brand    ' + brandname,
         ' * @name     ' + responses.name,
         ' * @author   ' + author,
-        ' * @date     ' + moment().format('YYYY-MM-DD'),
         ' */'
       ].concat(utillines).concat(additional).join('\n')
     );

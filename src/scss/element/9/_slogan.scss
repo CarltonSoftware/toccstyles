@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _slogan.scss
+ * @brand    Curlew Cottages
+ * @name     slogan
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/9';
+
+
+@import '../vanilla/slogan';

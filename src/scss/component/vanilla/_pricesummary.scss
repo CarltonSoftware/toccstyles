@@ -1,0 +1,147 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _pricesummary.scss
+ * @brand    Vanilla
+ * @name     pricesummary
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+.tocc__pricesummary {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: $site-global-margin;
+    border-radius: $site-global-radius;
+    position: relative;
+    font-size: map-get($site-font-size, p);
+
+    thead {
+        background-color: white;
+        text-align: left;
+
+        th {
+            color: $site-color-one;
+            font-weight: bold;
+            font-size: map-get($site-font-size, largep);
+            text-align: left;
+            padding: 0;
+        }
+    }
+    
+    $booking-summary-body-padding: 4px;
+    tbody {
+        tr {
+            td {
+                padding: $booking-summary-body-padding 0;
+            }
+        }
+    }
+
+    tfoot {
+        &:before,
+        &:after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 1px;
+            background-color: $site-color-darkgrey;
+            display: block;
+            opacity: 0.5;
+        }
+        
+        $booking-summary-footer-padding: 20px;
+        
+        &:before {
+            margin-top: ($booking-summary-footer-padding / 2) + $booking-summary-body-padding;
+        }
+        
+        &:after {
+            bottom: ($booking-summary-footer-padding / 2) + $booking-summary-body-padding;
+        }
+        
+        tr {
+            td {
+                padding: $booking-summary-footer-padding 0;
+            }
+        }
+    }
+
+    thead,
+    tbody,
+    tfoot {
+        tr {
+            th,
+            td {
+                &:nth-child(2),
+                &:nth-child(3) {
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+    thead, tbody, tfoot, tr, td {
+        border: 0 none;
+    }
+
+    &:not(.tocc__pricesummary--enquiry) {
+        tbody,
+        tfoot {
+            tr {
+                td {
+                    background-color: white;
+                }
+            }
+        }
+    }
+    
+    &--enquiry {
+        margin-bottom: $site-global-margin;
+        
+        tbody,
+        thead,
+        tfoot {
+            background: none;
+            tr {
+                background: none;
+                th,
+                td {
+                    padding: 0.25rem 0.25rem 0.25rem 0;
+                }
+            }
+        }
+        
+        tbody {
+            tr {
+                &:last-of-type {
+                    td {
+                        padding-bottom: 0.8rem;
+                    }
+                }
+            }
+        }
+        
+        tfoot {
+            &:before,
+            &:after {
+                width: 100%;
+                left: 0;
+                height: 1px;
+                margin-top: 0;
+                bottom: auto;
+            }
+            
+            tr {
+                td {
+                    padding-top: 0.8rem !important;
+                    padding-bottom: 0.8rem !important;
+                }
+            }
+        }
+    }
+}

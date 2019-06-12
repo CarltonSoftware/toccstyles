@@ -1,0 +1,38 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _slogan.scss
+ * @brand    Vanilla
+ * @name     slogan
+ * @author   Alex Wyett
+ * @date     2019-04-24
+ */
+// Include Utilities
+@import '../../utils/index';
+
+$site-slogan-font-color: $site-color-one !default;
+$site-slogan-font-size: 18px !default;
+$site-slogan-line-height: 28px !default;
+$site-slogan-font-family: null !default;
+$site-slogan-font-weight: normal !default;
+$site-slogan-text-transform: null !default;
+
+.tocc__slogan {
+    font-size: $site-slogan-font-size;
+    line-height: $site-slogan-line-height;
+    margin: 0;
+    padding: $site-global-padding / 2 0;
+    border: 0 none;
+    color: $site-slogan-font-color;
+    font-weight: $site-slogan-font-weight;
+  
+    @if $site-slogan-font-family != null {
+        font-family: $site-slogan-font-family;
+    } @else {
+        font-family: 'Open Sans', sans-serif;
+    }
+  
+    @if $site-slogan-text-transform != null {
+        text-transform: $site-slogan-text-transform;
+    }
+}

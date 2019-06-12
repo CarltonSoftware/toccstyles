@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _pricesummary.scss
+ * @brand    Big House Holidays
+ * @name     pricesummary
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/4';
+
+
+@import '../vanilla/pricesummary';

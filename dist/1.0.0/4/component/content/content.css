@@ -5,7 +5,6 @@
  * @brand    Big House Holidays
  * @name     content
  * @author   Tabs System User
- * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -125,12 +124,12 @@ h5.tocc__title {
   padding: 0.5rem;
 }
 
-.tocc__content table thead tr th .tocc__btn,
-.tocc__content table thead tr td .tocc__btn,
-.tocc__content table tbody tr th .tocc__btn,
-.tocc__content table tbody tr td .tocc__btn,
-.tocc__content table tfoot tr th .tocc__btn,
-.tocc__content table tfoot tr td .tocc__btn {
+.tocc__content table thead tr th .tocc__button,
+.tocc__content table thead tr td .tocc__button,
+.tocc__content table tbody tr th .tocc__button,
+.tocc__content table tbody tr td .tocc__button,
+.tocc__content table tfoot tr th .tocc__button,
+.tocc__content table tfoot tr td .tocc__button {
   margin-bottom: 0;
 }
 

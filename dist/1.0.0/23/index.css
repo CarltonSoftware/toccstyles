@@ -85,40 +85,10 @@
 /**
  * TOCC Style Guide Element
  * 
- * @filename _slogan.scss
- * @brand    So Southwold
- * @name     slogan
- * @author   Tabs System User
- * @date     2019-06-08
- */
-/**
- * TOCC Style Guide Element
- * 
- * @filename _slogan.scss
- * @brand    Vanilla
- * @name     slogan
- * @author   Alex Wyett
- * @date     2019-04-24
- */
-.tocc__slogan {
-  font-size: 18px;
-  line-height: 28px;
-  margin: 0;
-  padding: 0.5rem 0;
-  border: 0 none;
-  color: #555555;
-  font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
-}
-
-/**
- * TOCC Style Guide Element
- * 
  * @filename _iconmedia.scss
  * @brand    So Southwold
  * @name     iconmedia
  * @author   Tabs System User
- * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -215,7 +185,6 @@
  * @brand    So Southwold
  * @name     content
  * @author   Tabs System User
- * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -335,12 +304,12 @@ h5.tocc__title {
   padding: 0.5rem;
 }
 
-.tocc__content table thead tr th .tocc__btn,
-.tocc__content table thead tr td .tocc__btn,
-.tocc__content table tbody tr th .tocc__btn,
-.tocc__content table tbody tr td .tocc__btn,
-.tocc__content table tfoot tr th .tocc__btn,
-.tocc__content table tfoot tr td .tocc__btn {
+.tocc__content table thead tr th .tocc__button,
+.tocc__content table thead tr td .tocc__button,
+.tocc__content table tbody tr th .tocc__button,
+.tocc__content table tbody tr td .tocc__button,
+.tocc__content table tfoot tr th .tocc__button,
+.tocc__content table tfoot tr td .tocc__button {
   margin-bottom: 0;
 }
 
@@ -385,11 +354,230 @@ h5.tocc__title {
 /**
  * TOCC Style Guide Element
  * 
+ * @filename _pricesummary.scss
+ * @brand    So Southwold
+ * @name     pricesummary
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _pricesummary.scss
+ * @brand    Vanilla
+ * @name     pricesummary
+ * @author   Tabs System User
+ */
+.tocc__pricesummary {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+  position: relative;
+  font-size: 14px;
+}
+
+.tocc__pricesummary thead {
+  background-color: white;
+  text-align: left;
+}
+
+.tocc__pricesummary thead th {
+  color: #555555;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 0;
+}
+
+.tocc__pricesummary tbody tr td {
+  padding: 4px 0;
+}
+
+.tocc__pricesummary tfoot:before, .tocc__pricesummary tfoot:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #5B5B5B;
+  display: block;
+  opacity: 0.5;
+}
+
+.tocc__pricesummary tfoot:before {
+  margin-top: 14px;
+}
+
+.tocc__pricesummary tfoot:after {
+  bottom: 14px;
+}
+
+.tocc__pricesummary tfoot tr td {
+  padding: 20px 0;
+}
+
+.tocc__pricesummary thead tr th:nth-child(2), .tocc__pricesummary thead tr th:nth-child(3),
+.tocc__pricesummary thead tr td:nth-child(2),
+.tocc__pricesummary thead tr td:nth-child(3),
+.tocc__pricesummary tbody tr th:nth-child(2),
+.tocc__pricesummary tbody tr th:nth-child(3),
+.tocc__pricesummary tbody tr td:nth-child(2),
+.tocc__pricesummary tbody tr td:nth-child(3),
+.tocc__pricesummary tfoot tr th:nth-child(2),
+.tocc__pricesummary tfoot tr th:nth-child(3),
+.tocc__pricesummary tfoot tr td:nth-child(2),
+.tocc__pricesummary tfoot tr td:nth-child(3) {
+  text-align: right;
+}
+
+.tocc__pricesummary thead, .tocc__pricesummary tbody, .tocc__pricesummary tfoot, .tocc__pricesummary tr, .tocc__pricesummary td {
+  border: 0 none;
+}
+
+.tocc__pricesummary:not(.tocc__pricesummary--enquiry) tbody tr td,
+.tocc__pricesummary:not(.tocc__pricesummary--enquiry) tfoot tr td {
+  background-color: white;
+}
+
+.tocc__pricesummary--enquiry {
+  margin-bottom: 1rem;
+}
+
+.tocc__pricesummary--enquiry tbody,
+.tocc__pricesummary--enquiry thead,
+.tocc__pricesummary--enquiry tfoot {
+  background: none;
+}
+
+.tocc__pricesummary--enquiry tbody tr,
+.tocc__pricesummary--enquiry thead tr,
+.tocc__pricesummary--enquiry tfoot tr {
+  background: none;
+}
+
+.tocc__pricesummary--enquiry tbody tr th,
+.tocc__pricesummary--enquiry tbody tr td,
+.tocc__pricesummary--enquiry thead tr th,
+.tocc__pricesummary--enquiry thead tr td,
+.tocc__pricesummary--enquiry tfoot tr th,
+.tocc__pricesummary--enquiry tfoot tr td {
+  padding: 0.25rem 0.25rem 0.25rem 0;
+}
+
+.tocc__pricesummary--enquiry tbody tr:last-of-type td {
+  padding-bottom: 0.8rem;
+}
+
+.tocc__pricesummary--enquiry tfoot:before, .tocc__pricesummary--enquiry tfoot:after {
+  width: 100%;
+  left: 0;
+  height: 1px;
+  margin-top: 0;
+  bottom: auto;
+}
+
+.tocc__pricesummary--enquiry tfoot tr td {
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+}
+
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _detail.scss
+ * @brand    So Southwold
+ * @name     detail
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _detail.scss
+ * @brand    Vanilla
+ * @name     detail
+ * @author   Tabs System User
+ * @date     2019-06-12
+ */
+.tocc__detail {
+  margin-bottom: 1rem;
+}
+
+.tocc__detail > summary::-webkit-details-marker {
+  display: none;
+}
+
+.tocc__detail summary {
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-transform: none;
+  font-weight: bold;
+  background: #555555;
+  font-size: 16px;
+}
+
+.tocc__detail summary:after {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+  line-height: 0;
+  content: "\f107";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: rotate(-360deg), translateY(-50%);
+  transition: transform 150ms ease;
+}
+
+.tocc__detail[open] summary:after {
+  transform: rotate(-180deg);
+}
+
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _slogan.scss
+ * @brand    So Southwold
+ * @name     slogan
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _slogan.scss
+ * @brand    Vanilla
+ * @name     slogan
+ * @author   Alex Wyett
+ * @date     2019-04-24
+ */
+.tocc__slogan {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  padding: 0.5rem 0;
+  border: 0 none;
+  color: #555555;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/**
+ * TOCC Style Guide Element
+ * 
  * @filename _strapline.scss
  * @brand    So Southwold
  * @name     strapline
  * @author   Tabs System User
- * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element

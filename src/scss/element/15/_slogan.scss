@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _slogan.scss
+ * @brand    Marsdens Devon Cottages
+ * @name     slogan
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/15';
+
+
+@import '../vanilla/slogan';

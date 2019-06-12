@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _strapline.scss
+ * @brand    Abersoch Holiday Homes
+ * @name     strapline
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/1';
+
+
+@import '../vanilla/strapline';

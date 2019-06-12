@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _detail.scss
+ * @brand    Kent and Sussex Holiday Cottages
+ * @name     detail
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/12';
+
+
+@import '../vanilla/detail';

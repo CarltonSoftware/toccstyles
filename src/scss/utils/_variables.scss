@@ -3,15 +3,15 @@ $fa-font-path: "../fonts/fontawesome";
 @import '@fortawesome/fontawesome-pro/scss/variables';
 @import '@fortawesome/fontawesome-pro/scss/mixins';
 
-$site-padding: 1rem;
 $site-font-size: (
   "h1": 38px,
   "h2": 30px,
   "h3": 24px,
   "h4": 20px,
   "h5": 18px,
+  "largep": 16px,
   "p": 14px
-);
+) !default;
 $site-font-line-height: (
   "h1": 48px,
   "h2": 40px,
@@ -19,7 +19,7 @@ $site-font-line-height: (
   "h4": 28px,
   "h5": 22px,
   "p": 1.8
-);
+) !default;
 
 $site-breakpoints: (
     "xsmall":      480px,
@@ -41,10 +41,11 @@ $site-color-seven: #BBBBBB !default;
 $site-color-lightgrey: #F1F1F1 !default;
 $site-color-reallylightgrey: #F8F8F8 !default;
 $site-color-almostwhite: #FEFEFE !default;
+$site-color-darkgrey: #5B5B5B !default;
 
 $tocc-site-fonts-dir: '../fonts' !default;
 $tocc-google-fonts: 'Open+Sans' !default;
 
-$site-global-padding: 1rem;
-$site-global-margin: 1rem;
-$site-global-radius: 2px;
+$site-global-padding: 1rem !default;
+$site-global-margin: 1rem !default;
+$site-global-radius: 2px !default;

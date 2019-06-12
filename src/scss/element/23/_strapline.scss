@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _strapline.scss
+ * @brand    So Southwold
+ * @name     strapline
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/23';
+
+
+@import '../vanilla/strapline';

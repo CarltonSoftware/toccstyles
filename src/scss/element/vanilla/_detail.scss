@@ -1,0 +1,68 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _detail.scss
+ * @brand    Vanilla
+ * @name     detail
+ * @author   Tabs System User
+ * @date     2019-06-12
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+$site-detail-summary-background: $site-color-one !default;
+$site-detail-summary-color: white !default;
+$site-detail-summary-font-family: 'Open Sans', sans-serif !default;
+$site-detail-summary-text-transform: none !default;
+$site-detail-summary-font-weight: bold !default;
+
+.tocc__detail {
+    margin-bottom: $site-global-margin;
+        
+    & > summary::-webkit-details-marker {
+        display: none;
+    }
+    
+    summary {
+        position: relative;
+        outline: none;
+        cursor: pointer;
+        
+        border-radius: $site-global-radius;
+        margin-bottom: $site-global-margin;
+        padding: $site-global-padding / 2;
+        
+        color: $site-detail-summary-color;
+        font-family: $site-detail-summary-font-family;
+        text-transform: $site-detail-summary-text-transform;
+        font-weight: $site-detail-summary-font-weight;
+        background: $site-detail-summary-background;
+        font-size: map-get($site-font-size, largep);
+
+        &:after {
+            @include fa-icon;
+            @include fa;
+            line-height: 0;
+            content: fa-content($fa-var-angle-down);
+
+            //in safari iphone 6/6s the scroll will add width and is adding to the flex parent element
+            //this will make after to wrap under, fix width absolute and move to right
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: rotate( -360deg ), translateY(-50%);
+            transition: transform 150ms ease;
+        }
+    }
+    
+    &[open] {
+        summary{
+            &:after {
+                transform: rotate( -180deg );
+            }
+        }
+    }
+}

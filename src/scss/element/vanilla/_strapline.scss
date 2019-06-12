@@ -1,0 +1,40 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _strapline.scss
+ * @brand    Vanilla
+ * @name     strapline
+ * @author   Tabs System User
+ * @date     2019-06-06
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+$site-strapline-font-size: 14px !default;
+$site-strapline-title-color: red !default;
+$site-strapline-border: 1px solid black !default;
+
+.strapline {
+    border: $site-strapline-border;
+    padding: $site-global-padding / 2;
+    width: 100%;
+    font-size: $site-strapline-font-size;
+    
+    span {
+        color: $site-strapline-title-color;
+        padding-right: $site-global-padding / 2;
+        font-size: $site-strapline-font-size;
+        font-weight: bold;
+    }
+
+    &--specialoffer {
+        span {
+            &:before {
+                content: "Special Offer"
+            }
+        }
+    }
+}

@@ -6,8 +6,13 @@
 
 
 // Include Components
-@import 'component/1/slogan';
 @import 'component/1/iconmedia';
 @import 'component/1/content';
-@import 'component/1/strapline';
+@import 'component/1/pricesummary';
+
+
+// Include Elements
+@import 'element/1/detail';
+@import 'element/1/slogan';
+@import 'element/1/strapline';
 

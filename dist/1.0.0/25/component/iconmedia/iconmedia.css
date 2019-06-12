@@ -5,7 +5,6 @@
  * @brand    Suffolk Secrets
  * @name     iconmedia
  * @author   Tabs System User
- * @date     2019-06-08
  */
 /**
  * TOCC Style Guide Element
@@ -17,7 +16,7 @@
  * @date     2019-05-24
  */
 .tocc__iconmedia {
-  border-radius: 2px;
+  border-radius: 5px;
   display: block;
   padding: 1rem 1rem 1rem 3rem;
   position: relative;

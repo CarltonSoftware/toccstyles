@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _detail.scss
+ * @brand    Best of Wales
+ * @name     detail
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/31';
+
+
+@import '../vanilla/detail';

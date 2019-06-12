@@ -21,8 +21,12 @@ const { exec } = require('child_process');
     ]
   }, {
     type: 'text',
+    name: 'short',
+    message: 'Give your element a name:'
+  }, {
+    type: 'text',
     name: 'name',
-    message: 'Enter the element name you want to create.',
+    message: 'Enter the element a unique id.',
     validate: (value) => {
       if ((/^[a-z_-]+$/.test(value))) {
         return true;
@@ -60,7 +64,7 @@ const { exec } = require('child_process');
 
   fs.writeFileSync(
     utils.getElementsDir(),
-    JSON.stringify(elementsSrcJson)
+    JSON.stringify(elementsSrcJson, null, 2)
   );
 
   // Create vanilla type

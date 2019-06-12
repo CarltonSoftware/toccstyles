@@ -1,0 +1,128 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _pricesummary.scss
+ * @brand    Kent and Sussex Holiday Cottages
+ * @name     pricesummary
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _pricesummary.scss
+ * @brand    Vanilla
+ * @name     pricesummary
+ * @author   Tabs System User
+ */
+.tocc__pricesummary {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+  position: relative;
+  font-size: 14px;
+}
+
+.tocc__pricesummary thead {
+  background-color: white;
+  text-align: left;
+}
+
+.tocc__pricesummary thead th {
+  color: #555555;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+  padding: 0;
+}
+
+.tocc__pricesummary tbody tr td {
+  padding: 4px 0;
+}
+
+.tocc__pricesummary tfoot:before, .tocc__pricesummary tfoot:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #5B5B5B;
+  display: block;
+  opacity: 0.5;
+}
+
+.tocc__pricesummary tfoot:before {
+  margin-top: 14px;
+}
+
+.tocc__pricesummary tfoot:after {
+  bottom: 14px;
+}
+
+.tocc__pricesummary tfoot tr td {
+  padding: 20px 0;
+}
+
+.tocc__pricesummary thead tr th:nth-child(2), .tocc__pricesummary thead tr th:nth-child(3),
+.tocc__pricesummary thead tr td:nth-child(2),
+.tocc__pricesummary thead tr td:nth-child(3),
+.tocc__pricesummary tbody tr th:nth-child(2),
+.tocc__pricesummary tbody tr th:nth-child(3),
+.tocc__pricesummary tbody tr td:nth-child(2),
+.tocc__pricesummary tbody tr td:nth-child(3),
+.tocc__pricesummary tfoot tr th:nth-child(2),
+.tocc__pricesummary tfoot tr th:nth-child(3),
+.tocc__pricesummary tfoot tr td:nth-child(2),
+.tocc__pricesummary tfoot tr td:nth-child(3) {
+  text-align: right;
+}
+
+.tocc__pricesummary thead, .tocc__pricesummary tbody, .tocc__pricesummary tfoot, .tocc__pricesummary tr, .tocc__pricesummary td {
+  border: 0 none;
+}
+
+.tocc__pricesummary:not(.tocc__pricesummary--enquiry) tbody tr td,
+.tocc__pricesummary:not(.tocc__pricesummary--enquiry) tfoot tr td {
+  background-color: white;
+}
+
+.tocc__pricesummary--enquiry {
+  margin-bottom: 1rem;
+}
+
+.tocc__pricesummary--enquiry tbody,
+.tocc__pricesummary--enquiry thead,
+.tocc__pricesummary--enquiry tfoot {
+  background: none;
+}
+
+.tocc__pricesummary--enquiry tbody tr,
+.tocc__pricesummary--enquiry thead tr,
+.tocc__pricesummary--enquiry tfoot tr {
+  background: none;
+}
+
+.tocc__pricesummary--enquiry tbody tr th,
+.tocc__pricesummary--enquiry tbody tr td,
+.tocc__pricesummary--enquiry thead tr th,
+.tocc__pricesummary--enquiry thead tr td,
+.tocc__pricesummary--enquiry tfoot tr th,
+.tocc__pricesummary--enquiry tfoot tr td {
+  padding: 0.25rem 0.25rem 0.25rem 0;
+}
+
+.tocc__pricesummary--enquiry tbody tr:last-of-type td {
+  padding-bottom: 0.8rem;
+}
+
+.tocc__pricesummary--enquiry tfoot:before, .tocc__pricesummary--enquiry tfoot:after {
+  width: 100%;
+  left: 0;
+  height: 1px;
+  margin-top: 0;
+  bottom: auto;
+}
+
+.tocc__pricesummary--enquiry tfoot tr td {
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+}
