@@ -1,0 +1,143 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _propertyattribute.scss
+ * @brand    Vanilla
+ * @name     propertyattribute
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+.tocc__propertyattribute {
+    display: inline-block;
+    list-style: none;
+    
+    margin-right: $site-global-margin * 1.5;
+    margin-bottom: $site-global-margin;
+    
+    @include paragraph();
+    @include ellipsis();
+    
+    &:before {
+        @include fa-icon;
+        @include fa;
+        color: $site-property-icons-color;
+        font-size: 1.25em;
+        margin-right: $site-global-margin / 2;
+        content: fa-content($fa-var-question-circle);    
+    }
+
+    &--sleeps:before {
+        content: fa-content($fa-var-user-friends);            
+    }
+
+    &--maximumpets:before,
+    &--attr08:before {
+        content: fa-content($fa-var-dog);
+    }
+
+    &--attr30:before,
+    &--attr136:before,
+    &--attr632:before,
+    &--attr866:before {
+        content: fa-content($fa-var-car-side);
+    }
+
+    &--bedrooms:before,
+    &--attr116:before,
+    &--attr115:before, 
+    &--attr156:before, 
+    &--attr20:before, 
+    &--attr564:before  {
+        content: fa-content($fa-var-bed);
+    }
+
+    &--attr52:before,
+    &--attr226:before {
+        content: fa-content($fa-var-umbrella-beach);           
+    }
+    
+    &--attr303:before {
+        content: fa-content($fa-var-hiking);           
+    }
+
+    &--attr71:before {
+        content: fa-content($fa-var-water);           
+    }
+
+    &--attr03:before {
+        content: fa-content($fa-var-fireplace);    
+    }
+
+    &--attr301:before {
+        content: fa-content($fa-var-utensils);
+    }
+
+    &--attr63:before  {
+        content: fa-content($fa-var-bath);
+    }
+
+    &--attr06:before  {
+        content: fa-content($fa-var-tree-alt);
+    }
+
+    &--attr84:before {
+        content: fa-content($fa-var-hot-tub);
+    }
+
+    &--attr05:before {
+        content: fa-content($fa-var-glass-cheers);
+    }
+
+    &--attr36:before {
+        content: fa-content($fa-var-swimming-pool);
+    }
+
+    &--attr225:before {
+        content: fa-content($fa-var-crown);
+    }
+
+    &--attr83:before {
+        content: fa-content($fa-var-table-tennis);
+    }
+
+    &--attr38:before {
+        content: fa-content($fa-var-wifi);
+    }
+
+    &--attr57:before {
+        content: fa-content($fa-var-racquet);
+    }
+
+    &--attr287:before {
+        content: fa-content($fa-var-booth-curtain);
+    }
+}
+
+.tocc__propertyattributes {
+    margin-top: $site-global-margin / 2;
+    
+    &--featured {
+        @include clearfix();
+        
+        .tocc__propertyattribute {
+            float: left;
+            width: 45%;
+            margin: 0 5% 16px 0 !important;
+
+            @include breakpoint(large) {
+                min-width: 200px;
+                font-size: map-get($site-font-size, h5);
+                
+                &:before {
+                    font-size: map-get($site-font-size, h5);
+                    width: 24px;
+                }
+            }
+        }
+    }
+}
