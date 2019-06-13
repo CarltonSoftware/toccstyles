@@ -23,6 +23,12 @@
       "short": "Property attribute",
       "description": "A property attribute and icon",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "pager",
+      "short": "Pager",
+      "description": "A pagination bar",
+      "createdby": "Tabs System User"
     }
   ],
   "element": [

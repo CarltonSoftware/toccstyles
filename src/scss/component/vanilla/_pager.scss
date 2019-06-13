@@ -1,0 +1,95 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _pager.scss
+ * @brand    Vanilla
+ * @name     pager
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+$site-pager-item-color: $site-color-one !default;
+$site-pager-item-hover-background-color: #f4f4f4 !default;
+$site-pager-current-item-color: white !default;
+$site-pager-current-item-background-color: $site-color-one !default;
+
+.tocc__pager {
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: $site-global-margin;
+    padding: 0;
+    padding-top: $site-global-padding;
+    padding-bottom: $site-global-padding;
+    text-align: center;
+    
+    // Make items behave consistently with whitespace
+    font-size: 0;
+    
+    &__item {
+        margin: 0;
+        display: inline-block;
+        position: relative;
+        
+        margin-right: $site-global-margin / 2;
+        border-radius: $site-global-radius;
+        font-size: map-get($site-font-size, p);
+        border: 1px solid $site-color-lightgrey;
+        
+        &,
+        a {
+            background-color: white;
+            font-family: $site-content-paragraph-font-family;
+        }
+        
+        &:hover,
+        &:hover a {
+            background-color: $site-pager-item-hover-background-color;
+        }
+        
+        &.current,
+        &.current a {
+            color: $site-pager-current-item-color;
+            background-color: $site-pager-current-item-background-color;
+            border-color: $site-pager-current-item-background-color;
+        }
+        
+        &.tocc__pager__item--current,
+        &.current {
+            &:hover {
+                background-color: inherit;
+            }
+        }
+        
+        &.tocc__pager__item--ellipsis {
+            margin-left: -$site-global-margin / 4;
+            margin-right: $site-global-margin / 4;
+            
+            &,
+            a {
+                background-color: white;
+                border-color: white;
+                cursor: default;
+            }
+            
+            a {
+                padding: 3px 8px;
+            }
+        }
+        
+        a {
+            width: 100%;
+            display: block;
+            padding: .1875rem .875rem;
+        }
+        
+        &,
+        a {
+            color: $site-pager-item-color;
+            cursor: pointer;
+        }
+    }
+}

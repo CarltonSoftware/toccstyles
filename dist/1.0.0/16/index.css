@@ -643,6 +643,93 @@ h5.tocc__title {
 /**
  * TOCC Style Guide Element
  * 
+ * @filename _pager.scss
+ * @brand    Marsdens Property Management
+ * @name     pager
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _pager.scss
+ * @brand    Vanilla
+ * @name     pager
+ * @author   Tabs System User
+ */
+.tocc__pager {
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 0;
+}
+
+.tocc__pager__item {
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  margin-right: 0.5rem;
+  border-radius: 2px;
+  font-size: 14px;
+  border: 1px solid #F1F1F1;
+}
+
+.tocc__pager__item,
+.tocc__pager__item a {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tocc__pager__item:hover,
+.tocc__pager__item:hover a {
+  background-color: #f4f4f4;
+}
+
+.tocc__pager__item.current,
+.tocc__pager__item.current a {
+  color: white;
+  background-color: #555555;
+  border-color: #555555;
+}
+
+.tocc__pager__item.tocc__pager__item--current:hover, .tocc__pager__item.current:hover {
+  background-color: inherit;
+}
+
+.tocc__pager__item.tocc__pager__item--ellipsis {
+  margin-left: -0.25rem;
+  margin-right: 0.25rem;
+}
+
+.tocc__pager__item.tocc__pager__item--ellipsis,
+.tocc__pager__item.tocc__pager__item--ellipsis a {
+  background-color: white;
+  border-color: white;
+  cursor: default;
+}
+
+.tocc__pager__item.tocc__pager__item--ellipsis a {
+  padding: 3px 8px;
+}
+
+.tocc__pager__item a {
+  width: 100%;
+  display: block;
+  padding: .1875rem .875rem;
+}
+
+.tocc__pager__item,
+.tocc__pager__item a {
+  color: #555555;
+  cursor: pointer;
+}
+
+/**
+ * TOCC Style Guide Element
+ * 
  * @filename _detail.scss
  * @brand    Marsdens Property Management
  * @name     detail
