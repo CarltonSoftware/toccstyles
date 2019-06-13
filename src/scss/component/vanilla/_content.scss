@@ -14,8 +14,6 @@ $site-content-header-font-color: $site-color-one !default;
 $site-content-header-font-weight: normal !default;
 $site-content-header-font-family: 'Open Sans', sans-serif !default;
 $site-content-header-text-transform: none !default;
-$site-content-paragraph-font-color: #5b5b5b !default;
-$site-content-paragraph-font-family: 'Open Sans', sans-serif !default;
 
 .tocc__content h1,
 h1.tocc__title {
@@ -59,10 +57,7 @@ h5.tocc__title {
     table thead tr th,
     table tbody tr td,
     table tfoot tr td {
-        font-size: map-get($site-font-size, p);
-        line-height: map-get($site-font-line-height, p);
-        color: $site-content-paragraph-font-color;
-        font-family: $site-content-paragraph-font-family;
+        @include paragraph();
     }
 
     p:not(:last-child) {

@@ -1,0 +1,65 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _comment.scss
+ * @brand    Vanilla
+ * @name     comment
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+.tocc__comment {
+    position: relative;
+    padding-left: $site-global-padding * 3;
+    margin-bottom: $site-global-margin;
+    
+    @include paragraph();
+
+    &:before {
+        @include fa-icon;
+        @include fa;
+        content: fa-content($fa-var-comment);
+        
+        position: absolute;
+        left: 0;
+        font-size: map-get($site-font-size, h1);
+        opacity: 0.6;
+    }
+    
+    &__author {
+        margin-bottom: $site-global-margin;
+        
+        &__name,
+        &__datetime {
+            display: inline;
+        }
+        &__datetime {
+            &:before {
+                content: ' at ';
+            }
+        }
+    }
+    
+    &__text {
+        margin-bottom: 0;
+        white-space: pre-line;
+    }
+}
+
+.tocc__comments {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: $site-global-margin;
+    padding: $site-global-padding;
+    background-color: $site-color-reallylightgrey;
+    
+    > .tocc__comment {
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}

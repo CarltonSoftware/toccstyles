@@ -16,8 +16,7 @@ const { exec } = require('child_process');
     message: 'What type of element do want to create?',
     choices: [
       { title: 'Element', value: 'element' },
-      { title: 'Component', value: 'component' },
-      { title: 'Trump', value: 'trump' }
+      { title: 'Component', value: 'component' }
     ]
   }, {
     type: 'text',
@@ -58,6 +57,7 @@ const { exec } = require('child_process');
 
   elementsSrcJson[responses.type].push({
     name: responses.name,
+    short: responses.short,
     description: responses.description,
     createdby: me.getFullName()
   });

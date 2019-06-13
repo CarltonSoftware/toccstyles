@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _comment.scss
+ * @brand    Big House Holidays
+ * @name     comment
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/4';
+
+
+@import '../vanilla/comment';

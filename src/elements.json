@@ -1,38 +1,48 @@
 {
-  "component":[
+  "component": [
     {
-      "name":"iconmedia",
+      "name": "iconmedia",
       "short": "Icon media",
-      "description":"A media element with an icon",
-      "createdby":"Tabs System User"
-    },{
-      "name":"content",
+      "description": "A media element with an icon",
+      "createdby": "Tabs System User"
+    },
+    {
+      "name": "content",
       "short": "Content area",
-      "description":"A content area component",
-      "createdby":"Tabs System User"
-    },{
-      "name":"pricesummary",
+      "description": "A content area component",
+      "createdby": "Tabs System User"
+    },
+    {
+      "name": "pricesummary",
       "short": "Price summary",
-      "description":"A price summary table",
-      "createdby":"Tabs System User"
+      "description": "A price summary table",
+      "createdby": "Tabs System User"
     }
   ],
-  "element":[
+  "element": [
     {
-      "name":"detail",
+      "name": "detail",
       "short": "Detail",
-      "description":"A detail element",
-      "createdby":"Tabs System User"
-    },{
-      "name":"slogan",
+      "description": "A detail element",
+      "createdby": "Tabs System User"
+    },
+    {
+      "name": "slogan",
       "short": "Slogan",
-      "description":"a site slogan",
-      "createdby":"Tabs System User"
-    },{
-      "name":"strapline",
+      "description": "a site slogan",
+      "createdby": "Tabs System User"
+    },
+    {
+      "name": "strapline",
       "short": "Strapline",
-      "description":"A strapline element",
-      "createdby":"Tabs System User"
+      "description": "A strapline element",
+      "createdby": "Tabs System User"
+    },
+    {
+      "name": "comment",
+      "short": "Comment",
+      "description": "A comment element",
+      "createdby": "Tabs System User"
     }
   ]
 }

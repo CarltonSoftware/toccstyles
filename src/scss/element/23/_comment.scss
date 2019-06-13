@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _comment.scss
+ * @brand    So Southwold
+ * @name     comment
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/23';
+
+
+@import '../vanilla/comment';

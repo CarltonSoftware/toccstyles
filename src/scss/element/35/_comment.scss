@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _comment.scss
+ * @brand    Niche Retreats
+ * @name     comment
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/35';
+
+
+@import '../vanilla/comment';
