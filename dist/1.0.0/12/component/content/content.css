@@ -51,7 +51,7 @@ h4.tocc__title {
   margin: 0;
   padding: 0;
   margin-bottom: 0.5rem;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
 }
 
@@ -61,8 +61,8 @@ h5.tocc__title {
   margin: 0;
   padding: 0;
   margin-bottom: 0.5rem;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .tocc__title,
@@ -82,7 +82,7 @@ h5.tocc__title {
 .tocc__content table tbody tr td,
 .tocc__content table tfoot tr td {
   font-size: 14px;
-  line-height: 1.8;
+  line-height: 20px;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }

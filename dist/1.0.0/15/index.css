@@ -231,7 +231,7 @@ h4.tocc__title {
   margin: 0;
   padding: 0;
   margin-bottom: 0.5rem;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
 }
 
@@ -241,8 +241,8 @@ h5.tocc__title {
   margin: 0;
   padding: 0;
   margin-bottom: 0.5rem;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .tocc__title,
@@ -262,7 +262,7 @@ h5.tocc__title {
 .tocc__content table tbody tr td,
 .tocc__content table tfoot tr td {
   font-size: 14px;
-  line-height: 1.8;
+  line-height: 20px;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }
@@ -502,7 +502,7 @@ h5.tocc__title {
   margin-right: 1.5rem;
   margin-bottom: 1rem;
   font-size: 14px;
-  line-height: 1.8;
+  line-height: 20px;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   text-overflow: ellipsis;
@@ -632,10 +632,10 @@ h5.tocc__title {
 @media only screen and (min-width: 1170px) {
   .tocc__propertyattributes--featured .tocc__propertyattribute {
     min-width: 200px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .tocc__propertyattributes--featured .tocc__propertyattribute:before {
-    font-size: 18px;
+    font-size: 16px;
     width: 24px;
   }
 }
@@ -874,7 +874,7 @@ h5.tocc__title {
   padding-left: 3rem;
   margin-bottom: 1rem;
   font-size: 14px;
-  line-height: 1.8;
+  line-height: 20px;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }
