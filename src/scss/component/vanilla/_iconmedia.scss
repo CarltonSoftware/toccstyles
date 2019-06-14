@@ -12,7 +12,8 @@
 
 .tocc__iconmedia {
     border-radius: $site-global-radius;
-    display: block;
+    display: inline-block;
+    width: 100%;
     padding: $site-global-padding $site-global-padding $site-global-padding $site-global-padding * 3;
     position: relative;
     transition-duration: 86ms;

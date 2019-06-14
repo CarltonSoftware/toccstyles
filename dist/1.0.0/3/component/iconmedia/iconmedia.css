@@ -17,7 +17,8 @@
  */
 .tocc__iconmedia {
   border-radius: 2px;
-  display: block;
+  display: inline-block;
+  width: 100%;
   padding: 1rem 1rem 1rem 3rem;
   position: relative;
   transition-duration: 86ms;
