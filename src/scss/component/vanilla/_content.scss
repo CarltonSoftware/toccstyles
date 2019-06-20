@@ -163,21 +163,32 @@ h5.tocc__title {
         }
     }
     
+    figure > img,
     p > img {
         display: block;
+        width: 100%;
+        margin-bottom: $site-global-margin;
+        
         @include breakpoint(medium) {
             display: inline;
+            width: auto;
+            margin-bottom: auto;
         }
     }
 
     figure {
         &.align-center {
-            display: table;
+            @include breakpoint(medium) {
+                display: table;
+            }
         }
 
         figcaption {
             @include paragraph();
-            display: table-row;
+            @include breakpoint(medium) {
+                display: table-row;
+            }
+            
             padding: 5px 10px 5px 0;
             font-weight: bold;
             font-size: map-get($site-font-size, small);

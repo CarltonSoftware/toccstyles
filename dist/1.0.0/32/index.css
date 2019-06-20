@@ -383,18 +383,26 @@ h5.tocc__title {
   margin-right: auto;
 }
 
+.tocc__content figure > img,
 .tocc__content p > img {
   display: block;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
+  .tocc__content figure > img,
   .tocc__content p > img {
     display: inline;
+    width: auto;
+    margin-bottom: auto;
   }
 }
 
-.tocc__content figure.align-center {
-  display: table;
+@media only screen and (min-width: 768px) {
+  .tocc__content figure.align-center {
+    display: table;
+  }
 }
 
 .tocc__content figure figcaption {
@@ -402,10 +410,15 @@ h5.tocc__title {
   line-height: 20px;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
-  display: table-row;
   padding: 5px 10px 5px 0;
   font-weight: bold;
   font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .tocc__content figure figcaption {
+    display: table-row;
+  }
 }
 
 .tocc__content figure figcaption:before {
