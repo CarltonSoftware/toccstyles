@@ -65,6 +65,15 @@ h5.tocc__title {
   line-height: 26px;
 }
 
+h1.tocc__title,
+h2.tocc__title,
+h3.tocc__title,
+h4.tocc__title,
+h5.tocc__title {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .tocc__title,
 .tocc__content h1,
 .tocc__content h2,

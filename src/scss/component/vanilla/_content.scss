@@ -41,6 +41,15 @@ h5.tocc__title {
     @include title(h5);
 }
 
+h1.tocc__title,
+h2.tocc__title,
+h3.tocc__title,
+h4.tocc__title,
+h5.tocc__title {
+    padding-top: $site-global-padding / 2;
+    padding-bottom: $site-global-padding / 2;
+}
+
 .tocc__title,
 .tocc__content h1,
 .tocc__content h2,
