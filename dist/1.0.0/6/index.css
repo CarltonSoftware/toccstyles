@@ -268,7 +268,10 @@ h5.tocc__title {
   font-family: "Open Sans", sans-serif;
 }
 
-.tocc__content p:not(:last-child) {
+.tocc__content p:not(:last-child),
+.tocc__content table:not(:last-child),
+.tocc__content figure:not(:last-child),
+.tocc__content blockquote:not(:last-child) {
   margin-bottom: 1rem;
 }
 
@@ -350,6 +353,73 @@ h5.tocc__title {
   .tocc__content table tfoot tr td {
     display: table-cell;
   }
+}
+
+@media only screen and (min-width: 768px) {
+  .tocc__content img.align-right,
+  .tocc__content figure.align-right {
+    float: right;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tocc__content img.align-left,
+  .tocc__content figure.align-left {
+    float: left;
+    margin-right: 1rem;
+  }
+}
+
+.tocc__content img.align-center,
+.tocc__content figure.align-center {
+  margin-bottom: 1rem;
+}
+
+.tocc__content img.align-center,
+.tocc__content figure.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tocc__content p > img {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .tocc__content p > img {
+    display: inline;
+  }
+}
+
+.tocc__content figure.align-center {
+  display: table;
+}
+
+.tocc__content figure figcaption {
+  font-size: 14px;
+  line-height: 20px;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+  display: table-row;
+  padding: 5px 10px 5px 0;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.tocc__content figure figcaption:before {
+  content: "above: ";
+  font-weight: normal;
+}
+
+.tocc__content blockquote {
+  font-size: 14px;
+  line-height: 20px;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem;
+  border-left: 2px solid #626366;
 }
 
 /**

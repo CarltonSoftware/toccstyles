@@ -14,6 +14,7 @@ $site-content-header-font-color: $site-color-one !default;
 $site-content-header-font-weight: normal !default;
 $site-content-header-font-family: 'Open Sans', sans-serif !default;
 $site-content-header-text-transform: none !default;
+$site-content-blockquote-border-color: $site-color-one !default;
 
 .tocc__content h1,
 h1.tocc__title {
@@ -60,8 +61,13 @@ h5.tocc__title {
         @include paragraph();
     }
 
-    p:not(:last-child) {
-        margin-bottom: $site-global-padding;
+    p,
+    table,
+    figure,
+    blockquote {
+        &:not(:last-child) {
+            margin-bottom: $site-global-padding;
+        }
     }
     
     table {
@@ -129,5 +135,63 @@ h5.tocc__title {
                 }
             }
         }
+    }
+        
+    img,
+    figure {
+        &.align-right {
+            @include breakpoint(medium) {
+                float: right;
+                margin-left: $site-global-margin;
+            }
+        }
+        &.align-left {
+            @include breakpoint(medium) {
+                float: left;
+                margin-right: $site-global-margin;
+            }
+        }
+        
+        &.align-center {
+            margin-bottom: $site-global-margin;
+        }
+        
+        &.align-center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
+    p > img {
+        display: block;
+        @include breakpoint(medium) {
+            display: inline;
+        }
+    }
+
+    figure {
+        &.align-center {
+            display: table;
+        }
+
+        figcaption {
+            @include paragraph();
+            display: table-row;
+            padding: 5px 10px 5px 0;
+            font-weight: bold;
+            font-size: map-get($site-font-size, small);
+            
+            &:before {
+                content: "above: ";
+                font-weight: normal;
+            }
+        }
+    }
+    
+    blockquote {
+        @include paragraph();
+        padding: $site-global-padding;
+        border-left: 2px solid $site-content-blockquote-border-color;
     }
 }
