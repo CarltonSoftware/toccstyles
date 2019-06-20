@@ -791,6 +791,15 @@ h5.tocc__title {
   transform: rotate(-180deg);
 }
 
+html.no-details details summary {
+  display: block;
+  width: 100%;
+}
+
+html.no-details details summary:before {
+  display: none !important;
+}
+
 /**
  * TOCC Style Guide Element
  * 

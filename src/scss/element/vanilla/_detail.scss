@@ -66,3 +66,17 @@ $site-detail-summary-font-weight: bold !default;
         }
     }
 }
+
+// For IE
+html.no-details {
+    details {
+        summary {
+            display: block;
+            width: 100%;
+            
+            &:before {
+                display: none !important;
+            }
+        }
+    }
+}
