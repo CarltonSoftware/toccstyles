@@ -444,6 +444,28 @@ h5.tocc__title {
   border-left: 2px solid #888569;
 }
 
+.tocc__content ul,
+.tocc__content ol {
+  margin-left: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.tocc__content ul li,
+.tocc__content ol li {
+  font-size: 14px;
+  line-height: 20px;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+}
+
+.tocc__content ul {
+  list-style: disc;
+}
+
+.tocc__content ol {
+  list-style: decimal;
+}
+
 /**
  * TOCC Style Guide Element
  * 

@@ -214,4 +214,22 @@ h5.tocc__title {
         padding: $site-global-padding;
         border-left: 2px solid $site-content-blockquote-border-color;
     }
+    
+    ul,
+    ol {
+        margin-left: $site-global-margin * 1.25;
+        margin-bottom: $site-global-margin * 1.25;
+        
+        li {
+            @include paragraph();
+        }
+    }
+    
+    ul {
+        list-style: disc;
+    }
+    
+    ol {
+        list-style: decimal;
+    }
 }
