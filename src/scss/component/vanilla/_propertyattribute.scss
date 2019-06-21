@@ -12,6 +12,8 @@
 // Include global variables
 @import '../../variables/vanilla';
 
+$site-property-icons-color: $site-color-one !default;
+
 .tocc__propertyattribute {
     display: inline-block;
     list-style: none;
