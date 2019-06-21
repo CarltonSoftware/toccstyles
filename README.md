@@ -11,3 +11,27 @@ yarn install && yarn newelement
 ```
 
 Follow the on screen instructions.  You will be asked to give a short name, id and description for your element.  Name sensibly!
+
+## ToDo list
+
+Lots of elements to redo so the following is not a complete list
+
+
+- [ ] Buttons (.tocc__button)
+- [ ] Breadcrumb
+- [ ] Inline icon list (header cta buttons / share & wishlist buttons)
+- [ ] Labelled list (seen on property page with attribute text lists)
+- [ ] Label/Tag (.tocc__label) featured in tiles and related pages
+- [ ] Tile (small, medium, large)
+- [ ] Hero banner
+- [ ] Header menu
+- [ ] Inline menu (such as property page)
+- [ ] Reassurance item / bar
+- [ ] Customer review (as seen on homepages)
+- [ ] Marketing message
+- [ ] Header
+- [ ] Footer (in sub items)
+- [ ] Media item (seen in /blog)
+- [ ] Property teaser
+- [ ] Property list item
+- [ ] Social media links (i.e. in footer or sharing buttons)
