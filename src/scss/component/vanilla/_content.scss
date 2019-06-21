@@ -201,11 +201,6 @@ h5.tocc__title {
             padding: 5px 10px 5px 0;
             font-weight: bold;
             font-size: map-get($site-font-size, small);
-            
-            &:before {
-                content: "above: ";
-                font-weight: normal;
-            }
         }
     }
     

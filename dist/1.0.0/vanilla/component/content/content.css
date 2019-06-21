@@ -241,11 +241,6 @@ h5.tocc__title {
   }
 }
 
-.tocc__content figure figcaption:before {
-  content: "above: ";
-  font-weight: normal;
-}
-
 .tocc__content blockquote {
   font-size: 14px;
   line-height: 20px;
