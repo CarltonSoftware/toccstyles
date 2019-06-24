@@ -12,7 +12,7 @@
 // Include global variables
 @import '../../variables/vanilla';
 
-.tocc__comment {
+.#{$site-prefix}comment {
     position: relative;
     padding-left: $site-global-padding * 3;
     margin-bottom: $site-global-margin;
@@ -50,14 +50,14 @@
     }
 }
 
-.tocc__comments {
+.#{$site-prefix}comments {
     list-style-type: none;
     margin: 0;
     margin-bottom: $site-global-margin;
     padding: $site-global-padding;
     background-color: $site-color-reallylightgrey;
     
-    > .tocc__comment {
+    > .#{$site-prefix}comment {
         &:last-of-type {
             margin-bottom: 0;
         }

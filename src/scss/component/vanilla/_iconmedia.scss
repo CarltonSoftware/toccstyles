@@ -10,7 +10,7 @@
 // Include Utilities
 @import '../../utils/index';
 
-.tocc__iconmedia {
+.#{$site-prefix}iconmedia {
     border-radius: $site-global-radius;
     display: inline-block;
     width: 100%;
@@ -20,7 +20,7 @@
     transition-property: background-color, color;
     background: $site-color-reallylightgrey;
     
-    .tocc__title {
+    .#{$site-prefix}title {
         line-height: 1.25;
         margin-bottom: .25em;
         position: relative;
@@ -43,7 +43,7 @@
     }
     
     &[href^='/myaccount/bookings'] {
-        .tocc__iconnav__title i.icon {
+        .#{$site-prefix}iconnav__title i.icon {
             &:before {
                 content: fa-content($fa-var-calendar-check);
             }
@@ -51,7 +51,7 @@
     }
     
     &[href^='/myaccount/marketingpreferences'] {
-        .tocc__iconnav__title i.icon {
+        .#{$site-prefix}iconnav__title i.icon {
             &:before {
                 content: fa-content($fa-var-tasks);
             }
@@ -59,7 +59,7 @@
     }
     
     &[href^='/myaccount/change_password'] {
-        .tocc__iconnav__title i.icon {
+        .#{$site-prefix}iconnav__title i.icon {
             &:before {
                 content: fa-content($fa-var-user-lock);
             }
@@ -68,7 +68,7 @@
     
     &[href^='/myaccount/pastbookings'],
     &[href^='/myaccount/bookings'] {
-        .tocc__iconnav__title i.icon {
+        .#{$site-prefix}iconnav__title i.icon {
             &:before {
                 content: fa-content($fa-var-book);
             }
@@ -76,7 +76,7 @@
     }
     
     &[href^='/myaccount/logout'] {
-        .tocc__iconnav__title i.icon {
+        .#{$site-prefix}iconnav__title i.icon {
             &:before {
                 content: fa-content($fa-var-sign-out-alt);
             }
@@ -84,8 +84,8 @@
     }
 }
 
-.tocc__iconmedias {
-    .tocc__iconmedia {
+.#{$site-prefix}iconmedias {
+    .#{$site-prefix}iconmedia {
         margin-bottom: $site-global-margin;
     }
         
@@ -94,13 +94,13 @@
         flex-wrap: wrap;
         margin-right: -$site-global-margin;
         
-        .tocc__iconmedia {
+        .#{$site-prefix}iconmedia {
             width: calc(50% - 1rem);
             margin-right: $site-global-margin;
         }
     }
     @include breakpoint(large) {
-        .tocc__iconmedia {
+        .#{$site-prefix}iconmedia {
             width: calc(25% - 1rem);
         }
     }

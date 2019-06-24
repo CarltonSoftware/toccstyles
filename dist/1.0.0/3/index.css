@@ -955,21 +955,21 @@ html.no-details details summary:before {
  * @author   Tabs System User
  * @date     2019-06-06
  */
-.strapline {
+.tocc__strapline {
   border: 1px solid black;
   padding: 0.5rem;
   width: 100%;
   font-size: 14px;
 }
 
-.strapline span {
+.tocc__strapline span {
   color: red;
   padding-right: 0.5rem;
   font-size: 14px;
   font-weight: bold;
 }
 
-.strapline--specialoffer span:before {
+.tocc__strapline--specialoffer span:before {
   content: "Special Offer";
 }
 

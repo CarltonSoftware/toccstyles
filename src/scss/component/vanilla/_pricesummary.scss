@@ -12,7 +12,7 @@
 // Include global variables
 @import '../../variables/vanilla';
 
-.tocc__pricesummary {
+.#{$site-prefix}pricesummary {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: $site-global-margin;
@@ -89,7 +89,7 @@
         border: 0 none;
     }
 
-    &:not(.tocc__pricesummary--enquiry) {
+    &:not(.#{$site-prefix}pricesummary--enquiry) {
         tbody,
         tfoot {
             tr {

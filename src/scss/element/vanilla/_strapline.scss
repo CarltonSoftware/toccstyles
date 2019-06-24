@@ -17,7 +17,7 @@ $site-strapline-font-size: 14px !default;
 $site-strapline-title-color: red !default;
 $site-strapline-border: 1px solid black !default;
 
-.strapline {
+.#{$site-prefix}strapline {
     border: $site-strapline-border;
     padding: $site-global-padding / 2;
     width: 100%;

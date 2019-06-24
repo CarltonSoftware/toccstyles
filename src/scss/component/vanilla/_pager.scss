@@ -17,7 +17,7 @@ $site-pager-item-hover-background-color: #f4f4f4 !default;
 $site-pager-current-item-color: white !default;
 $site-pager-current-item-background-color: $site-color-one !default;
 
-.tocc__pager {
+.#{$site-prefix}pager {
     font-weight: bold;
     margin: 0 auto;
     margin-bottom: $site-global-margin;
@@ -57,14 +57,14 @@ $site-pager-current-item-background-color: $site-color-one !default;
             border-color: $site-pager-current-item-background-color;
         }
         
-        &.tocc__pager__item--current,
+        &.#{$site-prefix}pager__item--current,
         &.current {
             &:hover {
                 background-color: inherit;
             }
         }
         
-        &.tocc__pager__item--ellipsis {
+        &.#{$site-prefix}pager__item--ellipsis {
             margin-left: -$site-global-margin / 4;
             margin-right: $site-global-margin / 4;
             

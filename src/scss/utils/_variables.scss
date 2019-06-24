@@ -3,6 +3,8 @@ $fa-font-path: "../fonts/fontawesome";
 @import '@fortawesome/fontawesome-pro/scss/variables';
 @import '@fortawesome/fontawesome-pro/scss/mixins';
 
+$site-prefix: 'tocc__' !default;
+
 $site-font-size: (
   "h1":     38px,
   "h2":     30px,

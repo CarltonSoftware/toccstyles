@@ -19,7 +19,7 @@ $site-detail-summary-font-family: 'Open Sans', sans-serif !default;
 $site-detail-summary-text-transform: none !default;
 $site-detail-summary-font-weight: bold !default;
 
-.tocc__detail {
+.#{$site-prefix}detail {
     margin-bottom: $site-global-margin;
         
     & > summary::-webkit-details-marker {

@@ -14,7 +14,7 @@
 
 $site-property-icons-color: $site-color-one !default;
 
-.tocc__propertyattribute {
+.#{$site-prefix}propertyattribute {
     display: inline-block;
     list-style: none;
     
@@ -120,13 +120,13 @@ $site-property-icons-color: $site-color-one !default;
     }
 }
 
-.tocc__propertyattributes {
+.#{$site-prefix}propertyattributes {
     margin-top: $site-global-margin / 2;
     
     &--featured {
         @include clearfix();
         
-        .tocc__propertyattribute {
+        .#{$site-prefix}propertyattribute {
             float: left;
             width: 45%;
             margin: 0 5% 16px 0 !important;

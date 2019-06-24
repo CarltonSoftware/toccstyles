@@ -17,7 +17,7 @@ $site-slogan-font-family: null !default;
 $site-slogan-font-weight: normal !default;
 $site-slogan-text-transform: null !default;
 
-.tocc__slogan {
+.#{$site-prefix}slogan {
     font-size: $site-slogan-font-size;
     line-height: $site-slogan-line-height;
     margin: 0;

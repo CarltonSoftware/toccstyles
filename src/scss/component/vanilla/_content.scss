@@ -16,53 +16,53 @@ $site-content-header-font-family: 'Open Sans', sans-serif !default;
 $site-content-header-text-transform: none !default;
 $site-content-blockquote-border-color: $site-color-one !default;
 
-.tocc__content h1,
-h1.tocc__title {
+.#{$site-prefix}content h1,
+h1.#{$site-prefix}title {
     @include title(h1);
 }
 
-.tocc__content h2,
-h2.tocc__title {
+.#{$site-prefix}content h2,
+h2.#{$site-prefix}title {
     @include title(h2);
 }
 
-.tocc__content h3,
-h3.tocc__title {
+.#{$site-prefix}content h3,
+h3.#{$site-prefix}title {
     @include title(h3);
 }
 
-.tocc__content h4,
-h4.tocc__title {
+.#{$site-prefix}content h4,
+h4.#{$site-prefix}title {
     @include title(h4);
 }
 
-.tocc__content h5,
-h5.tocc__title {
+.#{$site-prefix}content h5,
+h5.#{$site-prefix}title {
     @include title(h5);
 }
 
-h1.tocc__title,
-h2.tocc__title,
-h3.tocc__title,
-h4.tocc__title,
-h5.tocc__title {
+h1.#{$site-prefix}title,
+h2.#{$site-prefix}title,
+h3.#{$site-prefix}title,
+h4.#{$site-prefix}title,
+h5.#{$site-prefix}title {
     padding-top: $site-global-padding / 2;
     padding-bottom: $site-global-padding / 2;
 }
 
-.tocc__title,
-.tocc__content h1,
-.tocc__content h2,
-.tocc__content h3,
-.tocc__content h4,
-.tocc__content h5 {
+.#{$site-prefix}title,
+.#{$site-prefix}content h1,
+.#{$site-prefix}content h2,
+.#{$site-prefix}content h3,
+.#{$site-prefix}content h4,
+.#{$site-prefix}content h5 {
     color: $site-content-header-font-color;
     font-weight: $site-content-header-font-weight;
     font-family: $site-content-header-font-family;
     text-transform: $site-content-header-text-transform;
 }
 
-.tocc__content {
+.#{$site-prefix}content {
     p,
     table thead tr th,
     table tbody tr td,
@@ -103,7 +103,7 @@ h5.tocc__title {
                 td {
                     padding: $site-global-padding / 2;
                     
-                    .tocc__button {
+                    .#{$site-prefix}button {
                         margin-bottom: 0;
                     }
                 }
