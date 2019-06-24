@@ -29,6 +29,12 @@
       "short": "Pager",
       "description": "A pagination bar",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "reassurance",
+      "short": "Reassurance",
+      "description": "Reassurance component.  Similar to icon media.  A link with an icon and description.",
+      "createdby": "Tabs System User"
     }
   ],
   "element": [

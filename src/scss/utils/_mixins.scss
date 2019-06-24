@@ -61,3 +61,28 @@
     font-family: 'Font Awesome 5 Pro';
     font-weight: 400;
 }
+
+@mixin bg_extend($background_color: white, $max-width: 1440) {
+    background: $background_color;
+    position: relative;
+    max-width: $max-width * 1px;
+    
+    &:after,
+    &:before {
+        background: inherit;
+        position: absolute;
+        width: calc((#{$max-width}px - 100%) / 2);
+        height: 100%;
+        content: '';
+        display: block;
+        top: 0;
+    }
+    
+    &:before {
+        left: calc((#{$max-width}px - 100%) / 2 * -1);
+    }
+    
+    &:after {
+        right: calc((#{$max-width}px - 100%) / 2 * -1);
+    }
+}

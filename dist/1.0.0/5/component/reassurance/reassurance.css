@@ -1,0 +1,144 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _reassurance.scss
+ * @brand    Blueriver Cottages
+ * @name     reassurance
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _reassurance.scss
+ * @brand    Vanilla
+ * @name     reassurance
+ * @author   Tabs System User
+ */
+.tocc__reassurance {
+  position: relative;
+  padding: 1rem 0;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  word-break: break-word;
+}
+
+@media only screen and (min-width: 1170px) {
+  .tocc__reassurance {
+    padding: 1rem;
+    padding-right: 24px;
+  }
+}
+
+.tocc__reassurance p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.tocc__reassurance p strong:first-of-type {
+  font-size: 15px;
+  margin-bottom: 0.33333rem;
+  position: relative;
+  top: 3px;
+  display: block;
+}
+
+.tocc__reassurance:before {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+  content: "\f05a";
+  position: absolute;
+  font-size: 28px;
+  margin-top: 0.5rem;
+  color: #83B1AA;
+}
+
+.tocc__reassurance:nth-child(even):before {
+  color: #C3A887;
+}
+
+.tocc__reassurance[href^=tel]:before {
+  content: "\f095";
+  transform: rotate(100deg);
+}
+
+.tocc__reassurance[href^=mailto]:before {
+  content: "\f0e0";
+}
+
+.tocc__reassurance[href*=chat]:before {
+  content: "\f075";
+}
+
+.tocc__reassurance[href*=sagepay]:before, .tocc__reassurance[href*=secure]:before {
+  content: "\f023";
+}
+
+.tocc__reassurancebar {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+@media only screen and (min-width: 768px) {
+  .tocc__reassurancebar--2 {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tocc__reassurancebar--3 {
+    width: calc(100% / 3);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .tocc__reassurancebar--4 .tocc__reassurance {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  .tocc__reassurancebar--4 .tocc__reassurance {
+    width: 25%;
+    margin: 0.5rem 0;
+  }
+}
+
+.tocc__reassurancebar--bg {
+  background: #F1F1F1;
+  position: relative;
+  max-width: 1440px;
+}
+
+.tocc__reassurancebar--bg:after, .tocc__reassurancebar--bg:before {
+  background: inherit;
+  position: absolute;
+  width: calc((1440px - 100%) / 2);
+  height: 100%;
+  content: '';
+  display: block;
+  top: 0;
+}
+
+.tocc__reassurancebar--bg:before {
+  left: calc((1440px - 100%) / 2 * -1);
+}
+
+.tocc__reassurancebar--bg:after {
+  right: calc((1440px - 100%) / 2 * -1);
+}

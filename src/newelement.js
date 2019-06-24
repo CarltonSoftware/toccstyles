@@ -16,7 +16,8 @@ const { exec } = require('child_process');
     message: 'What type of element do want to create?',
     choices: [
       { title: 'Element', value: 'element' },
-      { title: 'Component', value: 'component' }
+      { title: 'Component', value: 'component' },
+      { title: 'Layout', value: 'layout' }
     ]
   }, {
     type: 'text',

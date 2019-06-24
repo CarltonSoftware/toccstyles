@@ -1,0 +1,120 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _reassurance.scss
+ * @brand    Vanilla
+ * @name     reassurance
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+$site-reassurance-bar-icon-even: $site-color-three;
+$site-reassurance-bar-icon-odd: $site-color-seven;
+
+.#{$site-prefix}reassurance {
+    position: relative;
+    padding: $site-global-padding 0;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    word-break: break-word;
+    
+    @include breakpoint(large) {
+        padding: $site-global-padding;
+        padding-right: 24px;
+    }
+    
+    p {
+        @include paragraph();
+        
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+        margin-left: 40px;
+        font-size: map-get($site-font-size, small);
+    
+        strong {
+            &:first-of-type {
+                font-size: 15px;
+                margin-bottom: $site-global-margin / 3;
+                position: relative;
+                top: 3px;
+                display: block;
+            }
+        }
+    }
+    
+    &:before {
+        @include fa-icon;
+        @include fa;
+        content: fa-content($fa-var-info-circle);
+        position: absolute;
+        font-size: 28px;
+        margin-top: $site-global-margin / 2;
+        color: $site-reassurance-bar-icon-odd;
+    }
+        
+    &:nth-child(even) {
+        &:before {
+            color: $site-reassurance-bar-icon-even;
+        }
+    }
+        
+    &[href^=tel]:before {
+        content: fa-content($fa-var-phone);
+        transform: rotate(100deg);
+    }
+
+    &[href^=mailto]:before {
+        content: fa-content($fa-var-envelope);
+    }
+
+    &[href*=chat]:before {
+        content: fa-content($fa-var-comment);
+    }
+
+    &[href*=sagepay]:before,
+    &[href*=secure]:before {
+        content: fa-content($fa-var-lock);
+    }
+}
+
+.#{$site-prefix}reassurancebar {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
+
+.#{$site-prefix}reassurancebar--2 {
+    @include breakpoint(medium) {
+        width: 50%;
+    }
+}
+
+.#{$site-prefix}reassurancebar--3 {
+    @include breakpoint(medium) {
+        width: calc(100% / 3);
+    }
+}
+
+.#{$site-prefix}reassurancebar--4 {
+    @include breakpoint(medium) {
+        .#{$site-prefix}reassurance {
+            width: 50%;
+        }
+    }
+    @include breakpoint(large) {
+        .#{$site-prefix}reassurance {
+            width: 25%;
+            margin: $site-global-margin / 2 0;
+        }
+    }
+}
+
+.#{$site-prefix}reassurancebar--bg {
+    @include bg_extend($site-color-lightgrey);
+}
