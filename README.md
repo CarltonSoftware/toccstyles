@@ -26,7 +26,7 @@ Lots of elements to redo so the following is not a complete list
 - [ ] Hero banner
 - [ ] Header menu
 - [ ] Inline menu (such as property page)
-- [ ] Reassurance item / bar
+- [x] Reassurance item / bar
 - [ ] Customer review (as seen on homepages)
 - [ ] Marketing message
 - [ ] Header
