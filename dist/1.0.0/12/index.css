@@ -261,7 +261,7 @@ h5.oc-title {
 .oc-content h3,
 .oc-content h4,
 .oc-content h5 {
-  color: #555555;
+  color: #1D1D1B;
   font-weight: normal;
   font-family: "AvenirLTPro-Heavy", sans-serif;
   text-transform: none;
@@ -436,7 +436,7 @@ h5.oc-title {
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   padding: 1rem;
-  border-left: 2px solid #555555;
+  border-left: 2px solid #1D1D1B;
 }
 
 .oc-content ul,
@@ -492,7 +492,7 @@ h5.oc-title {
 }
 
 .oc-pricesummary thead th {
-  color: #555555;
+  color: #1D1D1B;
   font-weight: bold;
   font-size: 16px;
   text-align: left;
@@ -630,7 +630,7 @@ h5.oc-title {
   line-height: 1;
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
-  color: #555555;
+  color: #1D1D1B;
   font-size: 1.25em;
   margin-right: 0.5rem;
   content: "\f059";
@@ -801,8 +801,8 @@ h5.oc-title {
 .oc-pager__item.current,
 .oc-pager__item.current a {
   color: white;
-  background-color: #555555;
-  border-color: #555555;
+  background-color: #1D1D1B;
+  border-color: #1D1D1B;
 }
 
 .oc-pager__item.oc-pager__item--current:hover, .oc-pager__item.current:hover {
@@ -833,7 +833,7 @@ h5.oc-title {
 
 .oc-pager__item,
 .oc-pager__item a {
-  color: #555555;
+  color: #1D1D1B;
   cursor: pointer;
 }
 
@@ -903,11 +903,11 @@ h5.oc-title {
   position: absolute;
   font-size: 28px;
   margin-top: 0.5rem;
-  color: #BBBBBB;
+  color: #708573;
 }
 
 .oc-reassurance:nth-child(even):before {
-  color: #777777;
+  color: #B36A94;
 }
 
 .oc-reassurance[href^=tel]:before {
@@ -1018,7 +1018,7 @@ h5.oc-title {
   font-family: "Open Sans", sans-serif;
   text-transform: none;
   font-weight: bold;
-  background: #555555;
+  background: #1D1D1B;
   font-size: 16px;
 }
 
@@ -1077,7 +1077,7 @@ html.no-details details summary:before {
   margin: 0;
   padding: 0.5rem 0;
   border: 0 none;
-  color: #555555;
+  color: #1D1D1B;
   font-weight: normal;
   font-family: 'Open Sans', sans-serif;
 }

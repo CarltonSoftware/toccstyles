@@ -903,11 +903,11 @@ h5.oc-title {
   position: absolute;
   font-size: 28px;
   margin-top: 0.5rem;
-  color: #57B4C3;
+  color: #045A4B;
 }
 
 .oc-reassurance:nth-child(even):before {
-  color: #066D5C;
+  color: #045A4B;
 }
 
 .oc-reassurance[href^=tel]:before {

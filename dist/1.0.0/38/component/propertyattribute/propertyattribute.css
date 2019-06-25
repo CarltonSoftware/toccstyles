@@ -1,0 +1,159 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _propertyattribute.scss
+ * @brand    Stay Northumbria
+ * @name     propertyattribute
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _propertyattribute.scss
+ * @brand    Vanilla
+ * @name     propertyattribute
+ * @author   Tabs System User
+ */
+.oc-propertyattribute {
+  display: inline-block;
+  list-style: none;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.oc-propertyattribute:before {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+  color: #576B6B;
+  font-size: 1.25em;
+  margin-right: 0.5rem;
+  content: "\f059";
+}
+
+.oc-propertyattribute--sleeps:before {
+  content: "\f500";
+}
+
+.oc-propertyattribute--maximumpets:before, .oc-propertyattribute--attr08:before {
+  content: "\f6d3";
+}
+
+.oc-propertyattribute--attr30:before, .oc-propertyattribute--attr136:before, .oc-propertyattribute--attr632:before, .oc-propertyattribute--attr866:before {
+  content: "\f5e4";
+}
+
+.oc-propertyattribute--bedrooms:before, .oc-propertyattribute--attr116:before, .oc-propertyattribute--attr115:before, .oc-propertyattribute--attr156:before, .oc-propertyattribute--attr20:before, .oc-propertyattribute--attr564:before {
+  content: "\f236";
+}
+
+.oc-propertyattribute--attr52:before, .oc-propertyattribute--attr226:before {
+  content: "\f5ca";
+}
+
+.oc-propertyattribute--attr303:before {
+  content: "\f6ec";
+}
+
+.oc-propertyattribute--attr71:before {
+  content: "\f773";
+}
+
+.oc-propertyattribute--attr03:before {
+  content: "\f79a";
+}
+
+.oc-propertyattribute--attr301:before {
+  content: "\f2e7";
+}
+
+.oc-propertyattribute--attr63:before {
+  content: "\f2cd";
+}
+
+.oc-propertyattribute--attr06:before {
+  content: "\f400";
+}
+
+.oc-propertyattribute--attr84:before {
+  content: "\f593";
+}
+
+.oc-propertyattribute--attr05:before {
+  content: "\f79f";
+}
+
+.oc-propertyattribute--attr36:before {
+  content: "\f5c5";
+}
+
+.oc-propertyattribute--attr225:before {
+  content: "\f521";
+}
+
+.oc-propertyattribute--attr83:before {
+  content: "\f45d";
+}
+
+.oc-propertyattribute--attr38:before {
+  content: "\f1eb";
+}
+
+.oc-propertyattribute--attr57:before {
+  content: "\f45a";
+}
+
+.oc-propertyattribute--attr287:before {
+  content: "\f734";
+}
+
+.oc-propertyattributes {
+  margin-top: 0.5rem;
+}
+
+.oc-propertyattributes--featured:before, .oc-propertyattributes--featured:after {
+  content: " ";
+  display: table;
+}
+
+.oc-propertyattributes--featured:after {
+  display: block;
+  clear: both;
+  height: 1px;
+  margin-top: -1px;
+  visibility: hidden;
+}
+
+.oc-propertyattributes--featured {
+  *zoom: 1;
+}
+
+.oc-propertyattributes--featured .oc-propertyattribute {
+  float: left;
+  width: 45%;
+  margin: 0 5% 16px 0 !important;
+}
+
+@media only screen and (min-width: 1170px) {
+  .oc-propertyattributes--featured .oc-propertyattribute {
+    min-width: 200px;
+    font-size: 16px;
+  }
+  .oc-propertyattributes--featured .oc-propertyattribute:before {
+    font-size: 16px;
+    width: 24px;
+  }
+}

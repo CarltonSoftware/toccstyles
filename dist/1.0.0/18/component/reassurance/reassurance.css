@@ -64,11 +64,11 @@
   position: absolute;
   font-size: 28px;
   margin-top: 0.5rem;
-  color: #AD6449;
+  color: #3C6A7F;
 }
 
 .oc-reassurance:nth-child(even):before {
-  color: #333333;
+  color: #749BB1;
 }
 
 .oc-reassurance[href^=tel]:before {

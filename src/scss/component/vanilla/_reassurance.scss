@@ -12,8 +12,8 @@
 // Include global variables
 @import '../../variables/vanilla';
 
-$site-reassurance-bar-icon-even: $site-color-three;
-$site-reassurance-bar-icon-odd: $site-color-seven;
+$site-reassurance-bar-icon-even: $site-color-three !default;
+$site-reassurance-bar-icon-odd: $site-color-seven !default;
 
 .#{$site-prefix}reassurance {
     position: relative;

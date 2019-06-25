@@ -80,7 +80,7 @@ h5.oc-title {
 .oc-content h3,
 .oc-content h4,
 .oc-content h5 {
-  color: #555555;
+  color: #1D1D1B;
   font-weight: normal;
   font-family: "AvenirLTPro-Heavy", sans-serif;
   text-transform: none;
@@ -255,7 +255,7 @@ h5.oc-title {
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   padding: 1rem;
-  border-left: 2px solid #555555;
+  border-left: 2px solid #1D1D1B;
 }
 
 .oc-content ul,
