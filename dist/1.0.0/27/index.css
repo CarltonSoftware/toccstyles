@@ -99,7 +99,7 @@
  * @author   Alex Wyett
  * @date     2019-05-24
  */
-.tocc__iconmedia {
+.oc-iconmedia {
   border-radius: 2px;
   display: inline-block;
   width: 100%;
@@ -110,13 +110,13 @@
   background: #F8F8F8;
 }
 
-.tocc__iconmedia .tocc__title {
+.oc-iconmedia .oc-title {
   line-height: 1.25;
   margin-bottom: .25em;
   position: relative;
 }
 
-.tocc__iconmedia .tocc__title i {
+.oc-iconmedia .oc-title i {
   position: absolute;
   right: calc(100% + 0.5rem);
   text-align: center;
@@ -124,7 +124,7 @@
   min-width: 1.5em;
 }
 
-.tocc__iconmedia .tocc__title i.icon:before {
+.oc-iconmedia .oc-title i.icon:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -137,44 +137,44 @@
   content: "\f007";
 }
 
-.tocc__iconmedia[href^='/myaccount/bookings'] .tocc__iconnav__title i.icon:before {
+.oc-iconmedia[href^='/myaccount/bookings'] .oc-iconnav__title i.icon:before {
   content: "\f274";
 }
 
-.tocc__iconmedia[href^='/myaccount/marketingpreferences'] .tocc__iconnav__title i.icon:before {
+.oc-iconmedia[href^='/myaccount/marketingpreferences'] .oc-iconnav__title i.icon:before {
   content: "\f0ae";
 }
 
-.tocc__iconmedia[href^='/myaccount/change_password'] .tocc__iconnav__title i.icon:before {
+.oc-iconmedia[href^='/myaccount/change_password'] .oc-iconnav__title i.icon:before {
   content: "\f502";
 }
 
-.tocc__iconmedia[href^='/myaccount/pastbookings'] .tocc__iconnav__title i.icon:before, .tocc__iconmedia[href^='/myaccount/bookings'] .tocc__iconnav__title i.icon:before {
+.oc-iconmedia[href^='/myaccount/pastbookings'] .oc-iconnav__title i.icon:before, .oc-iconmedia[href^='/myaccount/bookings'] .oc-iconnav__title i.icon:before {
   content: "\f02d";
 }
 
-.tocc__iconmedia[href^='/myaccount/logout'] .tocc__iconnav__title i.icon:before {
+.oc-iconmedia[href^='/myaccount/logout'] .oc-iconnav__title i.icon:before {
   content: "\f2f5";
 }
 
-.tocc__iconmedias .tocc__iconmedia {
+.oc-iconmedias .oc-iconmedia {
   margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__iconmedias {
+  .oc-iconmedias {
     display: flex;
     flex-wrap: wrap;
     margin-right: -1rem;
   }
-  .tocc__iconmedias .tocc__iconmedia {
+  .oc-iconmedias .oc-iconmedia {
     width: calc(50% - 1rem);
     margin-right: 1rem;
   }
 }
 
 @media only screen and (min-width: 1170px) {
-  .tocc__iconmedias .tocc__iconmedia {
+  .oc-iconmedias .oc-iconmedia {
     width: calc(25% - 1rem);
   }
 }
@@ -196,8 +196,8 @@
  * @author   Alex Wyett
  * @date     2019-04-25
  */
-.tocc__content h1,
-h1.tocc__title {
+.oc-content h1,
+h1.oc-title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -206,8 +206,8 @@ h1.tocc__title {
   line-height: 48px;
 }
 
-.tocc__content h2,
-h2.tocc__title {
+.oc-content h2,
+h2.oc-title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -216,8 +216,8 @@ h2.tocc__title {
   line-height: 40px;
 }
 
-.tocc__content h3,
-h3.tocc__title {
+.oc-content h3,
+h3.oc-title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -226,8 +226,8 @@ h3.tocc__title {
   line-height: 34px;
 }
 
-.tocc__content h4,
-h4.tocc__title {
+.oc-content h4,
+h4.oc-title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -236,8 +236,8 @@ h4.tocc__title {
   line-height: 28px;
 }
 
-.tocc__content h5,
-h5.tocc__title {
+.oc-content h5,
+h5.oc-title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -246,162 +246,162 @@ h5.tocc__title {
   line-height: 26px;
 }
 
-h1.tocc__title,
-h2.tocc__title,
-h3.tocc__title,
-h4.tocc__title,
-h5.tocc__title {
+h1.oc-title,
+h2.oc-title,
+h3.oc-title,
+h4.oc-title,
+h5.oc-title {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.tocc__title,
-.tocc__content h1,
-.tocc__content h2,
-.tocc__content h3,
-.tocc__content h4,
-.tocc__content h5 {
+.oc-title,
+.oc-content h1,
+.oc-content h2,
+.oc-content h3,
+.oc-content h4,
+.oc-content h5 {
   color: #045A4B;
   font-weight: normal;
   font-family: "sharpsansbook", sans-serif;
   text-transform: none;
 }
 
-.tocc__content p,
-.tocc__content table thead tr th,
-.tocc__content table tbody tr td,
-.tocc__content table tfoot tr td {
+.oc-content p,
+.oc-content table thead tr th,
+.oc-content table tbody tr td,
+.oc-content table tfoot tr td {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }
 
-.tocc__content p:not(:last-child),
-.tocc__content table:not(:last-child),
-.tocc__content figure:not(:last-child),
-.tocc__content blockquote:not(:last-child) {
+.oc-content p:not(:last-child),
+.oc-content table:not(:last-child),
+.oc-content figure:not(:last-child),
+.oc-content blockquote:not(:last-child) {
   margin-bottom: 1rem;
 }
 
-.tocc__content table {
+.oc-content table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
   border-radius: 2px;
 }
 
-.tocc__content table thead {
+.oc-content table thead {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content table thead {
+  .oc-content table thead {
     display: table-header-group;
   }
 }
 
-.tocc__content table thead,
-.tocc__content table tbody,
-.tocc__content table tfoot {
+.oc-content table thead,
+.oc-content table tbody,
+.oc-content table tfoot {
   border: 1px solid #F1F1F1;
   background-color: #FEFEFE;
 }
 
-.tocc__content table thead tr th,
-.tocc__content table thead tr td,
-.tocc__content table tbody tr th,
-.tocc__content table tbody tr td,
-.tocc__content table tfoot tr th,
-.tocc__content table tfoot tr td {
+.oc-content table thead tr th,
+.oc-content table thead tr td,
+.oc-content table tbody tr th,
+.oc-content table tbody tr td,
+.oc-content table tfoot tr th,
+.oc-content table tfoot tr td {
   padding: 0.5rem;
 }
 
-.tocc__content table thead tr th .tocc__button,
-.tocc__content table thead tr td .tocc__button,
-.tocc__content table tbody tr th .tocc__button,
-.tocc__content table tbody tr td .tocc__button,
-.tocc__content table tfoot tr th .tocc__button,
-.tocc__content table tfoot tr td .tocc__button {
+.oc-content table thead tr th .oc-button,
+.oc-content table thead tr td .oc-button,
+.oc-content table tbody tr th .oc-button,
+.oc-content table tbody tr td .oc-button,
+.oc-content table tfoot tr th .oc-button,
+.oc-content table tfoot tr td .oc-button {
   margin-bottom: 0;
 }
 
-.tocc__content table thead,
-.tocc__content table tfoot {
+.oc-content table thead,
+.oc-content table tfoot {
   background-color: #F8F8F8;
 }
 
-.tocc__content table thead tr,
-.tocc__content table tfoot tr {
+.oc-content table thead tr,
+.oc-content table tfoot tr {
   background-color: transparent;
 }
 
-.tocc__content table tbody tr:nth-child(even) {
+.oc-content table tbody tr:nth-child(even) {
   background-color: #F8F8F8;
 }
 
-.tocc__content table tbody,
-.tocc__content table tbody tr,
-.tocc__content table tbody td td,
-.tocc__content table tfoot,
-.tocc__content table tfoot tr,
-.tocc__content table tfoot td td {
+.oc-content table tbody,
+.oc-content table tbody tr,
+.oc-content table tbody td td,
+.oc-content table tfoot,
+.oc-content table tfoot tr,
+.oc-content table tfoot td td {
   display: block;
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content table tbody,
-  .tocc__content table tfoot {
+  .oc-content table tbody,
+  .oc-content table tfoot {
     display: table-row-group;
   }
-  .tocc__content table tbody tr,
-  .tocc__content table tfoot tr {
+  .oc-content table tbody tr,
+  .oc-content table tfoot tr {
     display: table-row;
   }
-  .tocc__content table tbody tr td,
-  .tocc__content table tfoot tr td {
+  .oc-content table tbody tr td,
+  .oc-content table tfoot tr td {
     display: table-cell;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content img.align-right,
-  .tocc__content figure.align-right {
+  .oc-content img.align-right,
+  .oc-content figure.align-right {
     float: right;
     margin-left: 1rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content img.align-left,
-  .tocc__content figure.align-left {
+  .oc-content img.align-left,
+  .oc-content figure.align-left {
     float: left;
     margin-right: 1rem;
   }
 }
 
-.tocc__content img.align-center,
-.tocc__content figure.align-center {
+.oc-content img.align-center,
+.oc-content figure.align-center {
   margin-bottom: 1rem;
 }
 
-.tocc__content img.align-center,
-.tocc__content figure.align-center {
+.oc-content img.align-center,
+.oc-content figure.align-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.tocc__content figure > img,
-.tocc__content p > img {
+.oc-content figure > img,
+.oc-content p > img {
   display: block;
   width: 100%;
   margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content figure > img,
-  .tocc__content p > img {
+  .oc-content figure > img,
+  .oc-content p > img {
     display: inline;
     width: auto;
     margin-bottom: auto;
@@ -409,14 +409,14 @@ h5.tocc__title {
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content figure.align-center {
+  .oc-content figure.align-center {
     display: table;
   }
 }
 
-.tocc__content figure figcaption {
+.oc-content figure figcaption {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   padding: 5px 10px 5px 0;
@@ -425,39 +425,39 @@ h5.tocc__title {
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content figure figcaption {
+  .oc-content figure figcaption {
     display: table-row;
   }
 }
 
-.tocc__content blockquote {
+.oc-content blockquote {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   padding: 1rem;
   border-left: 2px solid #045A4B;
 }
 
-.tocc__content ul,
-.tocc__content ol {
+.oc-content ul,
+.oc-content ol {
   margin-left: 1.25rem;
   margin-bottom: 1.25rem;
 }
 
-.tocc__content ul li,
-.tocc__content ol li {
+.oc-content ul li,
+.oc-content ol li {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }
 
-.tocc__content ul {
+.oc-content ul {
   list-style: disc;
 }
 
-.tocc__content ol {
+.oc-content ol {
   list-style: decimal;
 }
 
@@ -477,7 +477,7 @@ h5.tocc__title {
  * @name     pricesummary
  * @author   Tabs System User
  */
-.tocc__pricesummary {
+.oc-pricesummary {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
@@ -486,12 +486,12 @@ h5.tocc__title {
   font-size: 14px;
 }
 
-.tocc__pricesummary thead {
+.oc-pricesummary thead {
   background-color: white;
   text-align: left;
 }
 
-.tocc__pricesummary thead th {
+.oc-pricesummary thead th {
   color: #045A4B;
   font-weight: bold;
   font-size: 16px;
@@ -499,11 +499,11 @@ h5.tocc__title {
   padding: 0;
 }
 
-.tocc__pricesummary tbody tr td {
+.oc-pricesummary tbody tr td {
   padding: 4px 0;
 }
 
-.tocc__pricesummary tfoot:before, .tocc__pricesummary tfoot:after {
+.oc-pricesummary tfoot:before, .oc-pricesummary tfoot:after {
   position: absolute;
   content: '';
   width: 100%;
@@ -513,71 +513,71 @@ h5.tocc__title {
   opacity: 0.5;
 }
 
-.tocc__pricesummary tfoot:before {
+.oc-pricesummary tfoot:before {
   margin-top: 14px;
 }
 
-.tocc__pricesummary tfoot:after {
+.oc-pricesummary tfoot:after {
   bottom: 14px;
 }
 
-.tocc__pricesummary tfoot tr td {
+.oc-pricesummary tfoot tr td {
   padding: 20px 0;
 }
 
-.tocc__pricesummary thead tr th:nth-child(2), .tocc__pricesummary thead tr th:nth-child(3),
-.tocc__pricesummary thead tr td:nth-child(2),
-.tocc__pricesummary thead tr td:nth-child(3),
-.tocc__pricesummary tbody tr th:nth-child(2),
-.tocc__pricesummary tbody tr th:nth-child(3),
-.tocc__pricesummary tbody tr td:nth-child(2),
-.tocc__pricesummary tbody tr td:nth-child(3),
-.tocc__pricesummary tfoot tr th:nth-child(2),
-.tocc__pricesummary tfoot tr th:nth-child(3),
-.tocc__pricesummary tfoot tr td:nth-child(2),
-.tocc__pricesummary tfoot tr td:nth-child(3) {
+.oc-pricesummary thead tr th:nth-child(2), .oc-pricesummary thead tr th:nth-child(3),
+.oc-pricesummary thead tr td:nth-child(2),
+.oc-pricesummary thead tr td:nth-child(3),
+.oc-pricesummary tbody tr th:nth-child(2),
+.oc-pricesummary tbody tr th:nth-child(3),
+.oc-pricesummary tbody tr td:nth-child(2),
+.oc-pricesummary tbody tr td:nth-child(3),
+.oc-pricesummary tfoot tr th:nth-child(2),
+.oc-pricesummary tfoot tr th:nth-child(3),
+.oc-pricesummary tfoot tr td:nth-child(2),
+.oc-pricesummary tfoot tr td:nth-child(3) {
   text-align: right;
 }
 
-.tocc__pricesummary thead, .tocc__pricesummary tbody, .tocc__pricesummary tfoot, .tocc__pricesummary tr, .tocc__pricesummary td {
+.oc-pricesummary thead, .oc-pricesummary tbody, .oc-pricesummary tfoot, .oc-pricesummary tr, .oc-pricesummary td {
   border: 0 none;
 }
 
-.tocc__pricesummary:not(.tocc__pricesummary--enquiry) tbody tr td,
-.tocc__pricesummary:not(.tocc__pricesummary--enquiry) tfoot tr td {
+.oc-pricesummary:not(.oc-pricesummary--enquiry) tbody tr td,
+.oc-pricesummary:not(.oc-pricesummary--enquiry) tfoot tr td {
   background-color: white;
 }
 
-.tocc__pricesummary--enquiry {
+.oc-pricesummary--enquiry {
   margin-bottom: 1rem;
 }
 
-.tocc__pricesummary--enquiry tbody,
-.tocc__pricesummary--enquiry thead,
-.tocc__pricesummary--enquiry tfoot {
+.oc-pricesummary--enquiry tbody,
+.oc-pricesummary--enquiry thead,
+.oc-pricesummary--enquiry tfoot {
   background: none;
 }
 
-.tocc__pricesummary--enquiry tbody tr,
-.tocc__pricesummary--enquiry thead tr,
-.tocc__pricesummary--enquiry tfoot tr {
+.oc-pricesummary--enquiry tbody tr,
+.oc-pricesummary--enquiry thead tr,
+.oc-pricesummary--enquiry tfoot tr {
   background: none;
 }
 
-.tocc__pricesummary--enquiry tbody tr th,
-.tocc__pricesummary--enquiry tbody tr td,
-.tocc__pricesummary--enquiry thead tr th,
-.tocc__pricesummary--enquiry thead tr td,
-.tocc__pricesummary--enquiry tfoot tr th,
-.tocc__pricesummary--enquiry tfoot tr td {
+.oc-pricesummary--enquiry tbody tr th,
+.oc-pricesummary--enquiry tbody tr td,
+.oc-pricesummary--enquiry thead tr th,
+.oc-pricesummary--enquiry thead tr td,
+.oc-pricesummary--enquiry tfoot tr th,
+.oc-pricesummary--enquiry tfoot tr td {
   padding: 0.25rem 0.25rem 0.25rem 0;
 }
 
-.tocc__pricesummary--enquiry tbody tr:last-of-type td {
+.oc-pricesummary--enquiry tbody tr:last-of-type td {
   padding-bottom: 0.8rem;
 }
 
-.tocc__pricesummary--enquiry tfoot:before, .tocc__pricesummary--enquiry tfoot:after {
+.oc-pricesummary--enquiry tfoot:before, .oc-pricesummary--enquiry tfoot:after {
   width: 100%;
   left: 0;
   height: 1px;
@@ -585,7 +585,7 @@ h5.tocc__title {
   bottom: auto;
 }
 
-.tocc__pricesummary--enquiry tfoot tr td {
+.oc-pricesummary--enquiry tfoot tr td {
   padding-top: 0.8rem !important;
   padding-bottom: 0.8rem !important;
 }
@@ -606,13 +606,13 @@ h5.tocc__title {
  * @name     propertyattribute
  * @author   Tabs System User
  */
-.tocc__propertyattribute {
+.oc-propertyattribute {
   display: inline-block;
   list-style: none;
   margin-right: 1.5rem;
   margin-bottom: 1rem;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   text-overflow: ellipsis;
@@ -620,7 +620,7 @@ h5.tocc__title {
   white-space: nowrap;
 }
 
-.tocc__propertyattribute:before {
+.oc-propertyattribute:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -636,92 +636,92 @@ h5.tocc__title {
   content: "\f059";
 }
 
-.tocc__propertyattribute--sleeps:before {
+.oc-propertyattribute--sleeps:before {
   content: "\f500";
 }
 
-.tocc__propertyattribute--maximumpets:before, .tocc__propertyattribute--attr08:before {
+.oc-propertyattribute--maximumpets:before, .oc-propertyattribute--attr08:before {
   content: "\f6d3";
 }
 
-.tocc__propertyattribute--attr30:before, .tocc__propertyattribute--attr136:before, .tocc__propertyattribute--attr632:before, .tocc__propertyattribute--attr866:before {
+.oc-propertyattribute--attr30:before, .oc-propertyattribute--attr136:before, .oc-propertyattribute--attr632:before, .oc-propertyattribute--attr866:before {
   content: "\f5e4";
 }
 
-.tocc__propertyattribute--bedrooms:before, .tocc__propertyattribute--attr116:before, .tocc__propertyattribute--attr115:before, .tocc__propertyattribute--attr156:before, .tocc__propertyattribute--attr20:before, .tocc__propertyattribute--attr564:before {
+.oc-propertyattribute--bedrooms:before, .oc-propertyattribute--attr116:before, .oc-propertyattribute--attr115:before, .oc-propertyattribute--attr156:before, .oc-propertyattribute--attr20:before, .oc-propertyattribute--attr564:before {
   content: "\f236";
 }
 
-.tocc__propertyattribute--attr52:before, .tocc__propertyattribute--attr226:before {
+.oc-propertyattribute--attr52:before, .oc-propertyattribute--attr226:before {
   content: "\f5ca";
 }
 
-.tocc__propertyattribute--attr303:before {
+.oc-propertyattribute--attr303:before {
   content: "\f6ec";
 }
 
-.tocc__propertyattribute--attr71:before {
+.oc-propertyattribute--attr71:before {
   content: "\f773";
 }
 
-.tocc__propertyattribute--attr03:before {
+.oc-propertyattribute--attr03:before {
   content: "\f79a";
 }
 
-.tocc__propertyattribute--attr301:before {
+.oc-propertyattribute--attr301:before {
   content: "\f2e7";
 }
 
-.tocc__propertyattribute--attr63:before {
+.oc-propertyattribute--attr63:before {
   content: "\f2cd";
 }
 
-.tocc__propertyattribute--attr06:before {
+.oc-propertyattribute--attr06:before {
   content: "\f400";
 }
 
-.tocc__propertyattribute--attr84:before {
+.oc-propertyattribute--attr84:before {
   content: "\f593";
 }
 
-.tocc__propertyattribute--attr05:before {
+.oc-propertyattribute--attr05:before {
   content: "\f79f";
 }
 
-.tocc__propertyattribute--attr36:before {
+.oc-propertyattribute--attr36:before {
   content: "\f5c5";
 }
 
-.tocc__propertyattribute--attr225:before {
+.oc-propertyattribute--attr225:before {
   content: "\f521";
 }
 
-.tocc__propertyattribute--attr83:before {
+.oc-propertyattribute--attr83:before {
   content: "\f45d";
 }
 
-.tocc__propertyattribute--attr38:before {
+.oc-propertyattribute--attr38:before {
   content: "\f1eb";
 }
 
-.tocc__propertyattribute--attr57:before {
+.oc-propertyattribute--attr57:before {
   content: "\f45a";
 }
 
-.tocc__propertyattribute--attr287:before {
+.oc-propertyattribute--attr287:before {
   content: "\f734";
 }
 
-.tocc__propertyattributes {
+.oc-propertyattributes {
   margin-top: 0.5rem;
 }
 
-.tocc__propertyattributes--featured:before, .tocc__propertyattributes--featured:after {
+.oc-propertyattributes--featured:before, .oc-propertyattributes--featured:after {
   content: " ";
   display: table;
 }
 
-.tocc__propertyattributes--featured:after {
+.oc-propertyattributes--featured:after {
   display: block;
   clear: both;
   height: 1px;
@@ -729,22 +729,22 @@ h5.tocc__title {
   visibility: hidden;
 }
 
-.tocc__propertyattributes--featured {
+.oc-propertyattributes--featured {
   *zoom: 1;
 }
 
-.tocc__propertyattributes--featured .tocc__propertyattribute {
+.oc-propertyattributes--featured .oc-propertyattribute {
   float: left;
   width: 45%;
   margin: 0 5% 16px 0 !important;
 }
 
 @media only screen and (min-width: 1170px) {
-  .tocc__propertyattributes--featured .tocc__propertyattribute {
+  .oc-propertyattributes--featured .oc-propertyattribute {
     min-width: 200px;
     font-size: 16px;
   }
-  .tocc__propertyattributes--featured .tocc__propertyattribute:before {
+  .oc-propertyattributes--featured .oc-propertyattribute:before {
     font-size: 16px;
     width: 24px;
   }
@@ -766,7 +766,7 @@ h5.tocc__title {
  * @name     pager
  * @author   Tabs System User
  */
-.tocc__pager {
+.oc-pager {
   font-weight: bold;
   margin: 0 auto;
   margin-bottom: 1rem;
@@ -777,7 +777,7 @@ h5.tocc__title {
   font-size: 0;
 }
 
-.tocc__pager__item {
+.oc-pager__item {
   margin: 0;
   display: inline-block;
   position: relative;
@@ -787,52 +787,52 @@ h5.tocc__title {
   border: 1px solid #F1F1F1;
 }
 
-.tocc__pager__item,
-.tocc__pager__item a {
+.oc-pager__item,
+.oc-pager__item a {
   background-color: white;
   font-family: "Open Sans", sans-serif;
 }
 
-.tocc__pager__item:hover,
-.tocc__pager__item:hover a {
+.oc-pager__item:hover,
+.oc-pager__item:hover a {
   background-color: #f4f4f4;
 }
 
-.tocc__pager__item.current,
-.tocc__pager__item.current a {
+.oc-pager__item.current,
+.oc-pager__item.current a {
   color: white;
   background-color: #045A4B;
   border-color: #045A4B;
 }
 
-.tocc__pager__item.tocc__pager__item--current:hover, .tocc__pager__item.current:hover {
+.oc-pager__item.oc-pager__item--current:hover, .oc-pager__item.current:hover {
   background-color: inherit;
 }
 
-.tocc__pager__item.tocc__pager__item--ellipsis {
+.oc-pager__item.oc-pager__item--ellipsis {
   margin-left: -0.25rem;
   margin-right: 0.25rem;
 }
 
-.tocc__pager__item.tocc__pager__item--ellipsis,
-.tocc__pager__item.tocc__pager__item--ellipsis a {
+.oc-pager__item.oc-pager__item--ellipsis,
+.oc-pager__item.oc-pager__item--ellipsis a {
   background-color: white;
   border-color: white;
   cursor: default;
 }
 
-.tocc__pager__item.tocc__pager__item--ellipsis a {
+.oc-pager__item.oc-pager__item--ellipsis a {
   padding: 3px 8px;
 }
 
-.tocc__pager__item a {
+.oc-pager__item a {
   width: 100%;
   display: block;
   padding: .1875rem .875rem;
 }
 
-.tocc__pager__item,
-.tocc__pager__item a {
+.oc-pager__item,
+.oc-pager__item a {
   color: #045A4B;
   cursor: pointer;
 }
@@ -853,7 +853,7 @@ h5.tocc__title {
  * @name     reassurance
  * @author   Tabs System User
  */
-.tocc__reassurance {
+.oc-reassurance {
   position: relative;
   padding: 1rem 0;
   width: 100%;
@@ -863,15 +863,15 @@ h5.tocc__title {
 }
 
 @media only screen and (min-width: 1170px) {
-  .tocc__reassurance {
+  .oc-reassurance {
     padding: 1rem;
     padding-right: 24px;
   }
 }
 
-.tocc__reassurance p {
+.oc-reassurance p {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -881,7 +881,7 @@ h5.tocc__title {
   font-size: 12px;
 }
 
-.tocc__reassurance p strong:first-of-type {
+.oc-reassurance p strong:first-of-type {
   font-size: 15px;
   margin-bottom: 0.33333rem;
   position: relative;
@@ -889,7 +889,7 @@ h5.tocc__title {
   display: block;
 }
 
-.tocc__reassurance:before {
+.oc-reassurance:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -906,65 +906,65 @@ h5.tocc__title {
   color: #57B4C3;
 }
 
-.tocc__reassurance:nth-child(even):before {
+.oc-reassurance:nth-child(even):before {
   color: #066D5C;
 }
 
-.tocc__reassurance[href^=tel]:before {
+.oc-reassurance[href^=tel]:before {
   content: "\f095";
   transform: rotate(100deg);
 }
 
-.tocc__reassurance[href^=mailto]:before {
+.oc-reassurance[href^=mailto]:before {
   content: "\f0e0";
 }
 
-.tocc__reassurance[href*=chat]:before {
+.oc-reassurance[href*=chat]:before {
   content: "\f075";
 }
 
-.tocc__reassurance[href*=sagepay]:before, .tocc__reassurance[href*=secure]:before {
+.oc-reassurance[href*=sagepay]:before, .oc-reassurance[href*=secure]:before {
   content: "\f023";
 }
 
-.tocc__reassurancebar {
+.oc-reassurancebar {
   display: flex;
   align-items: flex-start;
   flex-flow: row wrap;
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__reassurancebar--2 {
+  .oc-reassurancebar--2 {
     width: 50%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__reassurancebar--3 {
+  .oc-reassurancebar--3 {
     width: calc(100% / 3);
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__reassurancebar--4 .tocc__reassurance {
+  .oc-reassurancebar--4 .oc-reassurance {
     width: 50%;
   }
 }
 
 @media only screen and (min-width: 1170px) {
-  .tocc__reassurancebar--4 .tocc__reassurance {
+  .oc-reassurancebar--4 .oc-reassurance {
     width: 25%;
     margin: 0.5rem 0;
   }
 }
 
-.tocc__reassurancebar--bg {
+.oc-reassurancebar--bg {
   background: #F1F1F1;
   position: relative;
   max-width: 1440px;
 }
 
-.tocc__reassurancebar--bg:after, .tocc__reassurancebar--bg:before {
+.oc-reassurancebar--bg:after, .oc-reassurancebar--bg:before {
   background: inherit;
   position: absolute;
   width: calc((1440px - 100%) / 2);
@@ -974,11 +974,11 @@ h5.tocc__title {
   top: 0;
 }
 
-.tocc__reassurancebar--bg:before {
+.oc-reassurancebar--bg:before {
   left: calc((1440px - 100%) / 2 * -1);
 }
 
-.tocc__reassurancebar--bg:after {
+.oc-reassurancebar--bg:after {
   right: calc((1440px - 100%) / 2 * -1);
 }
 
@@ -999,15 +999,15 @@ h5.tocc__title {
  * @author   Tabs System User
  * @date     2019-06-12
  */
-.tocc__detail {
+.oc-detail {
   margin-bottom: 1rem;
 }
 
-.tocc__detail > summary::-webkit-details-marker {
+.oc-detail > summary::-webkit-details-marker {
   display: none;
 }
 
-.tocc__detail summary {
+.oc-detail summary {
   position: relative;
   outline: none;
   cursor: pointer;
@@ -1022,7 +1022,7 @@ h5.tocc__title {
   font-size: 16px;
 }
 
-.tocc__detail summary:after {
+.oc-detail summary:after {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -1041,7 +1041,7 @@ h5.tocc__title {
   transition: transform 150ms ease;
 }
 
-.tocc__detail[open] summary:after {
+.oc-detail[open] summary:after {
   transform: rotate(-180deg);
 }
 
@@ -1071,7 +1071,7 @@ html.no-details details summary:before {
  * @author   Alex Wyett
  * @date     2019-04-24
  */
-.tocc__slogan {
+.oc-slogan {
   font-size: 18px;
   line-height: 28px;
   margin: 0;
@@ -1099,21 +1099,21 @@ html.no-details details summary:before {
  * @author   Tabs System User
  * @date     2019-06-06
  */
-.tocc__strapline {
+.oc-strapline {
   border: 1px solid black;
   padding: 0.5rem;
   width: 100%;
   font-size: 14px;
 }
 
-.tocc__strapline span {
+.oc-strapline span {
   color: red;
   padding-right: 0.5rem;
   font-size: 14px;
   font-weight: bold;
 }
 
-.tocc__strapline--specialoffer span:before {
+.oc-strapline--specialoffer span:before {
   content: "Special Offer";
 }
 
@@ -1133,17 +1133,17 @@ html.no-details details summary:before {
  * @name     comment
  * @author   Tabs System User
  */
-.tocc__comment {
+.oc-comment {
   position: relative;
   padding-left: 3rem;
   margin-bottom: 1rem;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }
 
-.tocc__comment:before {
+.oc-comment:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -1160,24 +1160,24 @@ html.no-details details summary:before {
   opacity: 0.6;
 }
 
-.tocc__comment__author {
+.oc-comment__author {
   margin-bottom: 1rem;
 }
 
-.tocc__comment__author__name, .tocc__comment__author__datetime {
+.oc-comment__author__name, .oc-comment__author__datetime {
   display: inline;
 }
 
-.tocc__comment__author__datetime:before {
+.oc-comment__author__datetime:before {
   content: ' at ';
 }
 
-.tocc__comment__text {
+.oc-comment__text {
   margin-bottom: 0;
   white-space: pre-line;
 }
 
-.tocc__comments {
+.oc-comments {
   list-style-type: none;
   margin: 0;
   margin-bottom: 1rem;
@@ -1185,6 +1185,6 @@ html.no-details details summary:before {
   background-color: #F8F8F8;
 }
 
-.tocc__comments > .tocc__comment:last-of-type {
+.oc-comments > .oc-comment:last-of-type {
   margin-bottom: 0;
 }

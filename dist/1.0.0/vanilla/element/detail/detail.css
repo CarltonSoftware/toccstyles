@@ -7,15 +7,15 @@
  * @author   Tabs System User
  * @date     2019-06-12
  */
-.tocc__detail {
+.oc-detail {
   margin-bottom: 1rem;
 }
 
-.tocc__detail > summary::-webkit-details-marker {
+.oc-detail > summary::-webkit-details-marker {
   display: none;
 }
 
-.tocc__detail summary {
+.oc-detail summary {
   position: relative;
   outline: none;
   cursor: pointer;
@@ -30,7 +30,7 @@
   font-size: 16px;
 }
 
-.tocc__detail summary:after {
+.oc-detail summary:after {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -49,7 +49,7 @@
   transition: transform 150ms ease;
 }
 
-.tocc__detail[open] summary:after {
+.oc-detail[open] summary:after {
   transform: rotate(-180deg);
 }
 

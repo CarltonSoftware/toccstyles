@@ -3,7 +3,7 @@ $fa-font-path: "../fonts/fontawesome";
 @import '@fortawesome/fontawesome-pro/scss/variables';
 @import '@fortawesome/fontawesome-pro/scss/mixins';
 
-$site-prefix: 'tocc__' !default;
+$site-prefix: 'oc-' !default;
 
 $site-font-size: (
   "h1":     38px,
@@ -22,7 +22,7 @@ $site-font-line-height: (
   "h3": 34px,
   "h4": 28px,
   "h5": 26px,
-  "p":  20px
+  "p":  1.8
 ) !default;
 
 $site-breakpoints: (

@@ -14,13 +14,13 @@
  * @name     propertyattribute
  * @author   Tabs System User
  */
-.tocc__propertyattribute {
+.oc-propertyattribute {
   display: inline-block;
   list-style: none;
   margin-right: 1.5rem;
   margin-bottom: 1rem;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   text-overflow: ellipsis;
@@ -28,7 +28,7 @@
   white-space: nowrap;
 }
 
-.tocc__propertyattribute:before {
+.oc-propertyattribute:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -44,92 +44,92 @@
   content: "\f059";
 }
 
-.tocc__propertyattribute--sleeps:before {
+.oc-propertyattribute--sleeps:before {
   content: "\f500";
 }
 
-.tocc__propertyattribute--maximumpets:before, .tocc__propertyattribute--attr08:before {
+.oc-propertyattribute--maximumpets:before, .oc-propertyattribute--attr08:before {
   content: "\f6d3";
 }
 
-.tocc__propertyattribute--attr30:before, .tocc__propertyattribute--attr136:before, .tocc__propertyattribute--attr632:before, .tocc__propertyattribute--attr866:before {
+.oc-propertyattribute--attr30:before, .oc-propertyattribute--attr136:before, .oc-propertyattribute--attr632:before, .oc-propertyattribute--attr866:before {
   content: "\f5e4";
 }
 
-.tocc__propertyattribute--bedrooms:before, .tocc__propertyattribute--attr116:before, .tocc__propertyattribute--attr115:before, .tocc__propertyattribute--attr156:before, .tocc__propertyattribute--attr20:before, .tocc__propertyattribute--attr564:before {
+.oc-propertyattribute--bedrooms:before, .oc-propertyattribute--attr116:before, .oc-propertyattribute--attr115:before, .oc-propertyattribute--attr156:before, .oc-propertyattribute--attr20:before, .oc-propertyattribute--attr564:before {
   content: "\f236";
 }
 
-.tocc__propertyattribute--attr52:before, .tocc__propertyattribute--attr226:before {
+.oc-propertyattribute--attr52:before, .oc-propertyattribute--attr226:before {
   content: "\f5ca";
 }
 
-.tocc__propertyattribute--attr303:before {
+.oc-propertyattribute--attr303:before {
   content: "\f6ec";
 }
 
-.tocc__propertyattribute--attr71:before {
+.oc-propertyattribute--attr71:before {
   content: "\f773";
 }
 
-.tocc__propertyattribute--attr03:before {
+.oc-propertyattribute--attr03:before {
   content: "\f79a";
 }
 
-.tocc__propertyattribute--attr301:before {
+.oc-propertyattribute--attr301:before {
   content: "\f2e7";
 }
 
-.tocc__propertyattribute--attr63:before {
+.oc-propertyattribute--attr63:before {
   content: "\f2cd";
 }
 
-.tocc__propertyattribute--attr06:before {
+.oc-propertyattribute--attr06:before {
   content: "\f400";
 }
 
-.tocc__propertyattribute--attr84:before {
+.oc-propertyattribute--attr84:before {
   content: "\f593";
 }
 
-.tocc__propertyattribute--attr05:before {
+.oc-propertyattribute--attr05:before {
   content: "\f79f";
 }
 
-.tocc__propertyattribute--attr36:before {
+.oc-propertyattribute--attr36:before {
   content: "\f5c5";
 }
 
-.tocc__propertyattribute--attr225:before {
+.oc-propertyattribute--attr225:before {
   content: "\f521";
 }
 
-.tocc__propertyattribute--attr83:before {
+.oc-propertyattribute--attr83:before {
   content: "\f45d";
 }
 
-.tocc__propertyattribute--attr38:before {
+.oc-propertyattribute--attr38:before {
   content: "\f1eb";
 }
 
-.tocc__propertyattribute--attr57:before {
+.oc-propertyattribute--attr57:before {
   content: "\f45a";
 }
 
-.tocc__propertyattribute--attr287:before {
+.oc-propertyattribute--attr287:before {
   content: "\f734";
 }
 
-.tocc__propertyattributes {
+.oc-propertyattributes {
   margin-top: 0.5rem;
 }
 
-.tocc__propertyattributes--featured:before, .tocc__propertyattributes--featured:after {
+.oc-propertyattributes--featured:before, .oc-propertyattributes--featured:after {
   content: " ";
   display: table;
 }
 
-.tocc__propertyattributes--featured:after {
+.oc-propertyattributes--featured:after {
   display: block;
   clear: both;
   height: 1px;
@@ -137,22 +137,22 @@
   visibility: hidden;
 }
 
-.tocc__propertyattributes--featured {
+.oc-propertyattributes--featured {
   *zoom: 1;
 }
 
-.tocc__propertyattributes--featured .tocc__propertyattribute {
+.oc-propertyattributes--featured .oc-propertyattribute {
   float: left;
   width: 45%;
   margin: 0 5% 16px 0 !important;
 }
 
 @media only screen and (min-width: 1170px) {
-  .tocc__propertyattributes--featured .tocc__propertyattribute {
+  .oc-propertyattributes--featured .oc-propertyattribute {
     min-width: 200px;
     font-size: 16px;
   }
-  .tocc__propertyattributes--featured .tocc__propertyattribute:before {
+  .oc-propertyattributes--featured .oc-propertyattribute:before {
     font-size: 16px;
     width: 24px;
   }

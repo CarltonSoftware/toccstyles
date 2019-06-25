@@ -15,7 +15,7 @@
  * @author   Alex Wyett
  * @date     2019-05-24
  */
-.tocc__iconmedia {
+.oc-iconmedia {
   border-radius: 5px;
   display: inline-block;
   width: 100%;
@@ -26,13 +26,13 @@
   background: #F8F8F8;
 }
 
-.tocc__iconmedia .tocc__title {
+.oc-iconmedia .oc-title {
   line-height: 1.25;
   margin-bottom: .25em;
   position: relative;
 }
 
-.tocc__iconmedia .tocc__title i {
+.oc-iconmedia .oc-title i {
   position: absolute;
   right: calc(100% + 0.5rem);
   text-align: center;
@@ -40,7 +40,7 @@
   min-width: 1.5em;
 }
 
-.tocc__iconmedia .tocc__title i.icon:before {
+.oc-iconmedia .oc-title i.icon:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -53,44 +53,44 @@
   content: "\f007";
 }
 
-.tocc__iconmedia[href^='/myaccount/bookings'] .tocc__iconnav__title i.icon:before {
+.oc-iconmedia[href^='/myaccount/bookings'] .oc-iconnav__title i.icon:before {
   content: "\f274";
 }
 
-.tocc__iconmedia[href^='/myaccount/marketingpreferences'] .tocc__iconnav__title i.icon:before {
+.oc-iconmedia[href^='/myaccount/marketingpreferences'] .oc-iconnav__title i.icon:before {
   content: "\f0ae";
 }
 
-.tocc__iconmedia[href^='/myaccount/change_password'] .tocc__iconnav__title i.icon:before {
+.oc-iconmedia[href^='/myaccount/change_password'] .oc-iconnav__title i.icon:before {
   content: "\f502";
 }
 
-.tocc__iconmedia[href^='/myaccount/pastbookings'] .tocc__iconnav__title i.icon:before, .tocc__iconmedia[href^='/myaccount/bookings'] .tocc__iconnav__title i.icon:before {
+.oc-iconmedia[href^='/myaccount/pastbookings'] .oc-iconnav__title i.icon:before, .oc-iconmedia[href^='/myaccount/bookings'] .oc-iconnav__title i.icon:before {
   content: "\f02d";
 }
 
-.tocc__iconmedia[href^='/myaccount/logout'] .tocc__iconnav__title i.icon:before {
+.oc-iconmedia[href^='/myaccount/logout'] .oc-iconnav__title i.icon:before {
   content: "\f2f5";
 }
 
-.tocc__iconmedias .tocc__iconmedia {
+.oc-iconmedias .oc-iconmedia {
   margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__iconmedias {
+  .oc-iconmedias {
     display: flex;
     flex-wrap: wrap;
     margin-right: -1rem;
   }
-  .tocc__iconmedias .tocc__iconmedia {
+  .oc-iconmedias .oc-iconmedia {
     width: calc(50% - 1rem);
     margin-right: 1rem;
   }
 }
 
 @media only screen and (min-width: 1170px) {
-  .tocc__iconmedias .tocc__iconmedia {
+  .oc-iconmedias .oc-iconmedia {
     width: calc(25% - 1rem);
   }
 }

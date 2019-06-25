@@ -15,8 +15,8 @@
  * @author   Alex Wyett
  * @date     2019-04-25
  */
-.tocc__content h1,
-h1.tocc__title {
+.oc-content h1,
+h1.oc-title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -25,8 +25,8 @@ h1.tocc__title {
   line-height: 48px;
 }
 
-.tocc__content h2,
-h2.tocc__title {
+.oc-content h2,
+h2.oc-title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -35,8 +35,8 @@ h2.tocc__title {
   line-height: 40px;
 }
 
-.tocc__content h3,
-h3.tocc__title {
+.oc-content h3,
+h3.oc-title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -45,8 +45,8 @@ h3.tocc__title {
   line-height: 34px;
 }
 
-.tocc__content h4,
-h4.tocc__title {
+.oc-content h4,
+h4.oc-title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -55,8 +55,8 @@ h4.tocc__title {
   line-height: 28px;
 }
 
-.tocc__content h5,
-h5.tocc__title {
+.oc-content h5,
+h5.oc-title {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
@@ -65,162 +65,162 @@ h5.tocc__title {
   line-height: 26px;
 }
 
-h1.tocc__title,
-h2.tocc__title,
-h3.tocc__title,
-h4.tocc__title,
-h5.tocc__title {
+h1.oc-title,
+h2.oc-title,
+h3.oc-title,
+h4.oc-title,
+h5.oc-title {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.tocc__title,
-.tocc__content h1,
-.tocc__content h2,
-.tocc__content h3,
-.tocc__content h4,
-.tocc__content h5 {
+.oc-title,
+.oc-content h1,
+.oc-content h2,
+.oc-content h3,
+.oc-content h4,
+.oc-content h5 {
   color: #263545;
   font-weight: normal;
   font-family: "Museo Sans 300", Helvetica Neue, Helvetica, Arial, sans-serif;
   text-transform: none;
 }
 
-.tocc__content p,
-.tocc__content table thead tr th,
-.tocc__content table tbody tr td,
-.tocc__content table tfoot tr td {
+.oc-content p,
+.oc-content table thead tr th,
+.oc-content table tbody tr td,
+.oc-content table tfoot tr td {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }
 
-.tocc__content p:not(:last-child),
-.tocc__content table:not(:last-child),
-.tocc__content figure:not(:last-child),
-.tocc__content blockquote:not(:last-child) {
+.oc-content p:not(:last-child),
+.oc-content table:not(:last-child),
+.oc-content figure:not(:last-child),
+.oc-content blockquote:not(:last-child) {
   margin-bottom: 1rem;
 }
 
-.tocc__content table {
+.oc-content table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
   border-radius: 2px;
 }
 
-.tocc__content table thead {
+.oc-content table thead {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content table thead {
+  .oc-content table thead {
     display: table-header-group;
   }
 }
 
-.tocc__content table thead,
-.tocc__content table tbody,
-.tocc__content table tfoot {
+.oc-content table thead,
+.oc-content table tbody,
+.oc-content table tfoot {
   border: 1px solid #F1F1F1;
   background-color: #FEFEFE;
 }
 
-.tocc__content table thead tr th,
-.tocc__content table thead tr td,
-.tocc__content table tbody tr th,
-.tocc__content table tbody tr td,
-.tocc__content table tfoot tr th,
-.tocc__content table tfoot tr td {
+.oc-content table thead tr th,
+.oc-content table thead tr td,
+.oc-content table tbody tr th,
+.oc-content table tbody tr td,
+.oc-content table tfoot tr th,
+.oc-content table tfoot tr td {
   padding: 0.5rem;
 }
 
-.tocc__content table thead tr th .tocc__button,
-.tocc__content table thead tr td .tocc__button,
-.tocc__content table tbody tr th .tocc__button,
-.tocc__content table tbody tr td .tocc__button,
-.tocc__content table tfoot tr th .tocc__button,
-.tocc__content table tfoot tr td .tocc__button {
+.oc-content table thead tr th .oc-button,
+.oc-content table thead tr td .oc-button,
+.oc-content table tbody tr th .oc-button,
+.oc-content table tbody tr td .oc-button,
+.oc-content table tfoot tr th .oc-button,
+.oc-content table tfoot tr td .oc-button {
   margin-bottom: 0;
 }
 
-.tocc__content table thead,
-.tocc__content table tfoot {
+.oc-content table thead,
+.oc-content table tfoot {
   background-color: #F8F8F8;
 }
 
-.tocc__content table thead tr,
-.tocc__content table tfoot tr {
+.oc-content table thead tr,
+.oc-content table tfoot tr {
   background-color: transparent;
 }
 
-.tocc__content table tbody tr:nth-child(even) {
+.oc-content table tbody tr:nth-child(even) {
   background-color: #F8F8F8;
 }
 
-.tocc__content table tbody,
-.tocc__content table tbody tr,
-.tocc__content table tbody td td,
-.tocc__content table tfoot,
-.tocc__content table tfoot tr,
-.tocc__content table tfoot td td {
+.oc-content table tbody,
+.oc-content table tbody tr,
+.oc-content table tbody td td,
+.oc-content table tfoot,
+.oc-content table tfoot tr,
+.oc-content table tfoot td td {
   display: block;
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content table tbody,
-  .tocc__content table tfoot {
+  .oc-content table tbody,
+  .oc-content table tfoot {
     display: table-row-group;
   }
-  .tocc__content table tbody tr,
-  .tocc__content table tfoot tr {
+  .oc-content table tbody tr,
+  .oc-content table tfoot tr {
     display: table-row;
   }
-  .tocc__content table tbody tr td,
-  .tocc__content table tfoot tr td {
+  .oc-content table tbody tr td,
+  .oc-content table tfoot tr td {
     display: table-cell;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content img.align-right,
-  .tocc__content figure.align-right {
+  .oc-content img.align-right,
+  .oc-content figure.align-right {
     float: right;
     margin-left: 1rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content img.align-left,
-  .tocc__content figure.align-left {
+  .oc-content img.align-left,
+  .oc-content figure.align-left {
     float: left;
     margin-right: 1rem;
   }
 }
 
-.tocc__content img.align-center,
-.tocc__content figure.align-center {
+.oc-content img.align-center,
+.oc-content figure.align-center {
   margin-bottom: 1rem;
 }
 
-.tocc__content img.align-center,
-.tocc__content figure.align-center {
+.oc-content img.align-center,
+.oc-content figure.align-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.tocc__content figure > img,
-.tocc__content p > img {
+.oc-content figure > img,
+.oc-content p > img {
   display: block;
   width: 100%;
   margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content figure > img,
-  .tocc__content p > img {
+  .oc-content figure > img,
+  .oc-content p > img {
     display: inline;
     width: auto;
     margin-bottom: auto;
@@ -228,14 +228,14 @@ h5.tocc__title {
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content figure.align-center {
+  .oc-content figure.align-center {
     display: table;
   }
 }
 
-.tocc__content figure figcaption {
+.oc-content figure figcaption {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   padding: 5px 10px 5px 0;
@@ -244,38 +244,38 @@ h5.tocc__title {
 }
 
 @media only screen and (min-width: 768px) {
-  .tocc__content figure figcaption {
+  .oc-content figure figcaption {
     display: table-row;
   }
 }
 
-.tocc__content blockquote {
+.oc-content blockquote {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   padding: 1rem;
   border-left: 2px solid #263545;
 }
 
-.tocc__content ul,
-.tocc__content ol {
+.oc-content ul,
+.oc-content ol {
   margin-left: 1.25rem;
   margin-bottom: 1.25rem;
 }
 
-.tocc__content ul li,
-.tocc__content ol li {
+.oc-content ul li,
+.oc-content ol li {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }
 
-.tocc__content ul {
+.oc-content ul {
   list-style: disc;
 }
 
-.tocc__content ol {
+.oc-content ol {
   list-style: decimal;
 }

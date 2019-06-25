@@ -14,7 +14,7 @@
  * @name     pricesummary
  * @author   Tabs System User
  */
-.tocc__pricesummary {
+.oc-pricesummary {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
@@ -23,12 +23,12 @@
   font-size: 14px;
 }
 
-.tocc__pricesummary thead {
+.oc-pricesummary thead {
   background-color: white;
   text-align: left;
 }
 
-.tocc__pricesummary thead th {
+.oc-pricesummary thead th {
   color: #44697C;
   font-weight: bold;
   font-size: 16px;
@@ -36,11 +36,11 @@
   padding: 0;
 }
 
-.tocc__pricesummary tbody tr td {
+.oc-pricesummary tbody tr td {
   padding: 4px 0;
 }
 
-.tocc__pricesummary tfoot:before, .tocc__pricesummary tfoot:after {
+.oc-pricesummary tfoot:before, .oc-pricesummary tfoot:after {
   position: absolute;
   content: '';
   width: 100%;
@@ -50,71 +50,71 @@
   opacity: 0.5;
 }
 
-.tocc__pricesummary tfoot:before {
+.oc-pricesummary tfoot:before {
   margin-top: 14px;
 }
 
-.tocc__pricesummary tfoot:after {
+.oc-pricesummary tfoot:after {
   bottom: 14px;
 }
 
-.tocc__pricesummary tfoot tr td {
+.oc-pricesummary tfoot tr td {
   padding: 20px 0;
 }
 
-.tocc__pricesummary thead tr th:nth-child(2), .tocc__pricesummary thead tr th:nth-child(3),
-.tocc__pricesummary thead tr td:nth-child(2),
-.tocc__pricesummary thead tr td:nth-child(3),
-.tocc__pricesummary tbody tr th:nth-child(2),
-.tocc__pricesummary tbody tr th:nth-child(3),
-.tocc__pricesummary tbody tr td:nth-child(2),
-.tocc__pricesummary tbody tr td:nth-child(3),
-.tocc__pricesummary tfoot tr th:nth-child(2),
-.tocc__pricesummary tfoot tr th:nth-child(3),
-.tocc__pricesummary tfoot tr td:nth-child(2),
-.tocc__pricesummary tfoot tr td:nth-child(3) {
+.oc-pricesummary thead tr th:nth-child(2), .oc-pricesummary thead tr th:nth-child(3),
+.oc-pricesummary thead tr td:nth-child(2),
+.oc-pricesummary thead tr td:nth-child(3),
+.oc-pricesummary tbody tr th:nth-child(2),
+.oc-pricesummary tbody tr th:nth-child(3),
+.oc-pricesummary tbody tr td:nth-child(2),
+.oc-pricesummary tbody tr td:nth-child(3),
+.oc-pricesummary tfoot tr th:nth-child(2),
+.oc-pricesummary tfoot tr th:nth-child(3),
+.oc-pricesummary tfoot tr td:nth-child(2),
+.oc-pricesummary tfoot tr td:nth-child(3) {
   text-align: right;
 }
 
-.tocc__pricesummary thead, .tocc__pricesummary tbody, .tocc__pricesummary tfoot, .tocc__pricesummary tr, .tocc__pricesummary td {
+.oc-pricesummary thead, .oc-pricesummary tbody, .oc-pricesummary tfoot, .oc-pricesummary tr, .oc-pricesummary td {
   border: 0 none;
 }
 
-.tocc__pricesummary:not(.tocc__pricesummary--enquiry) tbody tr td,
-.tocc__pricesummary:not(.tocc__pricesummary--enquiry) tfoot tr td {
+.oc-pricesummary:not(.oc-pricesummary--enquiry) tbody tr td,
+.oc-pricesummary:not(.oc-pricesummary--enquiry) tfoot tr td {
   background-color: white;
 }
 
-.tocc__pricesummary--enquiry {
+.oc-pricesummary--enquiry {
   margin-bottom: 1rem;
 }
 
-.tocc__pricesummary--enquiry tbody,
-.tocc__pricesummary--enquiry thead,
-.tocc__pricesummary--enquiry tfoot {
+.oc-pricesummary--enquiry tbody,
+.oc-pricesummary--enquiry thead,
+.oc-pricesummary--enquiry tfoot {
   background: none;
 }
 
-.tocc__pricesummary--enquiry tbody tr,
-.tocc__pricesummary--enquiry thead tr,
-.tocc__pricesummary--enquiry tfoot tr {
+.oc-pricesummary--enquiry tbody tr,
+.oc-pricesummary--enquiry thead tr,
+.oc-pricesummary--enquiry tfoot tr {
   background: none;
 }
 
-.tocc__pricesummary--enquiry tbody tr th,
-.tocc__pricesummary--enquiry tbody tr td,
-.tocc__pricesummary--enquiry thead tr th,
-.tocc__pricesummary--enquiry thead tr td,
-.tocc__pricesummary--enquiry tfoot tr th,
-.tocc__pricesummary--enquiry tfoot tr td {
+.oc-pricesummary--enquiry tbody tr th,
+.oc-pricesummary--enquiry tbody tr td,
+.oc-pricesummary--enquiry thead tr th,
+.oc-pricesummary--enquiry thead tr td,
+.oc-pricesummary--enquiry tfoot tr th,
+.oc-pricesummary--enquiry tfoot tr td {
   padding: 0.25rem 0.25rem 0.25rem 0;
 }
 
-.tocc__pricesummary--enquiry tbody tr:last-of-type td {
+.oc-pricesummary--enquiry tbody tr:last-of-type td {
   padding-bottom: 0.8rem;
 }
 
-.tocc__pricesummary--enquiry tfoot:before, .tocc__pricesummary--enquiry tfoot:after {
+.oc-pricesummary--enquiry tfoot:before, .oc-pricesummary--enquiry tfoot:after {
   width: 100%;
   left: 0;
   height: 1px;
@@ -122,7 +122,7 @@
   bottom: auto;
 }
 
-.tocc__pricesummary--enquiry tfoot tr td {
+.oc-pricesummary--enquiry tfoot tr td {
   padding-top: 0.8rem !important;
   padding-bottom: 0.8rem !important;
 }

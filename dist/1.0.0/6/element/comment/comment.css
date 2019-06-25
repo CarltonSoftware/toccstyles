@@ -14,17 +14,17 @@
  * @name     comment
  * @author   Tabs System User
  */
-.tocc__comment {
+.oc-comment {
   position: relative;
   padding-left: 3rem;
   margin-bottom: 1rem;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }
 
-.tocc__comment:before {
+.oc-comment:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
@@ -41,24 +41,24 @@
   opacity: 0.6;
 }
 
-.tocc__comment__author {
+.oc-comment__author {
   margin-bottom: 1rem;
 }
 
-.tocc__comment__author__name, .tocc__comment__author__datetime {
+.oc-comment__author__name, .oc-comment__author__datetime {
   display: inline;
 }
 
-.tocc__comment__author__datetime:before {
+.oc-comment__author__datetime:before {
   content: ' at ';
 }
 
-.tocc__comment__text {
+.oc-comment__text {
   margin-bottom: 0;
   white-space: pre-line;
 }
 
-.tocc__comments {
+.oc-comments {
   list-style-type: none;
   margin: 0;
   margin-bottom: 1rem;
@@ -66,6 +66,6 @@
   background-color: #F8F8F8;
 }
 
-.tocc__comments > .tocc__comment:last-of-type {
+.oc-comments > .oc-comment:last-of-type {
   margin-bottom: 0;
 }
