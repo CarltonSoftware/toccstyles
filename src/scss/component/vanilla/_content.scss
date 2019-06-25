@@ -75,7 +75,7 @@ h5.#{$site-prefix}title {
     figure,
     blockquote {
         &:not(:last-child) {
-            margin-bottom: $site-global-padding;
+            margin-bottom: $site-global-margin * 1.2;
         }
     }
     

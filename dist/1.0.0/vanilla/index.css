@@ -265,7 +265,7 @@ h5.oc-title {
 .oc-content table:not(:last-child),
 .oc-content figure:not(:last-child),
 .oc-content blockquote:not(:last-child) {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .oc-content table {
