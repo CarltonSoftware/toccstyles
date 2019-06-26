@@ -183,6 +183,19 @@ h5.oc-title {
   }
 }
 
+.oc-content img,
+.oc-content figure {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content img,
+  .oc-content figure {
+    max-width: 300px;
+    width: auto;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .oc-content img.align-right,
   .oc-content figure.align-right {
@@ -224,17 +237,6 @@ h5.oc-title {
     display: inline;
     width: auto;
     margin-bottom: auto;
-  }
-}
-
-.oc-content figure {
-  width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-  .oc-content figure {
-    max-width: 300px;
-    width: auto;
   }
 }
 

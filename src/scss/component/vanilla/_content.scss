@@ -148,6 +148,13 @@ h5.#{$site-prefix}title {
         
     img,
     figure {
+        width: 100%;
+        
+        @include breakpoint(medium) {
+            max-width: 300px;
+            width: auto;
+        }
+        
         &.align-right {
             @include breakpoint(medium) {
                 float: right;
@@ -186,13 +193,6 @@ h5.#{$site-prefix}title {
     }
 
     figure {
-        width: 100%;
-        
-        @include breakpoint(medium) {
-            max-width: 300px;
-            width: auto;
-        }
-        
         &.align-center {
             @include breakpoint(medium) {
                 display: table;

@@ -364,6 +364,19 @@ h5.oc-title {
   }
 }
 
+.oc-content img,
+.oc-content figure {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content img,
+  .oc-content figure {
+    max-width: 300px;
+    width: auto;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .oc-content img.align-right,
   .oc-content figure.align-right {
@@ -405,17 +418,6 @@ h5.oc-title {
     display: inline;
     width: auto;
     margin-bottom: auto;
-  }
-}
-
-.oc-content figure {
-  width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-  .oc-content figure {
-    max-width: 300px;
-    width: auto;
   }
 }
 
@@ -1040,12 +1042,19 @@ h5.oc-title {
   margin-bottom: 6px;
 }
 
+@media only screen and (min-width: 768px) {
+  .oc-breadcrumb > * {
+    margin-right: 1rem;
+  }
+}
+
 .oc-breadcrumb a {
   display: block;
   padding: 0 0.5rem;
-  font-size: 10px;
   margin: 0;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
+  font-size: 10px;
   border-radius: 2px;
   background-color: #F8F8F8;
   color: #4E4E4C;
