@@ -392,6 +392,10 @@ h5.oc-title {
   }
 }
 
+.oc-content figure {
+  max-width: 300px;
+}
+
 @media only screen and (min-width: 768px) {
   .oc-content figure.align-center {
     display: table;

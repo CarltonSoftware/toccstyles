@@ -186,6 +186,8 @@ h5.#{$site-prefix}title {
     }
 
     figure {
+        max-width: 300px;
+        
         &.align-center {
             @include breakpoint(medium) {
                 display: table;
