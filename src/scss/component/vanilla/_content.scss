@@ -151,7 +151,6 @@ h5.#{$site-prefix}title {
         width: 100%;
         
         @include breakpoint(medium) {
-            max-width: 300px;
             width: auto;
         }
         
@@ -203,6 +202,7 @@ h5.#{$site-prefix}title {
             @include paragraph();
             @include breakpoint(medium) {
                 display: table-row;
+                max-width: 300px;
             }
             
             padding: 5px 10px 5px 0;
