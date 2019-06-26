@@ -393,7 +393,14 @@ h5.oc-title {
 }
 
 .oc-content figure {
-  max-width: 300px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content figure {
+    max-width: 300px;
+    width: auto;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -981,6 +988,7 @@ h5.oc-title {
   display: block;
   padding: 0 0.5rem;
   font-size: 10px;
+  margin: 0;
   font-weight: bold;
   border-radius: 2px;
   background-color: #F8F8F8;
@@ -991,7 +999,6 @@ h5.oc-title {
   .oc-breadcrumb a {
     font-size: 12px;
     padding: 0.25rem 0.5rem;
-    margin-right: 1rem;
   }
 }
 

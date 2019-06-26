@@ -45,11 +45,11 @@
         display: block;
         padding: 0 $site-global-padding / 2;
         font-size: 10px;
+        margin: 0;
         
         @include breakpoint(medium) {
             font-size: map-get($site-font-size, small);
             padding: ($site-global-padding / 4) ($site-global-padding / 2);
-            margin-right: $site-global-margin;
         }
     
         font-weight: bold;

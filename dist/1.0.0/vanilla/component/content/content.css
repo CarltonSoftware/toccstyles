@@ -220,7 +220,14 @@ h5.oc-title {
 }
 
 .oc-content figure {
-  max-width: 300px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content figure {
+    max-width: 300px;
+    width: auto;
+  }
 }
 
 @media only screen and (min-width: 768px) {

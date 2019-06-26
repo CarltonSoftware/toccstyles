@@ -186,7 +186,12 @@ h5.#{$site-prefix}title {
     }
 
     figure {
-        max-width: 300px;
+        width: 100%;
+        
+        @include breakpoint(medium) {
+            max-width: 300px;
+            width: auto;
+        }
         
         &.align-center {
             @include breakpoint(medium) {
