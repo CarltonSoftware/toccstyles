@@ -1,0 +1,60 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _breadcrumb.scss
+ * @brand    Vanilla
+ * @name     breadcrumb
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+.#{$site-prefix}breadcrumb {
+    padding: 4px;
+    margin-bottom: -6px;
+    
+    @include breakpoint(medium) {
+        padding: $site-global-padding;
+    }
+    
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        margin: $site-global-margin;
+    }
+    
+    &,
+    > * {
+        margin: 0;
+        font-size: 0;
+    }
+    
+    
+    > * {
+        padding: 0;
+        display: inline-block;
+        margin-right: 8px;
+        margin-bottom: 6px;
+    }
+    
+    a {
+        display: block;
+        padding: 0 $site-global-padding / 2;
+        font-size: 10px;
+        
+        @include breakpoint(medium) {
+            font-size: map-get($site-font-size, small);
+            padding: ($site-global-padding / 4) ($site-global-padding / 2);
+            margin-right: $site-global-margin;
+        }
+    
+        font-weight: bold;
+        border-radius: $site-global-radius;
+        background-color: $site-color-reallylightgrey;
+        color: $site-color-one;
+    }
+}
