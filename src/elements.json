@@ -35,6 +35,12 @@
       "short": "Reassurance",
       "description": "Reassurance component.  Similar to icon media.  A link with an icon and description.",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "breadcrumb",
+      "short": "Breadcrumb",
+      "description": "A breadcrumb navigation component.",
+      "createdby": "Tabs System User"
     }
   ],
   "element": [
