@@ -1,0 +1,94 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _socialmedialink.scss
+ * @brand    Vanilla
+ * @name     socialmedialink
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+$site-socialmedialink-size: 1.8rem !default;
+
+.#{$site-prefix}socialmedialink {
+    text-indent: -9999px;
+    width: $site-socialmedialink-size;
+    height: $site-socialmedialink-size;
+    position: relative;
+    display: inline-block;
+    
+    &:before {
+        @include fa;
+        display: inline-block;
+        line-height: 1;
+        color: $site-color-one;
+        font-size: $site-socialmedialink-size;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-indent: 0;
+    }
+
+    &[href*=youtube],
+    &[href*=facebook],
+    &[href*=twitter],
+    &[href*=linkedin],
+    &[href*=pinterest],
+    &[href*=plus],
+    &[href*=instagram],
+    &[href^=whatsapp],
+    &[href^=fb-messenger] {
+        &:before {
+            @include fa-icon;
+            @include fab;
+            font-size: $site-socialmedialink-size;
+        }
+    }
+    &[href*=youtube]:before {
+        content: fa-content($fa-var-youtube);
+    }
+    &[href*=facebook]:before {
+        content: fa-content($fa-var-facebook);
+        color: #3B5998;
+    }
+    &[href*=twitter]:before {
+        content: fa-content($fa-var-twitter);
+        color: #55acee;
+    }
+    &[href*=linkedin]:before {
+        content: fa-content($fa-var-linkedin);
+        color: #007bb5;
+    }
+    &[href*=pinterest]:before {
+        content: fa-content($fa-var-pinterest);
+        color: #cb2027;
+    }
+    &[href*=plus]:before {
+        content: fa-content($fa-var-google-plus);
+        color: #dd4b39;
+    }
+    &[href*=instagram]:before {
+        content: fa-content($fa-var-instagram);
+        color: #e95950;
+    }
+    &[href^=mailto]:before {
+        content: fa-content($fa-var-envelope);
+        color: $site-color-darkgrey;
+    }
+    &[href^=tel]:before {
+        content: fa-content($fa-var-phone);
+        color: $site-color-darkgrey;
+    }
+    &[href^=whatsapp]:before {
+        content: fa-content($fa-var-whatsapp);
+        color: #4dc247;
+    }
+    &[href^=fb-messenger]:before {
+        content: fa-content($fa-var-facebook-messenger);
+        color: #0084ff;
+    }
+}

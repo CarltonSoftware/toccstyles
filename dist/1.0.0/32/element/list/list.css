@@ -1,0 +1,44 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _list.scss
+ * @brand    Above Beach Cottages
+ * @name     list
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _list.scss
+ * @brand    Vanilla
+ * @name     list
+ * @author   Tabs System User
+ */
+.oc-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+}
+
+.oc-list--inline > * {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.oc-list--numbered > * {
+  counter-increment: sequence;
+}
+
+.oc-list--numbered > *:before {
+  content: counter(sequence);
+  padding: 1px 7px;
+  background: #555555;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+}

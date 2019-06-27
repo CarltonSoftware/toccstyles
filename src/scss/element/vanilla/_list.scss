@@ -1,0 +1,44 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _list.scss
+ * @brand    Vanilla
+ * @name     list
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+
+.#{$site-prefix}list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: $site-global-margin;
+    
+    @include paragraph();
+    
+    &--inline {
+        > * {
+            display: inline-block;
+            margin-right: $site-global-margin;
+        }
+    }
+    
+    &--numbered {
+        > * {
+            counter-increment: sequence;
+            &:before {
+                content: counter(sequence);
+                padding: 1px 7px;
+                background: $site-color-one;
+                border-radius: 50%;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}

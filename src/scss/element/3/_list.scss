@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _list.scss
+ * @brand    Best of Brighton Holiday Lettings
+ * @name     list
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/3';
+
+
+@import '../vanilla/list';
