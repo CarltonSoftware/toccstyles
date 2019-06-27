@@ -15,6 +15,7 @@ $site-content-header-font-weight: normal !default;
 $site-content-header-font-family: 'Open Sans', sans-serif !default;
 $site-content-header-text-transform: none !default;
 $site-content-blockquote-border-color: $site-color-one !default;
+$site-content-link-color: $site-color-two !default;
 
 .#{$site-prefix}content h1,
 h1.#{$site-prefix}title {
@@ -76,6 +77,10 @@ h5.#{$site-prefix}title {
     blockquote {
         &:not(:last-child) {
             margin-bottom: $site-global-margin * 1.2;
+        }
+        
+        a {
+            color: $site-content-link-color;
         }
     }
     
@@ -197,15 +202,21 @@ h5.#{$site-prefix}title {
                 display: table;
             }
         }
+        
+        img {
+            @include breakpoint(medium) {
+                display: block;
+            }
+        }
 
         figcaption {
             @include paragraph();
             @include breakpoint(medium) {
-                display: table-row;
+                display: inline-block;
                 max-width: 300px;
             }
             
-            padding: 5px 10px 5px 0;
+            padding: 5px 0;
             font-weight: bold;
             font-size: map-get($site-font-size, small);
         }
