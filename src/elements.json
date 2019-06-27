@@ -67,6 +67,18 @@
       "short": "Comment",
       "description": "A comment element",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "socialmedialink",
+      "short": "Social Media Link",
+      "description": "A social media link showing an icon of the platform.",
+      "createdby": "Tabs System User"
+    },
+    {
+      "name": "list",
+      "short": "List",
+      "description": "A list element",
+      "createdby": "Tabs System User"
     }
   ]
 }

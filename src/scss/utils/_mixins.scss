@@ -62,6 +62,11 @@
     font-weight: 400;
 }
 
+@mixin fab() {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+}
+
 @mixin bg_extend($background_color: white, $max-width: 1440) {
     background: $background_color;
     position: relative;

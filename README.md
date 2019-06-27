@@ -18,7 +18,7 @@ Lots of elements to redo so the following is not a complete list
 
 
 - [ ] Buttons (.tocc__button)
-- [ ] Breadcrumb
+- [x] Breadcrumb
 - [ ] Inline icon list (header cta buttons / share & wishlist buttons)
 - [ ] Labelled list (seen on property page with attribute text lists)
 - [ ] Label/Tag (.tocc__label) featured in tiles and related pages
@@ -34,4 +34,4 @@ Lots of elements to redo so the following is not a complete list
 - [ ] Media item (seen in /blog)
 - [ ] Property teaser
 - [ ] Property list item
-- [ ] Social media links (i.e. in footer or sharing buttons)
+- [x] Social media links (i.e. in footer or sharing buttons)

@@ -153,15 +153,6 @@ const { exec } = require('child_process');
   exec('cp -R ' + __dirname + '/scss/fonts ' + __dirname + '/../dist/' + packageJson.version + ' && find ' + __dirname + '/../dist/' + packageJson.version + '/fonts -name \"*.scss\" -type f -delete', (err, out) => {
     if (err) {
       console.error(err)
-    } else {  
-      console.log('Starting s3 upload');
-      exec('node ' + __dirname + '/uploadToS3.js', (err, out) => {
-        if (err) {
-          console.error(err)
-        } else {
-          console.log(out)
-        }
-      });
     }
   });
 
