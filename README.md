@@ -27,7 +27,7 @@ Lots of elements to redo so the following is not a complete list
 - [ ] Header menu
 - [ ] Inline menu (such as property page)
 - [x] Reassurance item / bar
-- [ ] Customer review (as seen on homepages)
+- [x] Customer review (as seen on homepages)
 - [ ] Marketing message
 - [ ] Header
 - [ ] Footer (in sub items)
