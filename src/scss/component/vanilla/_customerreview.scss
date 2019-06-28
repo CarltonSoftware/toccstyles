@@ -30,6 +30,7 @@
     &__date,
     > .oc-title,
     > .tocc__title {
+        font-family: 'Open Sans', sans-serif;
         @include paragraph();
     }
     
@@ -39,10 +40,18 @@
         @include lineargrad(25px, auto, 0);
     }
     
+    > .oc-title,
     > .tocc__title {
         font-weight: bold;
         font-size: 12pt;
         margin-top: $site-global-margin / 2;
+        margin-bottom: $site-global-margin;
+        color: $site-color-one;
+        padding: 0;
+    }
+    
+    > .oc-content,
+    &__description {
         margin-bottom: $site-global-margin;
     }
     
