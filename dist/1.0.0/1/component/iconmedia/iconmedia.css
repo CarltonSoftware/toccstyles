@@ -30,6 +30,7 @@
   line-height: 1.25;
   margin-bottom: .25em;
   position: relative;
+  padding: 0;
 }
 
 .oc-iconmedia .oc-title i {

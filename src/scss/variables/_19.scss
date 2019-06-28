@@ -6,4 +6,9 @@ $site-color-five: #C0C481; // Apple
 $site-color-six: #FFD65C; // Buttermilk 
 $site-color-seven: #80AEAF; // Ocean
 
-$site-content-header-font-family: Helvetica Neue, Helvetica , Arial , sans-serif;
+$site-content-header-font-family: "Helvetica Neue", Helvetica, Arial ,sans-serif;
+$site-content-header-font-weight: bold;
+
+$site-slogan-font-family: "blackjackregular";
+$site-slogan-font-color: $site-color-two;
+$site-slogan-font-size: 25px;

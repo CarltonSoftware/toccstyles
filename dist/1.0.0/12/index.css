@@ -114,6 +114,7 @@
   line-height: 1.25;
   margin-bottom: .25em;
   position: relative;
+  padding: 0;
 }
 
 .oc-iconmedia .oc-title i {
@@ -1177,7 +1178,9 @@ html.no-details details summary:before {
   border: 0 none;
   color: #1D1D1B;
   font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "AvenirLTPro-Heavy", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /**

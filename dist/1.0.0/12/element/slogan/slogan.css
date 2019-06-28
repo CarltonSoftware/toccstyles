@@ -23,5 +23,7 @@
   border: 0 none;
   color: #1D1D1B;
   font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "AvenirLTPro-Heavy", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }

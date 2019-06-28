@@ -114,6 +114,7 @@
   line-height: 1.25;
   margin-bottom: .25em;
   position: relative;
+  padding: 0;
 }
 
 .oc-iconmedia .oc-title i {
@@ -262,8 +263,8 @@ h5.oc-title {
 .oc-content h4,
 .oc-content h5 {
   color: #888569;
-  font-weight: normal;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
 }
 
@@ -1170,14 +1171,14 @@ html.no-details details summary:before {
  * @date     2019-04-24
  */
 .oc-slogan {
-  font-size: 18px;
+  font-size: 25px;
   line-height: 28px;
   margin: 0;
   padding: 0.5rem 0;
   border: 0 none;
-  color: #888569;
+  color: #F04F38;
   font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "blackjackregular";
 }
 
 /**

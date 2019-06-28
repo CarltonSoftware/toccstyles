@@ -1,2 +1,10 @@
 @import '../variables/31';
 @import 'vanilla';
+
+@font-face {
+    font-family: 'Museo Sans 300';
+    src: url('#{$tocc-site-fonts-dir}/museosans/exljbris_-_museosans-300_3-webfont.woff2') format('woff2'),
+         url('#{$tocc-site-fonts-dir}/museosans/exljbris_-_museosans-300_3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

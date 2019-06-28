@@ -114,6 +114,7 @@
   line-height: 1.25;
   margin-bottom: .25em;
   position: relative;
+  padding: 0;
 }
 
 .oc-iconmedia .oc-title i {
@@ -1178,6 +1179,7 @@ html.no-details details summary:before {
   color: #263545;
   font-weight: normal;
   font-family: "Museo Sans 300", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 /**
