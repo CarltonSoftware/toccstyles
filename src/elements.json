@@ -41,6 +41,12 @@
       "short": "Breadcrumb",
       "description": "A breadcrumb navigation component.",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "customerreview",
+      "short": "Customer review",
+      "description": "A customer review element.  Includes title, body and date elements.",
+      "createdby": "Tabs System User"
     }
   ],
   "element": [

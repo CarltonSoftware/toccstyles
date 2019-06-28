@@ -1,1 +1,307 @@
-.oc-content h1,h1.oc-title{text-rendering:optimizeLegibility;margin:0;padding:0;margin-bottom:.5rem;font-size:38px;line-height:48px}.oc-content h2,h2.oc-title{text-rendering:optimizeLegibility;margin:0;padding:0;margin-bottom:.5rem;font-size:30px;line-height:40px}.oc-content h3,h3.oc-title{text-rendering:optimizeLegibility;margin:0;padding:0;margin-bottom:.5rem;font-size:24px;line-height:34px}.oc-content h4,h4.oc-title{text-rendering:optimizeLegibility;margin:0;padding:0;margin-bottom:.5rem;font-size:18px;line-height:28px}.oc-content h5,h5.oc-title{text-rendering:optimizeLegibility;margin:0;padding:0;margin-bottom:.5rem;font-size:16px;line-height:26px}h1.oc-title,h2.oc-title,h3.oc-title,h4.oc-title,h5.oc-title{padding-top:.5rem;padding-bottom:.5rem}.oc-title,.oc-content h1,.oc-content h2,.oc-content h3,.oc-content h4,.oc-content h5{color:#1E345D;font-weight:normal;font-family:"Roboto Slab",sans-serif;text-transform:none}.oc-content p,.oc-content table thead tr th,.oc-content table tbody tr td,.oc-content table tfoot tr td{font-size:14px;line-height:1.8;color:#5b5b5b;font-family:"Open Sans",sans-serif}.oc-content p:not(:last-child),.oc-content table:not(:last-child),.oc-content figure:not(:last-child),.oc-content blockquote:not(:last-child){margin-bottom:1.2rem}.oc-content p a,.oc-content table a,.oc-content figure a,.oc-content blockquote a{color:#FF637D}.oc-content table{border-collapse:collapse;width:100%;margin-bottom:1rem;border-radius:5px}.oc-content table thead{display:none}@media only screen and (min-width: 768px){.oc-content table thead{display:table-header-group}}.oc-content table thead,.oc-content table tbody,.oc-content table tfoot{border:1px solid #F1F1F1;background-color:#FEFEFE}.oc-content table thead tr th,.oc-content table thead tr td,.oc-content table tbody tr th,.oc-content table tbody tr td,.oc-content table tfoot tr th,.oc-content table tfoot tr td{padding:.5rem}.oc-content table thead tr th .oc-button,.oc-content table thead tr td .oc-button,.oc-content table tbody tr th .oc-button,.oc-content table tbody tr td .oc-button,.oc-content table tfoot tr th .oc-button,.oc-content table tfoot tr td .oc-button{margin-bottom:0}.oc-content table thead,.oc-content table tfoot{background-color:#F8F8F8}.oc-content table thead tr,.oc-content table tfoot tr{background-color:transparent}.oc-content table tbody tr:nth-child(even){background-color:#F8F8F8}.oc-content table tbody,.oc-content table tbody tr,.oc-content table tbody td td,.oc-content table tfoot,.oc-content table tfoot tr,.oc-content table tfoot td td{display:block}@media only screen and (min-width: 768px){.oc-content table tbody,.oc-content table tfoot{display:table-row-group}.oc-content table tbody tr,.oc-content table tfoot tr{display:table-row}.oc-content table tbody tr td,.oc-content table tfoot tr td{display:table-cell}}.oc-content img,.oc-content figure{width:100%}@media only screen and (min-width: 768px){.oc-content img,.oc-content figure{width:auto}}@media only screen and (min-width: 768px){.oc-content img.align-right,.oc-content figure.align-right{float:right;margin-left:1rem}}@media only screen and (min-width: 768px){.oc-content img.align-left,.oc-content figure.align-left{float:left;margin-right:1rem}}.oc-content img.align-center,.oc-content figure.align-center{margin-bottom:1rem}.oc-content img.align-center,.oc-content figure.align-center{display:block;margin-left:auto;margin-right:auto}.oc-content figure>img,.oc-content p>img{display:block;width:100%;margin-bottom:1rem}@media only screen and (min-width: 768px){.oc-content figure>img,.oc-content p>img{display:inline;width:auto;margin-bottom:auto}}@media only screen and (min-width: 768px){.oc-content figure.align-center{display:table}}@media only screen and (min-width: 768px){.oc-content figure img{display:block}}.oc-content figure figcaption{font-size:14px;line-height:1.8;color:#5b5b5b;font-family:"Open Sans",sans-serif;padding:5px 0;font-weight:bold;font-size:12px}@media only screen and (min-width: 768px){.oc-content figure figcaption{display:inline-block;max-width:300px}}.oc-content blockquote{font-size:14px;line-height:1.8;color:#5b5b5b;font-family:"Open Sans",sans-serif;padding:1rem;border-left:2px solid #1E345D}.oc-content ul,.oc-content ol{margin-left:1.25rem;margin-bottom:1.25rem}.oc-content ul li,.oc-content ol li{font-size:14px;line-height:1.8;color:#5b5b5b;font-family:"Open Sans",sans-serif}.oc-content ul{list-style:disc}.oc-content ol{list-style:decimal}
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _content.scss
+ * @brand    Suffolk Secrets
+ * @name     content
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _content.scss
+ * @brand    Vanilla
+ * @name     content
+ * @author   Alex Wyett
+ * @date     2019-04-25
+ */
+.oc-content h1,
+h1.oc-title {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.oc-content h2,
+h2.oc-title {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.oc-content h3,
+h3.oc-title {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.oc-content h4,
+h4.oc-title {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.oc-content h5,
+h5.oc-title {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+h1.oc-title,
+h2.oc-title,
+h3.oc-title,
+h4.oc-title,
+h5.oc-title {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.oc-title,
+.oc-content h1,
+.oc-content h2,
+.oc-content h3,
+.oc-content h4,
+.oc-content h5 {
+  color: #1E345D;
+  font-weight: normal;
+  font-family: "Roboto Slab", sans-serif;
+  text-transform: none;
+}
+
+.oc-content p,
+.oc-content table thead tr th,
+.oc-content table tbody tr td,
+.oc-content table tfoot tr td {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+}
+
+.oc-content p:not(:last-child),
+.oc-content table:not(:last-child),
+.oc-content figure:not(:last-child),
+.oc-content blockquote:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.oc-content p a,
+.oc-content table a,
+.oc-content figure a,
+.oc-content blockquote a {
+  color: #FF637D;
+}
+
+.oc-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.oc-content table thead {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content table thead {
+    display: table-header-group;
+  }
+}
+
+.oc-content table thead,
+.oc-content table tbody,
+.oc-content table tfoot {
+  border: 1px solid #F1F1F1;
+  background-color: #FEFEFE;
+}
+
+.oc-content table thead tr th,
+.oc-content table thead tr td,
+.oc-content table tbody tr th,
+.oc-content table tbody tr td,
+.oc-content table tfoot tr th,
+.oc-content table tfoot tr td {
+  padding: 0.5rem;
+}
+
+.oc-content table thead tr th .oc-button,
+.oc-content table thead tr td .oc-button,
+.oc-content table tbody tr th .oc-button,
+.oc-content table tbody tr td .oc-button,
+.oc-content table tfoot tr th .oc-button,
+.oc-content table tfoot tr td .oc-button {
+  margin-bottom: 0;
+}
+
+.oc-content table thead,
+.oc-content table tfoot {
+  background-color: #F8F8F8;
+}
+
+.oc-content table thead tr,
+.oc-content table tfoot tr {
+  background-color: transparent;
+}
+
+.oc-content table tbody tr:nth-child(even) {
+  background-color: #F8F8F8;
+}
+
+.oc-content table tbody,
+.oc-content table tbody tr,
+.oc-content table tbody td td,
+.oc-content table tfoot,
+.oc-content table tfoot tr,
+.oc-content table tfoot td td {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content table tbody,
+  .oc-content table tfoot {
+    display: table-row-group;
+  }
+  .oc-content table tbody tr,
+  .oc-content table tfoot tr {
+    display: table-row;
+  }
+  .oc-content table tbody tr td,
+  .oc-content table tfoot tr td {
+    display: table-cell;
+  }
+}
+
+.oc-content img,
+.oc-content figure {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content img,
+  .oc-content figure {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content img.align-right,
+  .oc-content figure.align-right {
+    float: right;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content img.align-left,
+  .oc-content figure.align-left {
+    float: left;
+    margin-right: 1rem;
+  }
+}
+
+.oc-content img.align-center,
+.oc-content figure.align-center {
+  margin-bottom: 1rem;
+}
+
+.oc-content img.align-center,
+.oc-content figure.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.oc-content figure > img,
+.oc-content p > img {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content figure > img,
+  .oc-content p > img {
+    display: inline;
+    width: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content figure.align-center {
+    display: table;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content figure img {
+    display: block;
+  }
+}
+
+.oc-content figure figcaption {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 0;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .oc-content figure figcaption {
+    display: inline-block;
+    max-width: 300px;
+  }
+}
+
+.oc-content blockquote {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem;
+  border-left: 2px solid #1E345D;
+}
+
+.oc-content ul,
+.oc-content ol {
+  margin-left: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.oc-content ul li,
+.oc-content ol li {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+}
+
+.oc-content ul {
+  list-style: disc;
+}
+
+.oc-content ol {
+  list-style: decimal;
+}

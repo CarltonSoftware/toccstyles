@@ -91,3 +91,14 @@
         right: calc((#{$max-width}px - 100%) / 2 * -1);
     }
 }
+
+@mixin lineargrad($height: 25px, $top: auto, $bottom: auto) {
+    content: '';
+    width: 100%;
+    height: $height;
+    position: absolute;
+    left: 0;
+    top: $top;
+    bottom: $bottom;
+    background: linear-gradient(to bottom, $site-transparent 1px, white);
+}

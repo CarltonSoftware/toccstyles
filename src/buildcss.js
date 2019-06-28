@@ -94,7 +94,7 @@ const outputStyle = 'compressed';
                   '@import \'' + basescsspath + t + '/' + mb.id + '/' + types[t][c].name + '\';'
                 ]
               ).join('\n'),
-              outputStyle: outputStyle,
+              outputStyle: 'expanded',
               includePaths: ['node_modules/']
             })
           )
