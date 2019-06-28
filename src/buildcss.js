@@ -14,6 +14,7 @@ const fsCheckExists = utils.fsCheckExists;
 const fsCheckAndCreateDirExists = utils.fsCheckAndCreateDirExists;
 const sass = require('node-sass');
 const { exec } = require('child_process');
+const outputStyle = 'compressed';
 
 // Create each css for the brands
 (async function() {
@@ -64,7 +65,7 @@ const { exec } = require('child_process');
         sass.renderSync({
           file: basescsspath + 'fonts/_' + mb.id + '.scss',
           sourceMap: true,
-          outputStyle: 'expanded',
+          outputStyle: outputStyle,
           includePaths: ['node_modules/']
         })
       )
@@ -93,7 +94,7 @@ const { exec } = require('child_process');
                   '@import \'' + basescsspath + t + '/' + mb.id + '/' + types[t][c].name + '\';'
                 ]
               ).join('\n'),
-              outputStyle: 'expanded',
+              outputStyle: outputStyle,
               includePaths: ['node_modules/']
             })
           )
@@ -123,7 +124,7 @@ const { exec } = require('child_process');
     const result = sass.renderSync({
       file: scssPath,
       sourceMap: true,
-      outputStyle: 'expanded',
+      outputStyle: outputStyle,
       includePaths: ['node_modules/']
     });
 
