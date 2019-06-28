@@ -100,7 +100,7 @@
  * @date     2019-05-24
  */
 .oc-iconmedia {
-  border-radius: 2px;
+  border-radius: 0;
   display: inline-block;
   width: 100%;
   padding: 1rem 1rem 1rem 3rem;
@@ -296,7 +296,7 @@ h5.oc-title {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 .oc-content table thead {
@@ -508,7 +508,7 @@ h5.oc-title {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 2px;
+  border-radius: 0;
   position: relative;
   font-size: 14px;
 }
@@ -809,7 +809,7 @@ h5.oc-title {
   display: inline-block;
   position: relative;
   margin-right: 0.5rem;
-  border-radius: 2px;
+  border-radius: 0;
   font-size: 14px;
   border: 1px solid #F1F1F1;
 }
@@ -1069,7 +1069,7 @@ h5.oc-title {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 10px;
-  border-radius: 2px;
+  border-radius: 0;
   background-color: #F8F8F8;
   color: #5A5A5A;
 }
@@ -1110,7 +1110,7 @@ h5.oc-title {
   position: relative;
   outline: none;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 0;
   margin-bottom: 1rem;
   padding: 0.5rem;
   color: white;

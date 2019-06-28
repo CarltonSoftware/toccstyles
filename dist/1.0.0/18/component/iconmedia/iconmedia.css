@@ -16,7 +16,7 @@
  * @date     2019-05-24
  */
 .oc-iconmedia {
-  border-radius: 2px;
+  border-radius: 0;
   display: inline-block;
   width: 100%;
   padding: 1rem 1rem 1rem 3rem;
