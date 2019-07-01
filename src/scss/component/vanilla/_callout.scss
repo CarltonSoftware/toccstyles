@@ -38,6 +38,10 @@
                 margin-bottom: 0;
             }
         }
+    
+        &.#{$site-prefix}callout + .#{$site-prefix}callout {
+            margin-top: 0;
+        }
     }
     
     + .#{$site-prefix}callout {

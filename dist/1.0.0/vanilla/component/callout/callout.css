@@ -29,6 +29,10 @@
   margin-bottom: 0;
 }
 
+.oc-callout > *.oc-callout + .oc-callout {
+  margin-top: 0;
+}
+
 .oc-callout + .oc-callout {
   margin-top: 1rem;
 }
