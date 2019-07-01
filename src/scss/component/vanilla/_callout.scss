@@ -1,0 +1,46 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _callout.scss
+ * @brand    Vanilla
+ * @name     callout
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+.#{$site-prefix}callout {
+    padding: $site-global-padding;
+    background: $site-color-reallylightgrey;
+    margin: 0;
+    white-space: normal;
+    
+    > * {
+        &:first-child {
+            &:not(.#{$site-prefix}callout),
+            > .#{$site-prefix}title {
+                margin-top: 0;
+                padding-top: 0;
+            }
+            
+            &.#{$site-prefix}title,
+            > .#{$site-prefix}title {
+                padding-bottom: 0;
+            }
+        }
+        
+        &:last-child {
+            &:not(.#{$site-prefix}callout),
+            > .button {
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    + .#{$site-prefix}callout {
+        margin-top: $site-global-margin;
+    }
+}

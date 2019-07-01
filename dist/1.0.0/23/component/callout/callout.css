@@ -1,0 +1,42 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _callout.scss
+ * @brand    So Southwold
+ * @name     callout
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _callout.scss
+ * @brand    Vanilla
+ * @name     callout
+ * @author   Tabs System User
+ */
+.oc-callout {
+  padding: 1rem;
+  background: #F8F8F8;
+  margin: 0;
+  white-space: normal;
+}
+
+.oc-callout > *:first-child:not(.oc-callout),
+.oc-callout > *:first-child > .oc-title {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.oc-callout > *:first-child.oc-title,
+.oc-callout > *:first-child > .oc-title {
+  padding-bottom: 0;
+}
+
+.oc-callout > *:last-child:not(.oc-callout),
+.oc-callout > *:last-child > .button {
+  margin-bottom: 0;
+}
+
+.oc-callout + .oc-callout {
+  margin-top: 1rem;
+}

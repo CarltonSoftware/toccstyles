@@ -26,6 +26,13 @@
             display: inline-block;
             margin-right: $site-global-margin;
         }
+        
+        &.slider {
+            overflow-y: hidden;
+            overflow-x: auto;
+            width: 100%;
+            white-space: nowrap;
+        }
     }
     
     &--numbered {

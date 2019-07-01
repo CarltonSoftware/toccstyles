@@ -22,6 +22,13 @@
   margin-right: 1rem;
 }
 
+.oc-list--inline.slider {
+  overflow-y: hidden;
+  overflow-x: auto;
+  width: 100%;
+  white-space: nowrap;
+}
+
 .oc-list--numbered > * {
   counter-increment: sequence;
 }
