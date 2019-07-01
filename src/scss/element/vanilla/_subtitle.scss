@@ -15,11 +15,12 @@
 .#{$site-prefix}subtitle {
     @include paragraph();
     font-family: $site-content-paragraph-font-family;
+    line-height: 16px;
     
     &--parent {
         @include paragraph();
         margin: 0;
-        margin-bottom: $site-global-margin;
+        margin-bottom: $site-global-margin * 0.6;
         font-family: $site-content-paragraph-font-family;
     }
     
