@@ -85,6 +85,12 @@
       "short": "List",
       "description": "A list element",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "subtitle",
+      "short": "Sub Title",
+      "description": "A sub title element.",
+      "createdby": "Tabs System User"
     }
   ]
 }

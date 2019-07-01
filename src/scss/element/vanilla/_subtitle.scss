@@ -1,0 +1,37 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _subtitle.scss
+ * @brand    Vanilla
+ * @name     subtitle
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+.#{$site-prefix}subtitle {
+    @include paragraph();
+    font-family: $site-content-paragraph-font-family;
+    
+    &--parent {
+        @include paragraph();
+        margin: 0;
+        margin-bottom: $site-global-margin;
+        font-size: map-get($site-font-size, largep);
+        font-family: $site-content-paragraph-font-family;
+    }
+    
+    &--medium {
+        font-size: map-get($site-font-size, largep);
+    }
+
+    &--large {
+        font-size: map-get($site-font-size, h4);
+    }
+    
+    display: block;
+    font-size: map-get($site-font-size, small);
+}
