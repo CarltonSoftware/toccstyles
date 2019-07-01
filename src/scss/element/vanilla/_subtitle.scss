@@ -20,7 +20,6 @@
         @include paragraph();
         margin: 0;
         margin-bottom: $site-global-margin;
-        font-size: map-get($site-font-size, largep);
         font-family: $site-content-paragraph-font-family;
     }
     
@@ -29,7 +28,7 @@
     }
 
     &--large {
-        font-size: map-get($site-font-size, h4);
+        font-size: map-get($site-font-size, h42);
     }
     
     display: block;

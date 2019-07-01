@@ -31,7 +31,6 @@
   font-family: "Open Sans", sans-serif;
   margin: 0;
   margin-bottom: 1rem;
-  font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -40,5 +39,5 @@
 }
 
 .oc-subtitle--large {
-  font-size: 18px;
+  font-size: 20px;
 }
