@@ -28,6 +28,7 @@
 .oc-list--inline > * {
   display: inline-block;
   margin-right: 1rem;
+  vertical-align: top;
 }
 
 .oc-list--inline.slider {
