@@ -23,7 +23,7 @@
   word-break: break-word;
 }
 
-@media only screen and (min-width: 1170px) {
+@media screen and (min-width: 73.125em) {
   .oc-reassurance {
     padding: 1rem;
     padding-right: 24px;
@@ -94,25 +94,25 @@
   flex-flow: row wrap;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-reassurancebar--2 {
     width: 50%;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-reassurancebar--3 {
     width: calc(100% / 3);
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-reassurancebar--4 .oc-reassurance {
     width: 50%;
   }
 }
 
-@media only screen and (min-width: 1170px) {
+@media screen and (min-width: 73.125em) {
   .oc-reassurancebar--4 .oc-reassurance {
     width: 25%;
     margin: 0.5rem 0;

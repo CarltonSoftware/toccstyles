@@ -97,6 +97,20 @@
       "short": "Sub Title",
       "description": "A sub title element.",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "figure",
+      "short": "Figure",
+      "description": "A figure element with caption",
+      "createdby": "Tabs System User"
+    }
+  ],
+  "layout": [
+    {
+      "name": "tabletcolumn",
+      "short": "Tablet columns",
+      "description": "A special tablet only column layout",
+      "createdby": "Tabs System User"
     }
   ]
 }

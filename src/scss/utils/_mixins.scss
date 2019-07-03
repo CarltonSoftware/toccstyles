@@ -1,3 +1,6 @@
+@import 'unit';
+@import 'breakpoint';
+
 @mixin ellipsis() {
     text-overflow: ellipsis;
     overflow: hidden;
@@ -30,19 +33,6 @@
     margin-bottom: $site-global-padding / 2;
     font-size: map-get($site-font-size, $size);
     line-height: map-get($site-font-line-height, $size);
-}
-
-@mixin breakpoint($width, $type: min) {
-    @if map_has_key($site-breakpoints, $width) {
-        $width: map_get($site-breakpoints, $width);
-        @if $type == max {
-            $width: $width - 1px;
-        }
-
-        @media only screen and (#{$type}-width: $width) {
-            @content;
-        }
-    }
 }
 
 @mixin paragraph() {

@@ -70,7 +70,7 @@
   margin-bottom: 1rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-iconmedias {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +82,7 @@
   }
 }
 
-@media only screen and (min-width: 1170px) {
+@media screen and (min-width: 73.125em) {
   .oc-iconmedias .oc-iconmedia {
     width: calc(25% - 1rem);
   }

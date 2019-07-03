@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _tabletcolumn.scss
+ * @brand    Best of Brighton Holiday Lettings
+ * @name     tabletcolumn
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/3';
+
+
+@import '../vanilla/tabletcolumn';

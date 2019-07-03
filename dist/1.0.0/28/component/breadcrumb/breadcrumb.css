@@ -19,7 +19,7 @@
   margin-bottom: -6px;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-breadcrumb {
     padding: 1rem;
   }
@@ -45,7 +45,7 @@
   margin-bottom: 6px;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-breadcrumb > * {
     margin-right: 1rem;
   }
@@ -63,7 +63,7 @@
   color: #274d76;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-breadcrumb a {
     font-size: 12px;
     padding: 0.25rem 0.5rem;

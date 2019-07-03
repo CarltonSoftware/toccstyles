@@ -21,7 +21,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-customerreview {
     width: 379px;
   }

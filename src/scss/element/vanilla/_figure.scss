@@ -1,0 +1,70 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _figure.scss
+ * @brand    Vanilla
+ * @name     figure
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+.#{$site-prefix}figure {
+    position: relative;
+    zoom: 1;
+    margin-bottom: $site-global-margin;
+    
+    &,
+    > picture,
+    > img {
+        display: inline-block;
+    }
+    
+    &__caption {
+        position: absolute;
+        padding: $site-global-padding / 2 $site-global-padding;
+        margin: 0;
+        z-index: 1;
+        
+        &--top {
+            top: 0;
+        }
+        
+        &--bottom {
+            bottom: 0;
+        }
+        
+        &--right {
+            right: 0;
+        }
+        
+        &--left {
+            left: 0;
+        }
+      
+        &,
+        > a {
+            @include ellipsis();
+            @include paragraph();
+            max-width: 100%;
+            color: white;
+            pointer-events: none;
+            background-color: $site-color-one;
+            font-weight: bold;
+        }
+    }
+        
+    img {
+        max-width: 100%;
+        display: block;
+    }
+    
+    &--fluid {
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -42,6 +42,20 @@ h5.#{$site-prefix}title {
     @include title(h5);
 }
 
+.#{$site-prefix}small {
+    font-size: map-get($site-font-size, small) !important;
+}
+
+.#{$site-prefix}large {
+    font-size: map-get($site-font-size, largep) !important;
+}
+
+.#{$site-prefix}prefix {
+    &:before {
+        content: attr(data-prefix);
+    }
+}
+
 h1.#{$site-prefix}title,
 h2.#{$site-prefix}title,
 h3.#{$site-prefix}title,

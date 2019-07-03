@@ -65,6 +65,18 @@ h5.oc-title {
   line-height: 26px;
 }
 
+.oc-small {
+  font-size: 12px !important;
+}
+
+.oc-large {
+  font-size: 16px !important;
+}
+
+.oc-prefix:before {
+  content: attr(data-prefix);
+}
+
 h1.oc-title,
 h2.oc-title,
 h3.oc-title,
@@ -121,7 +133,7 @@ h5.oc-title {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-content table thead {
     display: table-header-group;
   }
@@ -175,7 +187,7 @@ h5.oc-title {
   display: block;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-content table tbody,
   .oc-content table tfoot {
     display: table-row-group;
@@ -195,14 +207,14 @@ h5.oc-title {
   width: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-content img,
   .oc-content figure {
     width: auto;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-content img.align-right,
   .oc-content figure.align-right {
     float: right;
@@ -210,7 +222,7 @@ h5.oc-title {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-content img.align-left,
   .oc-content figure.align-left {
     float: left;
@@ -237,7 +249,7 @@ h5.oc-title {
   margin-bottom: 1rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-content figure > img,
   .oc-content p > img {
     display: inline;
@@ -246,13 +258,13 @@ h5.oc-title {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-content figure.align-center {
     display: table;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-content figure img {
     display: block;
   }
@@ -268,7 +280,7 @@ h5.oc-title {
   font-size: 12px;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   .oc-content figure figcaption {
     display: inline-block;
     max-width: 300px;

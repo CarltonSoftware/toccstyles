@@ -1,0 +1,39 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _tabletcolumn.scss
+ * @brand    Wyke Dorset Cottages
+ * @name     tabletcolumn
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _tabletcolumn.scss
+ * @brand    Vanilla
+ * @name     tabletcolumn
+ * @author   Tabs System User
+ */
+@media screen and (min-width: 48em) and (max-width: 63.99875em) {
+  .oc-tabletcolumn {
+    font-size: 0;
+  }
+}
+
+@media screen and (min-width: 48em) and (max-width: 63.99875em) {
+  .oc-tabletcolumn > * {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .oc-tabletcolumn > *:first-child {
+    padding-right: 0.5rem;
+  }
+  .oc-tabletcolumn > *:last-child {
+    padding-left: 0.5rem;
+  }
+  .oc-tabletcolumn > * > *.oc-title:first-of-type {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _figure.scss
+ * @brand    Niche Retreats
+ * @name     figure
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/35';
+
+
+@import '../vanilla/figure';

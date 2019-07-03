@@ -1,0 +1,75 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _figure.scss
+ * @brand    Marsdens Devon Cottages
+ * @name     figure
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _figure.scss
+ * @brand    Vanilla
+ * @name     figure
+ * @author   Tabs System User
+ */
+.oc-figure {
+  position: relative;
+  zoom: 1;
+  margin-bottom: 1rem;
+}
+
+.oc-figure,
+.oc-figure > picture,
+.oc-figure > img {
+  display: inline-block;
+}
+
+.oc-figure__caption {
+  position: absolute;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  z-index: 1;
+}
+
+.oc-figure__caption--top {
+  top: 0;
+}
+
+.oc-figure__caption--bottom {
+  bottom: 0;
+}
+
+.oc-figure__caption--right {
+  right: 0;
+}
+
+.oc-figure__caption--left {
+  left: 0;
+}
+
+.oc-figure__caption,
+.oc-figure__caption > a {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+  max-width: 100%;
+  color: white;
+  pointer-events: none;
+  background-color: #888569;
+  font-weight: bold;
+}
+
+.oc-figure img {
+  max-width: 100%;
+  display: block;
+}
+
+.oc-figure--fluid img {
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _tabletcolumn.scss
+ * @brand    Cornish Horizons
+ * @name     tabletcolumn
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/6';
+
+
+@import '../vanilla/tabletcolumn';
