@@ -56,6 +56,27 @@ h5.#{$site-prefix}title {
     }
 }
 
+.#{$site-prefix}clear {
+    &__margin {
+        &--small {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        &--medium {
+            @include breakpoint(medium) {
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+        }
+        &--large {
+            @include breakpoint(large) {
+                margin: 0 !important;
+                padding: 0 !important;
+            }
+        }
+    }
+}
+
 h1.#{$site-prefix}title,
 h2.#{$site-prefix}title,
 h3.#{$site-prefix}title,

@@ -14,26 +14,82 @@
  * @name     tabletcolumn
  * @author   Tabs System User
  */
+@media screen and (min-width: 40em) and (max-width: 47.99875em) {
+  .oc-tabletcolumn--small {
+    font-size: 0;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 47.99875em) {
+  .oc-tabletcolumn--small > * {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .oc-tabletcolumn--small > *:first-child {
+    padding-right: 0.5rem;
+  }
+  .oc-tabletcolumn--small > *:last-child {
+    padding-left: 0.5rem;
+  }
+}
+
 @media screen and (min-width: 48em) and (max-width: 63.99875em) {
-  .oc-tabletcolumn {
+  .oc-tabletcolumn--small {
     font-size: 0;
   }
 }
 
 @media screen and (min-width: 48em) and (max-width: 63.99875em) {
-  .oc-tabletcolumn > * {
+  .oc-tabletcolumn--small > * {
     width: 50%;
     display: inline-block;
     vertical-align: top;
   }
-  .oc-tabletcolumn > *:first-child {
+  .oc-tabletcolumn--small > *:first-child {
     padding-right: 0.5rem;
   }
-  .oc-tabletcolumn > *:last-child {
+  .oc-tabletcolumn--small > *:last-child {
     padding-left: 0.5rem;
   }
-  .oc-tabletcolumn > * > *.oc-title:first-of-type {
-    padding-top: 0;
-    margin-top: 0;
+}
+
+@media screen and (min-width: 40em) and (max-width: 47.99875em) {
+  .oc-tabletcolumn--smallonly {
+    font-size: 0;
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 47.99875em) {
+  .oc-tabletcolumn--smallonly > * {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .oc-tabletcolumn--smallonly > *:first-child {
+    padding-right: 0.5rem;
+  }
+  .oc-tabletcolumn--smallonly > *:last-child {
+    padding-left: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 48em) and (max-width: 63.99875em) {
+  .oc-tabletcolumn--mediumonly {
+    font-size: 0;
+  }
+}
+
+@media screen and (min-width: 48em) and (max-width: 63.99875em) {
+  .oc-tabletcolumn--mediumonly > * {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .oc-tabletcolumn--mediumonly > *:first-child {
+    padding-right: 0.5rem;
+  }
+  .oc-tabletcolumn--mediumonly > *:last-child {
+    padding-left: 0.5rem;
   }
 }

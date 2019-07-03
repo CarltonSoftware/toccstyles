@@ -77,6 +77,25 @@ h5.oc-title {
   content: attr(data-prefix);
 }
 
+.oc-clear__margin--small {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 48em) {
+  .oc-clear__margin--medium {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+@media screen and (min-width: 73.125em) {
+  .oc-clear__margin--large {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
 h1.oc-title,
 h2.oc-title,
 h3.oc-title,

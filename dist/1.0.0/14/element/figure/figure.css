@@ -70,6 +70,8 @@
   display: block;
 }
 
+.oc-figure--fluid,
 .oc-figure--fluid img {
   width: 100%;
+  display: block;
 }
