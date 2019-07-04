@@ -6,7 +6,7 @@ $site-color-five: #D6D9DB; // PC Iron
 $site-color-six: #D7E1D7; // PC Aqua Squeeze
 $site-color-seven: #FFF0DB; // PC PAPAYA WHIP
 
-$tocc-google-fonts: 'Open+Sans:400,600|Open+Sans+Condensed';
+$tocc-google-fonts: '#{$site-open-sans}|Open+Sans+Condensed';
 
 $site-content-header-font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
 $site-content-header-font-weight: bold;

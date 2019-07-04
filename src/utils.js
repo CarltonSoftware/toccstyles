@@ -65,7 +65,8 @@ module.exports = {
       fs.writeFileSync(
         fontsPath, [
           '@import \'vanilla\';',
-          '@import \'../variables/' + brand + '\';'
+          '@import \'../variables/' + brand + '\';',
+          '@import url("https://fonts.googleapis.com/css?family=#{$tocc-google-fonts}&display=swap");'
         ].join('\n')
       );
     }
