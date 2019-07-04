@@ -99,10 +99,13 @@ h5.#{$site-prefix}title {
 .#{$site-prefix}content h3,
 .#{$site-prefix}content h4,
 .#{$site-prefix}content h5 {
-    color: $site-content-header-font-color;
-    font-weight: $site-content-header-font-weight;
-    font-family: $site-content-header-font-family;
-    text-transform: $site-content-header-text-transform;
+    &,
+    > a {
+        color: $site-content-header-font-color;
+        font-weight: $site-content-header-font-weight;
+        font-family: $site-content-header-font-family;
+        text-transform: $site-content-header-text-transform;
+    }
 }
 
 @mixin octable() {

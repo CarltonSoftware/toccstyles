@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _marketingmessage.scss
+ * @brand    Best of Brighton Holiday Lettings
+ * @name     marketingmessage
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/3';
+
+
+@import '../vanilla/marketingmessage';

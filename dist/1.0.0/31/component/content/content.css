@@ -112,11 +112,17 @@ h5.oc-title {
 }
 
 .oc-title,
+.oc-title > a,
 .oc-content h1,
+.oc-content h1 > a,
 .oc-content h2,
+.oc-content h2 > a,
 .oc-content h3,
+.oc-content h3 > a,
 .oc-content h4,
-.oc-content h5 {
+.oc-content h4 > a,
+.oc-content h5,
+.oc-content h5 > a {
   color: #263545;
   font-weight: normal;
   font-family: "Museo Sans 300", Helvetica Neue, Helvetica, Arial, sans-serif;

@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _button.scss
+ * @brand    Yorkshire Holiday Cottages
+ * @name     button
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/29';
+
+
+@import '../vanilla/button';

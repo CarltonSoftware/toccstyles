@@ -1,0 +1,82 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _marketingmessage.scss
+ * @brand    Vanilla
+ * @name     marketingmessage
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+.#{$site-prefix}marketingmessage {
+    height: auto;
+    overflow: visible;
+    display: inline-block;
+    position: relative;
+    
+    > .#{$site-prefix}title {
+        @include ellipsis();
+        min-height: auto !important;
+        padding-bottom: 0;
+    }
+    
+    > .#{$site-prefix}content {
+        height: 60px;
+        position: relative;
+        margin-bottom: 3em;
+        overflow: hidden;
+        
+        &:after {
+            @include lineargrad(10px, auto, 0);
+            @include breakpoint(medium down) {
+                bottom: 0;
+                height: 20px;
+            }
+        }
+    }
+
+    > .#{$site-prefix}button {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+    }
+}
+
+.#{$site-prefix}marketingmessages--wrapper {
+    @include clearfix;
+    
+    @include breakpoint(medium) {
+        .#{$site-prefix}marketingmessage {
+            width: 430px;
+            float: left;
+            border-right: 90px solid white;
+            
+            + .#{$site-prefix}marketingmessage {
+                &:before {
+                    content: '';
+                    height: 100%;
+                    position: absolute;
+                    width: 1px;
+                    background-color: $site-color-lightgrey;
+                    top: 0;
+                    left: -45px;
+                }
+            }
+            
+            &:last-of-type {
+                &:after {
+                    //display: none;
+                }
+            }
+
+            .#{$site-prefix}title {
+                min-height: 80px;
+            }
+        }
+    }
+}

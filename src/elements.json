@@ -53,6 +53,12 @@
       "short": "Callout",
       "description": "A callout component",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "marketingmessage",
+      "short": "Marketing Message",
+      "description": "A marketing message component",
+      "createdby": "Tabs System User"
     }
   ],
   "element": [
@@ -102,6 +108,12 @@
       "name": "figure",
       "short": "Figure",
       "description": "A figure element with caption",
+      "createdby": "Tabs System User"
+    },
+    {
+      "name": "button",
+      "short": "Button",
+      "description": "A button element",
       "createdby": "Tabs System User"
     }
   ],

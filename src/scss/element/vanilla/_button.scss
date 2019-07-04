@@ -1,0 +1,220 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _button.scss
+ * @brand    Vanilla
+ * @name     button
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+$site-button-font-family: inherit !default;
+$site-button-padding: 0.85em 1em !default;
+$site-button-margin: 0 0 $site-global-margin 0 !default;
+$site-button-fill: solid !default;
+$site-button-background: $site-color-two !default;
+$site-button-background-hover: scale-color($site-button-background, $lightness: -15%) !default;
+$site-button-color: white !default;
+$site-button-color-alt: black !default;
+$site-button-radius: $site-global-radius !default;
+$site-button-hollow-border-width: 1px !default;
+
+$site-button-sizes: (
+  tiny: 0.6rem,
+  small: 0.75rem,
+  default: 0.9rem,
+  large: 1.25rem,
+) !default;
+
+$site-button-opacity-disabled: 0.25 !default;
+$site-button-background-hover-lightness: -20% !default;
+$site-button-hollow-hover-lightness: -50% !default;
+$site-button-transition: background-color 0.25s ease-out, color 0.25s ease-out !default;
+
+/// Additional responsive classes for .expanded
+/// @type Boolean
+$button-responsive-expanded: false !default;
+
+/// Removes the focus ring around an element when a mouse input is detected.
+@mixin disable-mouse-outline {
+  [data-whatinput='mouse'] & {
+    outline: 0;
+  }
+}
+
+@mixin button-base {
+    @include disable-mouse-outline;
+    display: inline-block;
+    vertical-align: middle;
+    margin: $site-button-margin;
+    padding: $site-button-padding;
+    border: 1px solid transparent;
+    border-radius: $site-button-radius;
+    transition: $site-button-transition;
+    font-family: $site-button-font-family;
+    font-size: map-get($site-button-sizes, default);
+    -webkit-appearance: none; // sass-lint:disable-line no-vendor-prefixes
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+/// @param {Boolean} $expand [true] - Set to `true` to enable the expand behavior. Set to `false` to reverse this behavior.
+@mixin button-expand($expand: true) {
+    @if $expand {
+        display: block;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    @else {
+        display: inline-block;
+        width: auto;
+        margin: $site-button-margin;
+    }
+}
+
+/// @param {Color} $background [$site-button-background] - Background color of the button.
+/// @param {Color} $background-hover [$site-button-background-hover] - Background color of the button on hover. Set to `auto` to have the mixin automatically generate a hover color.
+/// @param {Color} $color [$site-button-color] - Text color of the button. Set to `auto` to automatically generate a color based on the background color.
+@mixin button-style(
+  $background: $site-button-background,
+  $background-hover: $site-button-background-hover,
+  $color: $site-button-color,
+  $background-hover-lightness: $site-button-background-hover-lightness
+) {
+    @if $color == auto {
+        $color: color-pick-contrast($background, ($site-button-color, $site-button-color-alt));
+    }
+
+    @if $background-hover == auto {
+        $background-hover: scale-color($background, $lightness: $background-hover-lightness);
+    }
+
+    background-color: $background;
+    color: $color;
+
+    &:hover, &:focus {
+        background-color: $background-hover;
+        color: $color;
+    }
+}
+
+/// Removes background fill on hover and focus for hollow buttons.
+@mixin button-hollow {
+    &,
+    &:hover,
+    &:focus {
+        background-color: transparent;
+    }
+
+    &.disabled,
+    &[disabled] {
+        &,
+        &:hover, &:focus {
+            background-color: transparent;
+        }
+    }
+}
+
+@mixin button-hollow-style(
+  $color: $site-button-background,
+  $hover-lightness: $site-button-hollow-hover-lightness,
+  $border-width: $site-button-hollow-border-width
+) {
+    $color-hover: scale-color($color, $lightness: $hover-lightness);
+
+    border: $border-width solid $color;
+    color: $color;
+
+    &:hover, &:focus {
+        border-color: $color-hover;
+        color: $color-hover;
+        &.disabled,
+        &[disabled] {
+            border: $border-width solid $color;
+            color: $color;
+        }
+    }
+}
+
+/// Adds disabled styles to a button by fading the element, reseting the cursor, and disabling pointer events.
+/// @param {Color} $background [$site-button-background] - Background color of the disabled button.
+/// @param {Color} $color [$site-button-color] - Text color of the disabled button. Set to `auto` to have the mixin automatically generate a color based on the background color.
+@mixin button-disabled(
+  $background: $site-button-background,
+  $color: $site-button-color
+) {
+    @if $color == auto {
+        $color: color-pick-contrast($background, ($site-button-color, $site-button-color-alt));
+    }
+
+    opacity: $site-button-opacity-disabled;
+    cursor: not-allowed;
+
+    &, &:hover, &:focus {
+        background-color: $background;
+        color: $color;
+    }
+}
+
+/// Adds all styles for a button. For more granular control over styles, use the individual button mixins.
+/// @param {Boolean} $expand [false] - Set to `true` to make the button full-width.
+/// @param {Color} $background [$site-button-background] - Background color of the button.
+/// @param {Color} $background-hover [$site-button-background-hover] - Background color of the button on hover. Set to `auto` to have the mixin automatically generate a hover color.
+/// @param {Color} $color [$site-button-color] - Text color of the button. Set to `auto` to automatically generate a color based on the background color.
+/// @param {Keyword} $style [solid] - Set to `hollow` to create a hollow button. The color defined in `$background` will be used as the primary color of the button.
+@mixin button(
+    $expand: false,
+    $background: $site-button-background,
+    $background-hover: $site-button-background-hover,
+    $color: $site-button-color,
+    $style: $site-button-fill
+) {
+    @include button-base;
+
+    @if $style == solid {
+        @include button-style($background, $background-hover, $color);
+    }
+    @else if $style == hollow {
+        @include button-hollow;
+        @include button-hollow-style($background);
+    }
+
+    @if $expand {
+        @include button-expand;
+    }
+}
+
+.#{$site-prefix}button {
+    @include button;
+
+    &--expanded {
+        @include button-expand;
+    }
+
+    // Disabled style
+    &--disabled,
+    &[disabled] {
+        @include button-disabled;
+    }
+
+    // Hollow style
+    @if $site-button-fill != hollow {
+        &--hollow {
+            @include button-hollow;
+            @include button-hollow-style;
+        }
+    }
+}
+
+a.#{$site-prefix}button {
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
