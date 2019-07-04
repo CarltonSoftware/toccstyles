@@ -39,6 +39,9 @@ $breakpoint-classes: (small medium large) !default;
   @else if $bp == 'retina' {
     @return '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)';
   }
+  @else if $bp == 'retinaipad' {
+    @return '(min-device-width: 481px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)';
+  }
 
   // Try to pull a named breakpoint out of the $site-breakpoints map
   @if type-of($bp) == 'string' {

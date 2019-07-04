@@ -77,19 +77,25 @@ h5.oc-title {
   content: attr(data-prefix);
 }
 
+@media screen and (max-width: 39.99875em) {
+  .oc-prefix--smallonly:before {
+    content: attr(data-prefix);
+  }
+}
+
 .oc-clear__margin--small {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-clear__margin--medium {
     margin: 0 !important;
     padding: 0 !important;
   }
 }
 
-@media screen and (min-width: 73.125em) {
+@media screen and (min-width: 64.0625em) {
   .oc-clear__margin--large {
     margin: 0 !important;
     padding: 0 !important;
@@ -115,6 +121,141 @@ h5.oc-title {
   font-weight: normal;
   font-family: "sharpsansbook", sans-serif;
   text-transform: none;
+}
+
+.oc-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+}
+
+.oc-table thead {
+  display: none;
+}
+
+@media screen and (min-width: 40em) {
+  .oc-table thead {
+    display: table-header-group;
+  }
+}
+
+.oc-table thead,
+.oc-table tbody,
+.oc-table tfoot {
+  border: 1px solid #F1F1F1;
+  background-color: #FEFEFE;
+}
+
+.oc-table thead tr th,
+.oc-table thead tr td,
+.oc-table tbody tr th,
+.oc-table tbody tr td,
+.oc-table tfoot tr th,
+.oc-table tfoot tr td {
+  padding: 0.5rem;
+}
+
+.oc-table thead tr th .oc-button,
+.oc-table thead tr th button,
+.oc-table thead tr th .button,
+.oc-table thead tr td .oc-button,
+.oc-table thead tr td button,
+.oc-table thead tr td .button,
+.oc-table tbody tr th .oc-button,
+.oc-table tbody tr th button,
+.oc-table tbody tr th .button,
+.oc-table tbody tr td .oc-button,
+.oc-table tbody tr td button,
+.oc-table tbody tr td .button,
+.oc-table tfoot tr th .oc-button,
+.oc-table tfoot tr th button,
+.oc-table tfoot tr th .button,
+.oc-table tfoot tr td .oc-button,
+.oc-table tfoot tr td button,
+.oc-table tfoot tr td .button {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 39.99875em) {
+  .oc-table thead tr th:last-child > button,
+  .oc-table thead tr th:last-child > .button,
+  .oc-table thead tr td:last-child > button,
+  .oc-table thead tr td:last-child > .button,
+  .oc-table tbody tr th:last-child > button,
+  .oc-table tbody tr th:last-child > .button,
+  .oc-table tbody tr td:last-child > button,
+  .oc-table tbody tr td:last-child > .button,
+  .oc-table tfoot tr th:last-child > button,
+  .oc-table tfoot tr th:last-child > .button,
+  .oc-table tfoot tr td:last-child > button,
+  .oc-table tfoot tr td:last-child > .button {
+    width: 100%;
+  }
+  .oc-table thead tr th:last-child > button + button,
+  .oc-table thead tr th:last-child > button + .button,
+  .oc-table thead tr th:last-child > .button + button,
+  .oc-table thead tr th:last-child > .button + .button,
+  .oc-table thead tr td:last-child > button + button,
+  .oc-table thead tr td:last-child > button + .button,
+  .oc-table thead tr td:last-child > .button + button,
+  .oc-table thead tr td:last-child > .button + .button,
+  .oc-table tbody tr th:last-child > button + button,
+  .oc-table tbody tr th:last-child > button + .button,
+  .oc-table tbody tr th:last-child > .button + button,
+  .oc-table tbody tr th:last-child > .button + .button,
+  .oc-table tbody tr td:last-child > button + button,
+  .oc-table tbody tr td:last-child > button + .button,
+  .oc-table tbody tr td:last-child > .button + button,
+  .oc-table tbody tr td:last-child > .button + .button,
+  .oc-table tfoot tr th:last-child > button + button,
+  .oc-table tfoot tr th:last-child > button + .button,
+  .oc-table tfoot tr th:last-child > .button + button,
+  .oc-table tfoot tr th:last-child > .button + .button,
+  .oc-table tfoot tr td:last-child > button + button,
+  .oc-table tfoot tr td:last-child > button + .button,
+  .oc-table tfoot tr td:last-child > .button + button,
+  .oc-table tfoot tr td:last-child > .button + .button {
+    margin-top: 1rem;
+  }
+}
+
+.oc-table thead,
+.oc-table tfoot {
+  background-color: #F8F8F8;
+}
+
+.oc-table thead tr,
+.oc-table tfoot tr {
+  background-color: transparent;
+}
+
+.oc-table tbody tr:nth-child(even) {
+  background-color: #F8F8F8;
+}
+
+.oc-table tbody,
+.oc-table tbody tr,
+.oc-table tbody tr td,
+.oc-table tfoot,
+.oc-table tfoot tr,
+.oc-table tfoot tr td {
+  display: block;
+}
+
+@media screen and (min-width: 40em) {
+  .oc-table tbody,
+  .oc-table tfoot {
+    display: table-row-group;
+  }
+  .oc-table tbody tr,
+  .oc-table tfoot tr {
+    display: table-row;
+  }
+  .oc-table tbody tr td,
+  .oc-table tfoot tr td {
+    display: table-cell;
+  }
 }
 
 .oc-content p,
@@ -152,7 +293,7 @@ h5.oc-title {
   display: none;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-content table thead {
     display: table-header-group;
   }
@@ -175,12 +316,67 @@ h5.oc-title {
 }
 
 .oc-content table thead tr th .oc-button,
+.oc-content table thead tr th button,
+.oc-content table thead tr th .button,
 .oc-content table thead tr td .oc-button,
+.oc-content table thead tr td button,
+.oc-content table thead tr td .button,
 .oc-content table tbody tr th .oc-button,
+.oc-content table tbody tr th button,
+.oc-content table tbody tr th .button,
 .oc-content table tbody tr td .oc-button,
+.oc-content table tbody tr td button,
+.oc-content table tbody tr td .button,
 .oc-content table tfoot tr th .oc-button,
-.oc-content table tfoot tr td .oc-button {
+.oc-content table tfoot tr th button,
+.oc-content table tfoot tr th .button,
+.oc-content table tfoot tr td .oc-button,
+.oc-content table tfoot tr td button,
+.oc-content table tfoot tr td .button {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 39.99875em) {
+  .oc-content table thead tr th:last-child > button,
+  .oc-content table thead tr th:last-child > .button,
+  .oc-content table thead tr td:last-child > button,
+  .oc-content table thead tr td:last-child > .button,
+  .oc-content table tbody tr th:last-child > button,
+  .oc-content table tbody tr th:last-child > .button,
+  .oc-content table tbody tr td:last-child > button,
+  .oc-content table tbody tr td:last-child > .button,
+  .oc-content table tfoot tr th:last-child > button,
+  .oc-content table tfoot tr th:last-child > .button,
+  .oc-content table tfoot tr td:last-child > button,
+  .oc-content table tfoot tr td:last-child > .button {
+    width: 100%;
+  }
+  .oc-content table thead tr th:last-child > button + button,
+  .oc-content table thead tr th:last-child > button + .button,
+  .oc-content table thead tr th:last-child > .button + button,
+  .oc-content table thead tr th:last-child > .button + .button,
+  .oc-content table thead tr td:last-child > button + button,
+  .oc-content table thead tr td:last-child > button + .button,
+  .oc-content table thead tr td:last-child > .button + button,
+  .oc-content table thead tr td:last-child > .button + .button,
+  .oc-content table tbody tr th:last-child > button + button,
+  .oc-content table tbody tr th:last-child > button + .button,
+  .oc-content table tbody tr th:last-child > .button + button,
+  .oc-content table tbody tr th:last-child > .button + .button,
+  .oc-content table tbody tr td:last-child > button + button,
+  .oc-content table tbody tr td:last-child > button + .button,
+  .oc-content table tbody tr td:last-child > .button + button,
+  .oc-content table tbody tr td:last-child > .button + .button,
+  .oc-content table tfoot tr th:last-child > button + button,
+  .oc-content table tfoot tr th:last-child > button + .button,
+  .oc-content table tfoot tr th:last-child > .button + button,
+  .oc-content table tfoot tr th:last-child > .button + .button,
+  .oc-content table tfoot tr td:last-child > button + button,
+  .oc-content table tfoot tr td:last-child > button + .button,
+  .oc-content table tfoot tr td:last-child > .button + button,
+  .oc-content table tfoot tr td:last-child > .button + .button {
+    margin-top: 1rem;
+  }
 }
 
 .oc-content table thead,
@@ -199,14 +395,14 @@ h5.oc-title {
 
 .oc-content table tbody,
 .oc-content table tbody tr,
-.oc-content table tbody td td,
+.oc-content table tbody tr td,
 .oc-content table tfoot,
 .oc-content table tfoot tr,
-.oc-content table tfoot td td {
+.oc-content table tfoot tr td {
   display: block;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-content table tbody,
   .oc-content table tfoot {
     display: table-row-group;
@@ -226,14 +422,14 @@ h5.oc-title {
   width: 100%;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-content img,
   .oc-content figure {
     width: auto;
   }
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-content img.align-right,
   .oc-content figure.align-right {
     float: right;
@@ -241,7 +437,7 @@ h5.oc-title {
   }
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-content img.align-left,
   .oc-content figure.align-left {
     float: left;
@@ -268,7 +464,7 @@ h5.oc-title {
   margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-content figure > img,
   .oc-content p > img {
     display: inline;
@@ -277,13 +473,13 @@ h5.oc-title {
   }
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-content figure.align-center {
     display: table;
   }
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-content figure img {
     display: block;
   }
@@ -299,7 +495,7 @@ h5.oc-title {
   font-size: 12px;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-content figure figcaption {
     display: inline-block;
     max-width: 300px;

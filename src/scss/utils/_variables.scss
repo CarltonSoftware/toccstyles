@@ -30,12 +30,11 @@ $site-font-line-height: (
 ) !default;
 
 $site-breakpoints: (
-    "xsmall":      0,
-    "small":       640px,
-    "medium":      768px,
-    "medium-wide": 1024px,
-    "large":       1170px,
-    "xlarge":      1200px
+    small: 0,
+    medium: 640px,
+    large: 1025px,
+    xlarge: 1200px,
+    xxlarge: 1440px,
 ) !default;
 
 $site-color-one: #555555 !default;

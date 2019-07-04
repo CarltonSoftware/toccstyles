@@ -44,4 +44,9 @@
     &--mediumonly {
         @include tabletcol(medium only);
     }
+    &--retina {
+        @include breakpoint(retina) {
+            @include tabletcol(medium only);
+        }
+    }
 }

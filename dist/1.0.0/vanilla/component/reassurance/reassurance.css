@@ -15,7 +15,7 @@
   word-break: break-word;
 }
 
-@media screen and (min-width: 73.125em) {
+@media screen and (min-width: 64.0625em) {
   .oc-reassurance {
     padding: 1rem;
     padding-right: 24px;
@@ -86,25 +86,25 @@
   flex-flow: row wrap;
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-reassurancebar--2 {
     width: 50%;
   }
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-reassurancebar--3 {
     width: calc(100% / 3);
   }
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 40em) {
   .oc-reassurancebar--4 .oc-reassurance {
     width: 50%;
   }
 }
 
-@media screen and (min-width: 73.125em) {
+@media screen and (min-width: 64.0625em) {
   .oc-reassurancebar--4 .oc-reassurance {
     width: 25%;
     margin: 0.5rem 0;

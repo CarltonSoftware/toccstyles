@@ -54,6 +54,13 @@ h5.#{$site-prefix}title {
     &:before {
         content: attr(data-prefix);
     }
+    &--smallonly {
+        @include breakpoint(small only) {
+            &:before {
+                content: attr(data-prefix);
+            }
+        }
+    }
 }
 
 .#{$site-prefix}clear {
@@ -98,6 +105,93 @@ h5.#{$site-prefix}title {
     text-transform: $site-content-header-text-transform;
 }
 
+@mixin octable() {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: $site-global-margin;
+    border-radius: $site-global-radius;
+
+    thead {
+        display: none;
+
+        @include breakpoint(medium) {
+            display: table-header-group;
+        }
+    }
+
+    thead,
+    tbody,
+    tfoot {
+        border: 1px solid $site-color-lightgrey;
+        background-color: $site-color-almostwhite;
+        tr {
+            th,
+            td {
+                padding: $site-global-padding / 2;
+
+                .#{$site-prefix}button,
+                button,
+                .button {
+                    margin-bottom: 0;
+                }
+                
+                &:last-child {
+                    > button,
+                    > .button {
+                        @include breakpoint(small only) {
+                            width: 100%;
+
+                            + button,
+                            + .button {
+                                margin-top: $site-global-margin;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    thead,
+    tfoot {
+        background-color: $site-color-reallylightgrey;
+        tr {
+            background-color: transparent;
+        }
+    }
+
+    tbody {
+        tr {
+            &:nth-child(even) {
+                background-color: $site-color-reallylightgrey;
+            }
+        }
+    }
+
+    tbody,
+    tfoot {
+        &,
+        tr,
+        tr td {
+            display: block;
+        }
+
+        @include breakpoint(medium) {
+            display: table-row-group;
+            tr {
+                display: table-row;
+                td {
+                    display: table-cell;
+                }
+            }
+        }
+    }
+}
+
+.#{$site-prefix}table {
+    @include octable();
+}
+
 .#{$site-prefix}content {
     p,
     table thead tr th,
@@ -120,70 +214,7 @@ h5.#{$site-prefix}title {
     }
     
     table {
-        border-collapse: collapse;
-        width: 100%;
-        margin-bottom: $site-global-margin;
-        border-radius: $site-global-radius;
-        
-        thead {
-            display: none;
-        
-            @include breakpoint(medium) {
-                display: table-header-group;
-            }
-        }
-        
-        thead,
-        tbody,
-        tfoot {
-            border: 1px solid $site-color-lightgrey;
-            background-color: $site-color-almostwhite;
-            tr {
-                th,
-                td {
-                    padding: $site-global-padding / 2;
-                    
-                    .#{$site-prefix}button {
-                        margin-bottom: 0;
-                    }
-                }
-            }
-        }
-        
-        thead,
-        tfoot {
-            background-color: $site-color-reallylightgrey;
-            tr {
-                background-color: transparent;
-            }
-        }
-        
-        tbody {
-            tr {
-                &:nth-child(even) {
-                    background-color: $site-color-reallylightgrey;
-                }
-            }
-        }
-        
-        tbody,
-        tfoot {
-            &,
-            tr,
-            td td {
-                display: block;
-            }
-        
-            @include breakpoint(medium) {
-                display: table-row-group;
-                tr {
-                    display: table-row;
-                    td {
-                        display: table-cell;
-                    }
-                }
-            }
-        }
+        @include octable();
     }
         
     img,
