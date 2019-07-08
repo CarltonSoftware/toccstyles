@@ -264,6 +264,10 @@ h5.#{$site-prefix}title {
             margin-bottom: auto;
         }
     }
+    
+    figure > img {
+        margin-bottom: 0;
+    }
 
     figure {
         &.align-center {

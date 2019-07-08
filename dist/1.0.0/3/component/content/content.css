@@ -479,6 +479,10 @@ h5.oc-title {
   }
 }
 
+.oc-content figure > img {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 40em) {
   .oc-content figure.align-center {
     display: table;
