@@ -1,0 +1,69 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _notification.scss
+ * @brand    Vanilla
+ * @name     notification
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+$site-toccnotificationbarheight: $site-global-padding * 2;
+
+.#{$site-prefix}notification {
+    @include bg_extend($site-color-darkgrey);
+    
+    button,
+    a {
+        top: 0;
+        color: white;
+        display: block;
+    }
+    
+    button {
+        position: absolute;
+        top: 0;
+        font-size: 2em;
+        line-height: 1;
+        background: none;
+        border: 0 none;
+        cursor: pointer;
+        right: $site-global-padding / 2;
+        
+        @include breakpoint(medium) {
+            right: $site-global-padding;
+        }
+    }
+    
+    &,
+    p {
+        @include paragraph();
+        @include ellipsis();
+        
+        position: relative;
+        line-height: $site-toccnotificationbarheight;
+        height: $site-toccnotificationbarheight;
+        margin: 0;
+        padding: 0;
+        border: 0 none;
+        
+        @include breakpoint(medium) {
+            text-align: center;
+        }
+    }
+    
+    & {
+        width: 100%;
+        padding-left: $site-global-padding / 2;
+        padding-right: $site-global-padding;
+        
+        @include breakpoint(medium) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}

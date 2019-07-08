@@ -59,6 +59,12 @@
       "short": "Marketing Message",
       "description": "A marketing message component",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "notification",
+      "short": "Notifcation",
+      "description": "A notification bar component.",
+      "createdby": "Tabs System User"
     }
   ],
   "element": [

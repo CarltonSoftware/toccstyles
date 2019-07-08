@@ -1,0 +1,100 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _notification.scss
+ * @brand    Cornish Quay
+ * @name     notification
+ * @author   Tabs System User
+ */
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _notification.scss
+ * @brand    Vanilla
+ * @name     notification
+ * @author   Tabs System User
+ */
+.oc-notification {
+  background: #5B5B5B;
+  position: relative;
+  max-width: 1440px;
+}
+
+.oc-notification:after, .oc-notification:before {
+  background: #5B5B5B;
+  position: absolute;
+  width: calc((1440px - 100%) / 2);
+  height: 100%;
+  content: '';
+  display: block;
+  top: 0;
+}
+
+.oc-notification:before {
+  left: calc((1440px - 100%) / 2 * -1);
+}
+
+.oc-notification:after {
+  right: calc((1440px - 100%) / 2 * -1);
+}
+
+.oc-notification button,
+.oc-notification a {
+  top: 0;
+  color: white;
+  display: block;
+}
+
+.oc-notification button {
+  position: absolute;
+  top: 0;
+  font-size: 2em;
+  line-height: 1;
+  background: none;
+  border: 0 none;
+  cursor: pointer;
+  right: 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+  .oc-notification button {
+    right: 1rem;
+  }
+}
+
+.oc-notification,
+.oc-notification p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  line-height: 2rem;
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+
+@media screen and (min-width: 40em) {
+  .oc-notification,
+  .oc-notification p {
+    text-align: center;
+  }
+}
+
+.oc-notification {
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+@media screen and (min-width: 40em) {
+  .oc-notification {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

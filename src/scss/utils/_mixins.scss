@@ -64,7 +64,7 @@
     
     &:after,
     &:before {
-        background: inherit;
+        background: $background_color;
         position: absolute;
         width: calc((#{$max-width}px - 100%) / 2);
         height: 100%;

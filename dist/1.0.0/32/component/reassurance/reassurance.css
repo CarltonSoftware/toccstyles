@@ -126,7 +126,7 @@
 }
 
 .oc-reassurancebar--bg:after, .oc-reassurancebar--bg:before {
-  background: inherit;
+  background: #F1F1F1;
   position: absolute;
   width: calc((1440px - 100%) / 2);
   height: 100%;
