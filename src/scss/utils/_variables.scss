@@ -8,18 +8,19 @@ $site-prefix: 'oc-' !default;
 $site-open-sans: 'Open+Sans:400,600' !default;
 
 $site-font-size: (
-  "h1":     38px,
-  "h2":     30px,
-  "h3":     24px,
-  "h42":    20px,
-  "h4":     18px,
-  "h5":     16px,
-  "largep": 16px,
-  "p":      14px,
-  "small":  12px,
-  "mini":   11px,
-  "tiny":   10px,
-  "nano":   8px
+  "h1":                  38px,
+  "h2":                  30px,
+  "notificationdesktop": 28px,
+  "h3":                  24px,
+  "h42":                 20px,
+  "h4":                  18px,
+  "h5":                  16px,
+  "largep":              16px,
+  "p":                   14px,
+  "small":               12px,
+  "mini":                11px,
+  "tiny":                10px,
+  "nano":                8px
 ) !default;
 
 $site-font-line-height: (

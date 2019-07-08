@@ -27,7 +27,7 @@ $site-toccnotificationbarheight: $site-global-padding * 2;
     button {
         position: absolute;
         top: 0;
-        font-size: 2em;
+        font-size: 28px;
         line-height: 1;
         background: none;
         border: 0 none;
@@ -50,9 +50,11 @@ $site-toccnotificationbarheight: $site-global-padding * 2;
         margin: 0;
         padding: 0;
         border: 0 none;
+        font-size: map-get($site-font-size, small);
         
         @include breakpoint(medium) {
             text-align: center;
+            font-size: map-get($site-font-size, p);
         }
     }
     

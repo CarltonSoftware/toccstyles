@@ -48,7 +48,7 @@
 .oc-notification button {
   position: absolute;
   top: 0;
-  font-size: 2em;
+  font-size: 28px;
   line-height: 1;
   background: none;
   border: 0 none;
@@ -77,12 +77,14 @@
   margin: 0;
   padding: 0;
   border: 0 none;
+  font-size: 12px;
 }
 
 @media screen and (min-width: 40em) {
   .oc-notification,
   .oc-notification p {
     text-align: center;
+    font-size: 14px;
   }
 }
 
