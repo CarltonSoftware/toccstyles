@@ -59,7 +59,7 @@
         font-weight: bold;
         font-size: 10px;
         border-radius: $site-global-radius;
-        background-color: $site-color-reallylightgrey;
-        color: $site-color-one;
+        background-color: map-get($site-colors, reallylightgrey);
+        color: map-get($site-colors, one);
     }
 }

@@ -40,18 +40,19 @@ $site-breakpoints: (
     xxlarge: 1440px,
 ) !default;
 
-$site-color-one: #555555 !default;
-$site-color-two: #666666 !default;
-$site-color-three: #777777 !default;
-$site-color-four: #888888 !default;
-$site-color-five: #999999 !default;
-$site-color-six: #AAAAAA !default;
-$site-color-seven: #BBBBBB !default;
-
-$site-color-lightgrey: #F1F1F1 !default;
-$site-color-reallylightgrey: #F8F8F8 !default;
-$site-color-almostwhite: #FEFEFE !default;
-$site-color-darkgrey: #5B5B5B !default;
+$site-colors: (
+    one: #555555,
+    two: #666666,
+    three: #777777,
+    four: #888888,
+    five: #999999,
+    six: #AAAAAA,
+    seven: #BBBBBB,
+    lightgrey: #F1F1F1,
+    reallylightgrey: #F8F8F8,
+    almostwhite: #FEFEFE,
+    darkgrey: #5B5B5B
+) !default;
 
 $tocc-site-fonts-dir: '../fonts' !default;
 $tocc-google-fonts: 'Open+Sans:400,600' !default;

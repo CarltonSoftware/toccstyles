@@ -18,7 +18,7 @@
     position: relative;
     transition-duration: 86ms;
     transition-property: background-color, color;
-    background: $site-color-reallylightgrey;
+    background: map-get($site-colors, reallylightgrey);
     
     .#{$site-prefix}title {
         line-height: 1.25;

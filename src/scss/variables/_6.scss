@@ -1,19 +1,18 @@
-// Colors
-$site-color-one:  #626366; // CO Tuna
-$site-color-two: #97ACB5; // CO Botticelli
-$site-color-three: #B5BD24;  // CO Logo Green
-$site-color-four: #17BED2;  // CO Iris Blue
-$site-color-five: #EE3C4D;  // CO Amaranth
-$site-color-six: #F2692A;    // CO Burnt Orange
-$site-color-seven: #FECE09;  //CO DAndelion
-$site-color-seven: #003D51; // CO Sherpa Blue
+$brand-colors: (
+    one: #626366,
+    two: #97ACB5,
+    three: #B5BD24,
+    four: #17BED2,
+    five: #EE3C4D,
+    six: #F2692A,
+    seven: #FECE09,
+    eight: #003D51
+);
 
-// Font
+$site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: 'Montserrat', sans-serif;
 $site-content-header-font-weight: bold;
 $site-slogan-font-family: 'Montserrat', sans-serif;
 $site-slogan-font-weight: bold;
-
 $tocc-google-fonts: '#{$site-open-sans}|Montserrat';
-
-$site-property-icons-color: $site-color-three;
+$site-property-icons-color: map-get($site-colors, three);

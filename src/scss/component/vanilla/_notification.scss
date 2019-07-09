@@ -15,7 +15,7 @@
 $site-toccnotificationbarheight: $site-global-padding * 2;
 
 .#{$site-prefix}notification {
-    @include bg_extend($site-color-darkgrey);
+    @include bg_extend(map-get($site-colors, darkgrey));
     
     button,
     a {

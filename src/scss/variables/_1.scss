@@ -1,13 +1,16 @@
-//Colors
-$site-color-one: #4E4E4C; // AB Ship Grey
-$site-color-two: #DC3A7C; //AB Deep Cerise
-$site-color-three: #CB9F2D; // AB Galliano
-$site-color-four: #77AABF; // AB Glacier
-$site-color-five: #99ADBF; // BC Nepal
-$site-color-six: #F9CCC5; // BC Coral Candy
-$site-color-seven: #83B1AA; // BC Gulf Stream
-$site-color-eight: #9899B1; // BC Spun Pearl
-
+$brand-colors: (
+    one: #4E4E4C, // AB Ship Grey
+    two: #DC3A7C, //AB Deep Cerise
+    three: #CB9F2D, // AB Galliano
+    four: #77AABF, // AB Glacier
+    five: #99ADBF, // BC Nepal
+    six: #F9CCC5, // BC Coral Candy
+    seven: #83B1AA, // BC Gulf Stream
+    eight: #9899B1 // BC Spun Pearl
+);
+ 
+// Merge maps
+$site-colors: map-merge($site-colors, $brand-colors);
 
 //Font
 $site-content-header-font-family: "Avenir LT";

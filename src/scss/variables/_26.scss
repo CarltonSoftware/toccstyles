@@ -1,22 +1,21 @@
-$site-color-one: #54284E; // GL LOULOU
-$site-color-six: #006068; // GL ATTOLL
-$site-color-three: #A87EB1; // GL EAST SIDE
-$site-color-four: #64B1BC; // GL Fountain Blue
-$site-color-five: #3E3935; // GL Kilamanjaro
-$site-color-two: #F5C400; // GL SWEET CORN
-$site-color-seven: #8D846A; // Buttermilk #3E3935
-$site-color-eight: #DBD9D6; // GL GALLERY
+$brand-colors: (
+    one: #54284E,
+    two: #006068,
+    three: #A87EB1,
+    four: #64B1BC,
+    five: #3E3935,
+    six: #F5C400,
+    seven: #8D846A,
+    eight: #DBD9D6
+);
 
+$site-colors: map-merge($site-colors, $brand-colors);
 $tocc-google-fonts: '#{$site-open-sans}|Oswald';
-
 $site-content-header-font-family: 'Oswald', sans-serif;
 $site-content-header-text-transform: uppercase;
-$site-content-link-color: $site-color-four;
-
+$site-content-link-color: map-get($site-colors, four);
 $site-slogan-font-family:  'Oswald', sans-serif;
 $site-slogan-text-transform: uppercase;
-
-$site-reassurance-bar-icon-odd: $site-color-one;
-$site-reassurance-bar-icon-even: $site-color-three;
-
-$site-button-color: $site-color-five;
+$site-reassurance-bar-icon-odd: map-get($site-colors, one);
+$site-reassurance-bar-icon-even: map-get($site-colors, three);
+$site-button-color: map-get($site-colors, five);

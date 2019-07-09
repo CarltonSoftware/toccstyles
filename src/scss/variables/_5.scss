@@ -1,14 +1,15 @@
-//Colors
-$site-color-one: #27387A; // BC Astronaut
-$site-color-two: #4CA8DB; // BC Viking
-$site-color-three: #C3A887; // BC Rodeo Dust
-$site-color-four: #575756; //BC Chicago 
-$site-color-five: #99ADBF; // BC Nepal
-$site-color-six: #F9CCC5; // BC Coral Candy
-$site-color-seven: #83B1AA; // BC Gulf Stream
-$site-color-eight: #9899B1; // BC Spun Pearl
+$brand-colors: (
+    one: #27387A,
+    two: #4CA8DB,
+    three: #C3A887,
+    four: #575756,
+    five: #99ADBF,
+    six: #F9CCC5,
+    seven: #83B1AA,
+    eight: #9899B1
+);
 
-//Font
+$site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: 'Arcon Regular', sans-serif;
 $site-content-header-font-weight: bold;
 $site-slogan-font-family: 'Arcon Regular Bold', sans-serif;

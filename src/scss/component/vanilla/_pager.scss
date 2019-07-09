@@ -12,10 +12,10 @@
 // Include global variables
 @import '../../variables/vanilla';
 
-$site-pager-item-color: $site-color-one !default;
+$site-pager-item-color: map-get($site-colors, one) !default;
 $site-pager-item-hover-background-color: #f4f4f4 !default;
 $site-pager-current-item-color: white !default;
-$site-pager-current-item-background-color: $site-color-one !default;
+$site-pager-current-item-background-color: map-get($site-colors, one) !default;
 
 .#{$site-prefix}pager {
     font-weight: bold;
@@ -37,7 +37,7 @@ $site-pager-current-item-background-color: $site-color-one !default;
         margin-right: $site-global-margin / 2;
         border-radius: $site-global-radius;
         font-size: map-get($site-font-size, normal);
-        border: 1px solid $site-color-lightgrey;
+        border: 1px solid map-get($site-colors, lightgrey);
         
         &,
         a {

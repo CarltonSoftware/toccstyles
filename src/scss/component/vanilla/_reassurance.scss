@@ -12,8 +12,8 @@
 // Include global variables
 @import '../../variables/vanilla';
 
-$site-reassurance-bar-icon-even: $site-color-three !default;
-$site-reassurance-bar-icon-odd: $site-color-seven !default;
+$site-reassurance-bar-icon-even: map-get($site-colors, three) !default;
+$site-reassurance-bar-icon-odd: map-get($site-colors, seven) !default;
 
 .#{$site-prefix}reassurance {
     position: relative;
@@ -116,5 +116,5 @@ $site-reassurance-bar-icon-odd: $site-color-seven !default;
 }
 
 .#{$site-prefix}reassurancebar--bg {
-    @include bg_extend($site-color-lightgrey);
+    @include bg_extend(map-get($site-colors, lightgrey));
 }

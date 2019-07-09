@@ -55,7 +55,7 @@
     margin: 0;
     margin-bottom: $site-global-margin;
     padding: $site-global-padding;
-    background-color: $site-color-reallylightgrey;
+    background-color: map-get($site-colors, reallylightgrey);
     
     > .#{$site-prefix}comment {
         &:last-of-type {

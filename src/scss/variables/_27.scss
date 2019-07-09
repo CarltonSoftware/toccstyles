@@ -1,13 +1,15 @@
-$site-color-one: #045A4B; // Evening Sea
-$site-color-two: #Df990C; // Golden Grass
-$site-color-three: #066D5C; // Watercourse
-$site-color-four:  #C1282E; // Tall poppy
-$site-color-five: #008Ec7; // Blue Chill
-$site-color-six: #Eb5B27; // Cinnabar
-$site-color-seven: #57B4C3; // Aquamarine
+$brand-colors: (
+    one: #045A4B,
+    two: #Df990C,
+    three: #066D5C,
+    four: #C1282E,
+    five: #008Ec7,
+    six: #Eb5B27,
+    seven: #57B4C3
+);
 
+$site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: 'sharpsansbook', sans-serif;
 $site-slogan-font-family: 'sharpsansbook', sans-serif;
-
-$site-reassurance-bar-icon-odd: $site-color-one;
-$site-reassurance-bar-icon-even: $site-color-one;
+$site-reassurance-bar-icon-odd: map-get($site-colors, one);
+$site-reassurance-bar-icon-even: map-get($site-colors, one);

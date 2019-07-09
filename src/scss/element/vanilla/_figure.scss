@@ -52,7 +52,7 @@
             max-width: 100%;
             color: white;
             pointer-events: none;
-            background-color: $site-color-one;
+            background-color: map-get($site-colors, one);
             font-weight: bold;
         }
     }

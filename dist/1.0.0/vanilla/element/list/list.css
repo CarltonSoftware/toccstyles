@@ -10,13 +10,10 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-bottom: 1rem;
   font-size: 14px;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
-}
-
-.oc-list > * {
-  margin-bottom: 1rem;
 }
 
 .oc-list--inline > * {

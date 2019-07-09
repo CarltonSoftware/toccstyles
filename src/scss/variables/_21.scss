@@ -1,13 +1,15 @@
-$site-color-one: #159A8D; // PC Mountain Meadow
-$site-color-two: #008ECF; // PC Lochmara
-$site-color-three: #F0CA46; // PC Festival
-$site-color-four: #005171; //PC Eden
-$site-color-five: #D6D9DB; // PC Iron 
-$site-color-six: #D7E1D7; // PC Aqua Squeeze
-$site-color-seven: #FFF0DB; // PC PAPAYA WHIP
+$brand-colors: (
+    one: #159A8D,
+    two: #008ECF,
+    three: #F0CA46,
+    four: #005171,
+    five: #D6D9DB,
+    six: #D7E1D7,
+    seven: #FFF0DB
+);
 
+$site-colors: map-merge($site-colors, $brand-colors);
 $tocc-google-fonts: '#{$site-open-sans}|Open+Sans+Condensed';
-
 $site-content-header-font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
 $site-content-header-font-weight: bold;
 $site-content-header-text-transform: uppercase;

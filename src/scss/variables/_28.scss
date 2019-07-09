@@ -1,11 +1,14 @@
-$site-color-one: #274d76;
-$site-color-two: #6a9bd2;
-$site-color-three: #F4DB57;
-$site-color-four: #3E484D;
-$site-color-five: #B8B4A3;
-$site-color-six: #80AEAF;
-$site-color-seven: #92CEE8;
+$brand-colors: (
+    one: #274d76,
+    two: #6a9bd2,
+    three: #F4DB57,
+    four: #3E484D,
+    five: #B8B4A3,
+    six: #80AEAF,
+    seven: #92CEE8
+);
 
+$site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: Montserrat, sans-serif;
 $site-content-header-font-weight: bold;
 $site-slogan-font-family: Montserrat, sans-serif;

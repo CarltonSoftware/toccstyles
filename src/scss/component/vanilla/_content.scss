@@ -10,12 +10,12 @@
 // Include Utilities
 @import '../../utils/index';
 
-$site-content-header-font-color: $site-color-one !default;
+$site-content-header-font-color: map-get($site-colors, one) !default;
 $site-content-header-font-weight: normal !default;
 $site-content-header-font-family: 'Open Sans', sans-serif !default;
 $site-content-header-text-transform: none !default;
-$site-content-blockquote-border-color: $site-color-one !default;
-$site-content-link-color: $site-color-two !default;
+$site-content-blockquote-border-color: map-get($site-colors, one) !default;
+$site-content-link-color: map-get($site-colors, two) !default;
 
 .#{$site-prefix}content h1,
 h1.#{$site-prefix}title {
@@ -76,7 +76,7 @@ h5.#{$site-prefix}title {
     &--bold {
         &:before {
             font-weight: bold;
-            color: $site-color-one;
+            color: map-get($site-colors, one);
         }
     }
 }
@@ -146,7 +146,7 @@ h5.#{$site-prefix}title {
         tr {
             th,
             td {
-                color: $site-color-one;
+                color: map-get($site-colors, one);
             }
         }
     }
@@ -154,8 +154,8 @@ h5.#{$site-prefix}title {
     thead,
     tbody,
     tfoot {
-        border: 1px solid $site-color-lightgrey;
-        background-color: $site-color-almostwhite;
+        border: 1px solid map-get($site-colors, lightgrey);
+        background-color: map-get($site-colors, almostwhite);
         tr {
             th,
             td {
@@ -190,7 +190,7 @@ h5.#{$site-prefix}title {
 
     thead,
     tfoot {
-        background-color: $site-color-reallylightgrey;
+        background-color: map-get($site-colors, reallylightgrey);
         tr {
             background-color: transparent;
         }
@@ -199,7 +199,7 @@ h5.#{$site-prefix}title {
     tbody {
         tr {
             &:nth-child(even) {
-                background-color: $site-color-reallylightgrey;
+                background-color: map-get($site-colors, reallylightgrey);
             }
         }
         

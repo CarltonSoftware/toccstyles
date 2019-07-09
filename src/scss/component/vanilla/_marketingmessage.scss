@@ -62,7 +62,7 @@
                     height: 100%;
                     position: absolute;
                     width: 1px;
-                    background-color: $site-color-lightgrey;
+                    background-color: map-get($site-colors, reallylightgrey);
                     top: 0;
                     left: -45px;
                 }

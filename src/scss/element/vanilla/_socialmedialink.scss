@@ -25,7 +25,7 @@ $site-socialmedialink-size: 1.8rem !default;
         @include fa;
         display: inline-block;
         line-height: 1;
-        color: $site-color-one;
+        color: map-get($site-colors, one);
         font-size: $site-socialmedialink-size;
         position: absolute;
         left: 0;
@@ -77,11 +77,11 @@ $site-socialmedialink-size: 1.8rem !default;
     }
     &[href^=mailto]:before {
         content: fa-content($fa-var-envelope);
-        color: $site-color-darkgrey;
+        color: map-get($site-colors, darkgrey);
     }
     &[href^=tel]:before {
         content: fa-content($fa-var-phone);
-        color: $site-color-darkgrey;
+        color: map-get($site-colors, darkgrey);
     }
     &[href^=whatsapp]:before {
         content: fa-content($fa-var-whatsapp);

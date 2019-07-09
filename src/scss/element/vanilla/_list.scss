@@ -17,12 +17,9 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-bottom: $site-global-margin;
     
     @include paragraph();
-    
-    > * {
-        margin-bottom: $site-global-margin;
-    }
     
     &--inline {
         > * {
@@ -42,7 +39,7 @@
             &:before {
                 content: counter(sequence);
                 padding: 1px 7px;
-                background: $site-color-one;
+                background: map-get($site-colors, one);
                 border-radius: 50%;
                 color: white;
                 font-weight: bold;

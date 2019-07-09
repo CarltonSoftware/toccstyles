@@ -1,16 +1,18 @@
-$site-color-one: #1D1D1B; // Ebony
-$site-color-two: #C1A01E; // Nugget
-$site-color-three: #B36A94; // Tapestry
-$site-color-four: #708573; // Laurel
-$site-color-five: #BFB7B0; // Tide  
-$site-color-six: #F6D44D; // Energy Yellow
-$site-color-seven: #DBFDD2; // Thistle
+$brand-colors: (
+    one: #1D1D1B,   // Ebony
+    two: #C1A01E,   // Nugget
+    three: #B36A94, // Tapestry
+    four: #708573,  // Laurel
+    five: #BFB7B0,  // Tide  
+    six: #F6D44D,   // Energy Yellow
+    seven: #DBFDD2  // Thistle
+);
 
+$site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: 'AvenirLTPro-Heavy', sans-serif;
-
 $site-slogan-font-family: 'AvenirLTPro-Heavy', sans-serif;
 $site-slogan-text-transform: uppercase;
 $site-slogan-letter-spacing: 1px;
 
-$site-reassurance-bar-icon-even: $site-color-three;
-$site-reassurance-bar-icon-odd: $site-color-four;
+$site-reassurance-bar-icon-even: map-get($site-colors, three);
+$site-reassurance-bar-icon-odd: map-get($site-colors, four);

@@ -1,19 +1,19 @@
-$site-color-one: #888569; // Thatch
-$site-color-two: #F04F38; // Starfish
-$site-color-three: #BBB89D; // Sand
-$site-color-four: #231F20; // Twinkle
-$site-color-five: #C0C481; // Apple
-$site-color-six: #80AEAF; // Ocean
-$site-color-seven: #FFD65C; // Buttermilk 
+$brand-colors: (
+    one: #888569,
+    two: #F04F38,
+    three: #BBB89D,
+    four: #231F20,
+    five: #C0C481,
+    six: #80AEAF,
+    seven: #FFD65C
+);
 
+$site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: "Helvetica Neue", Helvetica, Arial ,sans-serif;
 $site-content-header-font-weight: bold;
-
 $site-slogan-font-family: "blackjackregular";
-$site-slogan-font-color: $site-color-two;
+$site-slogan-font-color: map-get($site-colors, two);
 $site-slogan-font-size: 25px;
-
-$site-reassurance-bar-icon-odd: $site-color-six;
-$site-reassurance-bar-icon-even: $site-color-three;
-
-$site-button-background: $site-color-six;
+$site-reassurance-bar-icon-odd: map-get($site-colors, six);
+$site-reassurance-bar-icon-even: map-get($site-colors, three);
+$site-button-background: map-get($site-colors, six);

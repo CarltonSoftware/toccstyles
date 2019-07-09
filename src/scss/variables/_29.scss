@@ -1,14 +1,16 @@
-$site-color-one: #44697C; // Tax Break
-$site-color-two: #739600; // Olive
-$site-color-three: #D10074; // Medium Violet Red
-$site-color-four: #0088CE; // Pacific Blue
-$site-color-five: #E05206; // Persimmon
-$site-color-six: #009B3A; // Pigment Green
-$site-color-seven: #240078; // Persian Indigo                        
+$brand-colors: (
+    one: #44697C,
+    two: #739600,
+    three: #D10074,
+    four: #0088CE,
+    five: #E05206,
+    six: #009B3A,
+    seven: #240078
+);
 
+$site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: 'Century Gothic', 'TeX Gyre Adventor', 'Futura', 'Tw Cen MT', sans-serif;
-
 $site-slogan-font-family: 'jenna_sueregular', "Segoe Script", "BradleyHandITCTT-Bold", sans-serif;
-$site-slogan-font-color: $site-color-two;
+$site-slogan-font-color: map-get($site-colors, two);
 $site-slogan-font-size: 36px;
 $site-slogan-line-height: 28px;

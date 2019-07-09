@@ -1,12 +1,14 @@
-$site-color-one: #576B6B; // ST William
-$site-color-two: #ff5600; // ST Christine
-$site-color-three: #C4D0CD; // ST Tiara
-$site-color-four: #EDF0F0 ; //ST Porcelain
-$site-color-five: #337AB7; // ST Astral
-$site-color-six: #D7E1D7; // PC Aqua Squeeze
-$site-color-seven: #FFF0DB; // PC PAPAYA WHIP
+$brand-colors: (
+    one: #576B6B,
+    two: #ff5600,
+    three: #C4D0CD,
+    four: #EDF0F0,
+    five: #337AB7,
+    six: #D7E1D7,
+    seven: #FFF0DB
+);
 
-$site-reassurance-bar-icon-odd: $site-color-five;
-$site-reassurance-bar-icon-even: $site-color-one;
-
+$site-colors: map-merge($site-colors, $brand-colors);
+$site-reassurance-bar-icon-odd: map-get($site-colors, five);
+$site-reassurance-bar-icon-even: map-get($site-colors, one);
 $site-content-header-font-weight: bold;

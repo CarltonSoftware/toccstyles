@@ -1,13 +1,14 @@
-//Colors
-$site-color-one: #263545; // BW Pickled Bluewood
-$site-color-seven: #4F6884; // BW Chambray
-$site-color-three: #8CA8bc; // BW Ship Cove
-$site-color-four: #BACBD7; // BW Spindle
-$site-color-five: #DCE5f2; // Moon Raker
-$site-color-six: #6C084A; // BW Claret
-$site-color-two: #C4A000; // BW Buddha Gold
+$brand-colors: (
+    one: #263545,
+    two: #C4A000,
+    three: #8CA8bc,
+    four: #BACBD7,
+    five: #DCE5f2,
+    six: #6C084A,
+    seven: #4F6884
+);
 
-//Fonts
+$site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: "Museo Sans 300", Helvetica Neue,Helvetica,Arial,sans-serif;
 $site-slogan-font-family: "Museo Sans 300", Helvetica Neue,Helvetica,Arial,sans-serif;
 $site-slogan-text-transform: uppercase;

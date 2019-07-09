@@ -1,18 +1,19 @@
-$site-color-one: #5A5A5A; // Zambesi
-$site-color-two: #857389; // Mamber
-$site-color-three: #333333; // Night rider
-$site-color-four: #3C6A7F; // Calypso
-$site-color-five: #CCB26A; // Sand
-$site-color-six: #749BB1; // Bermuda
-$site-color-seven: #AD6449; // Tuscany
-$site-color-eight: #6A9065; // NO Hippie Green
+$brand-colors: (
+    one: #5A5A5A,
+    two: #857389,
+    three: #333333,
+    four: #3C6A7F,
+    five: #CCB26A,
+    six: #749BB1,
+    seven: #AD6449,
+    eight: #6A9065
+);
 
+$site-colors: map-merge($site-colors, $brand-colors);
 $site-global-radius: 0;
 $site-content-header-font-family: 'Avenir LT', 'Avenir', sans-serif;
 $site-content-header-font-weight: bold;
-
 $site-slogan-font-family: 'Avenir LT', 'Avenir', sans-serif;
 $site-slogan-font-weight: bold;
-
-$site-reassurance-bar-icon-odd: $site-color-four;
-$site-reassurance-bar-icon-even: $site-color-six;
+$site-reassurance-bar-icon-odd: map-get($site-colors, four);
+$site-reassurance-bar-icon-even: map-get($site-colors, six);

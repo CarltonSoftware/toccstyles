@@ -43,6 +43,7 @@ const outputStyle = 'compressed';
       'utils'
     );
     lines = lines.concat(utillines);
+    lines.push('@import \'variables/' + mb.id + '\';');
     lines.push('@import \'utils/globals\';');
     lines.push('');
     lines.push('');

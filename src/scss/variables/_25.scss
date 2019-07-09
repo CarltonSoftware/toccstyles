@@ -1,16 +1,17 @@
-$site-color-one: #1E345D; // Catalina Blue
-$site-color-two: #FF637D; // Pink
-$site-color-three: #6AA2B8; // Shakespeare
-$site-color-four: #DBA900; // Mustard
-$site-color-five: #91ABA0; // Granny Smith
-$site-color-six: #663366; // Seance
-$site-color-seven: #82750F; // Costa Del Sol
+$brand-colors: (
+    one: #1E345D,
+    two: #FF637D,
+    three: #6AA2B8,
+    four: #DBA900,
+    five: #91ABA0,
+    six: #663366,
+    seven: #82750F
+);
 
+$site-colors: map-merge($site-colors, $brand-colors);
 $tocc-google-fonts: '#{$site-open-sans}|Roboto+Slab';
-
 $site-content-header-font-family: 'Roboto Slab', sans-serif;
 $site-slogan-font-family: 'Roboto Slab', sans-serif;
 $site-global-radius: 5px;
-
-$site-reassurance-bar-icon-odd: $site-color-five;
-$site-reassurance-bar-icon-even: $site-color-three;
+$site-reassurance-bar-icon-odd: map-get($site-colors, five);
+$site-reassurance-bar-icon-even: map-get($site-colors, three);

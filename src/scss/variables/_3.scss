@@ -1,15 +1,17 @@
-$tocc-google-fonts: '#{$site-open-sans}|Oswald';
-$site-color-one: #4C565C;
-$site-color-two: #01A6AA;
-$site-color-three: #E50171;  // BB Razzamatazz
-$site-color-four: #FFD200;  // BB Fiord
-$site-color-five: #F49600;  // BB Orange Peel
-$site-color-six: #8AC2EB;    // BB Sail
-$site-color-seven: #ADAFB2;  //BB Mischka
-$site-color-seven: #FFEC9D; // BB Drover
+$brand-colors: (
+    one: #4C565C,
+    two: #01A6AA,
+    three: #E50171,
+    four: #FFD200,
+    five: #F49600,
+    six: #8AC2EB,
+    seven: #ADAFB2,
+    eight: #FFEC9D
+);
 
+$site-colors: map-merge($site-colors, $brand-colors);
+$tocc-google-fonts: '#{$site-open-sans}|Oswald';
 $site-content-header-font-family: 'Oswald', sans-serif;
 $site-content-header-text-transform: uppercase;
-
 $site-slogan-font-family: 'Oswald', sans-serif;
 $site-slogan-text-transform: uppercase;

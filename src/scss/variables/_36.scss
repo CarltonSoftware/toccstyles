@@ -1,16 +1,17 @@
-//Colors
-$site-color-one: #444444;
-$site-color-two: #44A542;
-$site-color-three: #FECE00;  // IV Tangerine Yellow
-$site-color-four: #85D0F0;  // IV Columbia Blue
-$site-color-five: #1CABE0;  // IV Summer Sky
-$site-color-six: #EEEEEE;    //IV Desert Storm
-$site-color-seven: #28A2AF;  //IV Lochinvar 
-$site-color-eight: #FFED9E; // IV Parchment
+$brand-colors: (
+    one: #444444,
+    two: #44A542,
+    three: #FECE00,
+    four: #85D0F0,
+    five: #1CABE0,
+    six: #EEEEEE,
+    seven: #28A2AF,
+    eight: #FFED9E
+);
 
+$site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: 'Bauhaus', sans-serif; 
 $site-content-header-font-weight: bold;
 $site-slogan-font-family: 'Bauhaus', sans-serif; 
 $site-slogan-font-weight: bold;
-
-$site-reassurance-bar-icon-odd: $site-color-four;
+$site-reassurance-bar-icon-odd: map-get($site-colors, four);

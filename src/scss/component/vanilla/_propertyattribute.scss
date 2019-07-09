@@ -12,7 +12,7 @@
 // Include global variables
 @import '../../variables/vanilla';
 
-$site-property-icons-color: $site-color-one !default;
+$site-property-icons-color: map-get($site-colors, one) !default;
 
 .#{$site-prefix}propertyattribute {
     display: inline-block;

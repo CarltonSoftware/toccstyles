@@ -13,7 +13,7 @@
 // Include global variables
 @import '../../variables/vanilla';
 
-$site-detail-summary-background: $site-color-one !default;
+$site-detail-summary-background: map-get($site-colors, one) !default;
 $site-detail-summary-color: white !default;
 $site-detail-summary-font-family: 'Open Sans', sans-serif !default;
 $site-detail-summary-text-transform: none !default;

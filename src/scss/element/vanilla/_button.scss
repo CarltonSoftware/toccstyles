@@ -16,7 +16,7 @@ $site-button-font-family: inherit !default;
 $site-button-padding: 0.85em 1em !default;
 $site-button-margin: 0 0 $site-global-margin 0 !default;
 $site-button-fill: solid !default;
-$site-button-background: $site-color-two !default;
+$site-button-background: map-get($site-colors, two) !default;
 $site-button-background-hover: scale-color($site-button-background, $lightness: -15%) !default;
 $site-button-color: white !default;
 $site-button-color-alt: black !default;

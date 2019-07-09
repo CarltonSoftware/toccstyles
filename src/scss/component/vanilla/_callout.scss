@@ -14,7 +14,7 @@
 
 .#{$site-prefix}callout {
     padding: $site-global-padding;
-    background: $site-color-reallylightgrey;
+    background: map-get($site-colors, reallylightgrey);
     margin: 0;
     white-space: normal;
     

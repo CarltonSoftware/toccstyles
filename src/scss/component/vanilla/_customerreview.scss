@@ -46,7 +46,7 @@
         font-size: 12pt;
         margin-top: $site-global-margin / 2;
         margin-bottom: $site-global-margin;
-        color: $site-color-one;
+        color: map-get($site-colors, one);
         padding: 0;
     }
     
