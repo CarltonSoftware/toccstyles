@@ -73,6 +73,110 @@ h5.oc-title {
   font-size: 16px !important;
 }
 
+.oc-size--h1,
+.oc-size--h1 thead tr th,
+.oc-size--h1 thead tr td,
+.oc-size--h1 tbody tr td,
+.oc-size--h1 tfoot tr td {
+  font-size: 38px !important;
+}
+
+.oc-size--h2,
+.oc-size--h2 thead tr th,
+.oc-size--h2 thead tr td,
+.oc-size--h2 tbody tr td,
+.oc-size--h2 tfoot tr td {
+  font-size: 30px !important;
+}
+
+.oc-size--notificationdesktop,
+.oc-size--notificationdesktop thead tr th,
+.oc-size--notificationdesktop thead tr td,
+.oc-size--notificationdesktop tbody tr td,
+.oc-size--notificationdesktop tfoot tr td {
+  font-size: 28px !important;
+}
+
+.oc-size--h3,
+.oc-size--h3 thead tr th,
+.oc-size--h3 thead tr td,
+.oc-size--h3 tbody tr td,
+.oc-size--h3 tfoot tr td {
+  font-size: 24px !important;
+}
+
+.oc-size--h42,
+.oc-size--h42 thead tr th,
+.oc-size--h42 thead tr td,
+.oc-size--h42 tbody tr td,
+.oc-size--h42 tfoot tr td {
+  font-size: 20px !important;
+}
+
+.oc-size--h4,
+.oc-size--h4 thead tr th,
+.oc-size--h4 thead tr td,
+.oc-size--h4 tbody tr td,
+.oc-size--h4 tfoot tr td {
+  font-size: 18px !important;
+}
+
+.oc-size--h5,
+.oc-size--h5 thead tr th,
+.oc-size--h5 thead tr td,
+.oc-size--h5 tbody tr td,
+.oc-size--h5 tfoot tr td {
+  font-size: 16px !important;
+}
+
+.oc-size--large,
+.oc-size--large thead tr th,
+.oc-size--large thead tr td,
+.oc-size--large tbody tr td,
+.oc-size--large tfoot tr td {
+  font-size: 16px !important;
+}
+
+.oc-size--normal,
+.oc-size--normal thead tr th,
+.oc-size--normal thead tr td,
+.oc-size--normal tbody tr td,
+.oc-size--normal tfoot tr td {
+  font-size: 14px !important;
+}
+
+.oc-size--small,
+.oc-size--small thead tr th,
+.oc-size--small thead tr td,
+.oc-size--small tbody tr td,
+.oc-size--small tfoot tr td {
+  font-size: 12px !important;
+}
+
+.oc-size--mini,
+.oc-size--mini thead tr th,
+.oc-size--mini thead tr td,
+.oc-size--mini tbody tr td,
+.oc-size--mini tfoot tr td {
+  font-size: 11px !important;
+}
+
+.oc-size--tiny,
+.oc-size--tiny thead tr th,
+.oc-size--tiny thead tr td,
+.oc-size--tiny tbody tr td,
+.oc-size--tiny tfoot tr td {
+  font-size: 10px !important;
+}
+
+.oc-size--nano,
+.oc-size--nano thead tr th,
+.oc-size--nano thead tr td,
+.oc-size--nano tbody tr td,
+.oc-size--nano tfoot tr td {
+  font-size: 8px !important;
+}
+
 .oc-prefix:before {
   content: attr(data-prefix);
 }
@@ -81,6 +185,11 @@ h5.oc-title {
   .oc-prefix--smallonly:before {
     content: attr(data-prefix);
   }
+}
+
+.oc-prefix--bold:before {
+  font-weight: bold;
+  color: #576B6B;
 }
 
 .oc-clear__margin--small {
@@ -146,6 +255,11 @@ h5.oc-title {
   }
 }
 
+.oc-table thead tr th,
+.oc-table thead tr td {
+  color: #576B6B;
+}
+
 .oc-table thead,
 .oc-table tbody,
 .oc-table tfoot {
@@ -159,7 +273,11 @@ h5.oc-title {
 .oc-table tbody tr td,
 .oc-table tfoot tr th,
 .oc-table tfoot tr td {
+  font-size: 14px;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
   padding: 0.5rem;
+  vertical-align: middle;
 }
 
 .oc-table thead tr th .oc-button,
@@ -184,42 +302,78 @@ h5.oc-title {
 }
 
 @media screen and (max-width: 39.99875em) {
+  .oc-table thead tr th:last-child > .oc-button,
   .oc-table thead tr th:last-child > button,
   .oc-table thead tr th:last-child > .button,
+  .oc-table thead tr td:last-child > .oc-button,
   .oc-table thead tr td:last-child > button,
   .oc-table thead tr td:last-child > .button,
+  .oc-table tbody tr th:last-child > .oc-button,
   .oc-table tbody tr th:last-child > button,
   .oc-table tbody tr th:last-child > .button,
+  .oc-table tbody tr td:last-child > .oc-button,
   .oc-table tbody tr td:last-child > button,
   .oc-table tbody tr td:last-child > .button,
+  .oc-table tfoot tr th:last-child > .oc-button,
   .oc-table tfoot tr th:last-child > button,
   .oc-table tfoot tr th:last-child > .button,
+  .oc-table tfoot tr td:last-child > .oc-button,
   .oc-table tfoot tr td:last-child > button,
   .oc-table tfoot tr td:last-child > .button {
     width: 100%;
   }
+  .oc-table thead tr th:last-child > .oc-button + .oc-button,
+  .oc-table thead tr th:last-child > .oc-button + button,
+  .oc-table thead tr th:last-child > .oc-button + .button,
+  .oc-table thead tr th:last-child > button + .oc-button,
   .oc-table thead tr th:last-child > button + button,
   .oc-table thead tr th:last-child > button + .button,
+  .oc-table thead tr th:last-child > .button + .oc-button,
   .oc-table thead tr th:last-child > .button + button,
   .oc-table thead tr th:last-child > .button + .button,
+  .oc-table thead tr td:last-child > .oc-button + .oc-button,
+  .oc-table thead tr td:last-child > .oc-button + button,
+  .oc-table thead tr td:last-child > .oc-button + .button,
+  .oc-table thead tr td:last-child > button + .oc-button,
   .oc-table thead tr td:last-child > button + button,
   .oc-table thead tr td:last-child > button + .button,
+  .oc-table thead tr td:last-child > .button + .oc-button,
   .oc-table thead tr td:last-child > .button + button,
   .oc-table thead tr td:last-child > .button + .button,
+  .oc-table tbody tr th:last-child > .oc-button + .oc-button,
+  .oc-table tbody tr th:last-child > .oc-button + button,
+  .oc-table tbody tr th:last-child > .oc-button + .button,
+  .oc-table tbody tr th:last-child > button + .oc-button,
   .oc-table tbody tr th:last-child > button + button,
   .oc-table tbody tr th:last-child > button + .button,
+  .oc-table tbody tr th:last-child > .button + .oc-button,
   .oc-table tbody tr th:last-child > .button + button,
   .oc-table tbody tr th:last-child > .button + .button,
+  .oc-table tbody tr td:last-child > .oc-button + .oc-button,
+  .oc-table tbody tr td:last-child > .oc-button + button,
+  .oc-table tbody tr td:last-child > .oc-button + .button,
+  .oc-table tbody tr td:last-child > button + .oc-button,
   .oc-table tbody tr td:last-child > button + button,
   .oc-table tbody tr td:last-child > button + .button,
+  .oc-table tbody tr td:last-child > .button + .oc-button,
   .oc-table tbody tr td:last-child > .button + button,
   .oc-table tbody tr td:last-child > .button + .button,
+  .oc-table tfoot tr th:last-child > .oc-button + .oc-button,
+  .oc-table tfoot tr th:last-child > .oc-button + button,
+  .oc-table tfoot tr th:last-child > .oc-button + .button,
+  .oc-table tfoot tr th:last-child > button + .oc-button,
   .oc-table tfoot tr th:last-child > button + button,
   .oc-table tfoot tr th:last-child > button + .button,
+  .oc-table tfoot tr th:last-child > .button + .oc-button,
   .oc-table tfoot tr th:last-child > .button + button,
   .oc-table tfoot tr th:last-child > .button + .button,
+  .oc-table tfoot tr td:last-child > .oc-button + .oc-button,
+  .oc-table tfoot tr td:last-child > .oc-button + button,
+  .oc-table tfoot tr td:last-child > .oc-button + .button,
+  .oc-table tfoot tr td:last-child > button + .oc-button,
   .oc-table tfoot tr td:last-child > button + button,
   .oc-table tfoot tr td:last-child > button + .button,
+  .oc-table tfoot tr td:last-child > .button + .oc-button,
   .oc-table tfoot tr td:last-child > .button + button,
   .oc-table tfoot tr td:last-child > .button + .button {
     margin-top: 1rem;
@@ -238,6 +392,10 @@ h5.oc-title {
 
 .oc-table tbody tr:nth-child(even) {
   background-color: #F8F8F8;
+}
+
+.oc-table tbody + tfoot {
+  border-top: 0 none;
 }
 
 .oc-table tbody,
@@ -269,7 +427,6 @@ h5.oc-title {
 .oc-content table tbody tr td,
 .oc-content table tfoot tr td {
   font-size: 14px;
-  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }
@@ -305,6 +462,11 @@ h5.oc-title {
   }
 }
 
+.oc-content table thead tr th,
+.oc-content table thead tr td {
+  color: #576B6B;
+}
+
 .oc-content table thead,
 .oc-content table tbody,
 .oc-content table tfoot {
@@ -318,7 +480,11 @@ h5.oc-title {
 .oc-content table tbody tr td,
 .oc-content table tfoot tr th,
 .oc-content table tfoot tr td {
+  font-size: 14px;
+  color: #5b5b5b;
+  font-family: "Open Sans", sans-serif;
   padding: 0.5rem;
+  vertical-align: middle;
 }
 
 .oc-content table thead tr th .oc-button,
@@ -343,42 +509,78 @@ h5.oc-title {
 }
 
 @media screen and (max-width: 39.99875em) {
+  .oc-content table thead tr th:last-child > .oc-button,
   .oc-content table thead tr th:last-child > button,
   .oc-content table thead tr th:last-child > .button,
+  .oc-content table thead tr td:last-child > .oc-button,
   .oc-content table thead tr td:last-child > button,
   .oc-content table thead tr td:last-child > .button,
+  .oc-content table tbody tr th:last-child > .oc-button,
   .oc-content table tbody tr th:last-child > button,
   .oc-content table tbody tr th:last-child > .button,
+  .oc-content table tbody tr td:last-child > .oc-button,
   .oc-content table tbody tr td:last-child > button,
   .oc-content table tbody tr td:last-child > .button,
+  .oc-content table tfoot tr th:last-child > .oc-button,
   .oc-content table tfoot tr th:last-child > button,
   .oc-content table tfoot tr th:last-child > .button,
+  .oc-content table tfoot tr td:last-child > .oc-button,
   .oc-content table tfoot tr td:last-child > button,
   .oc-content table tfoot tr td:last-child > .button {
     width: 100%;
   }
+  .oc-content table thead tr th:last-child > .oc-button + .oc-button,
+  .oc-content table thead tr th:last-child > .oc-button + button,
+  .oc-content table thead tr th:last-child > .oc-button + .button,
+  .oc-content table thead tr th:last-child > button + .oc-button,
   .oc-content table thead tr th:last-child > button + button,
   .oc-content table thead tr th:last-child > button + .button,
+  .oc-content table thead tr th:last-child > .button + .oc-button,
   .oc-content table thead tr th:last-child > .button + button,
   .oc-content table thead tr th:last-child > .button + .button,
+  .oc-content table thead tr td:last-child > .oc-button + .oc-button,
+  .oc-content table thead tr td:last-child > .oc-button + button,
+  .oc-content table thead tr td:last-child > .oc-button + .button,
+  .oc-content table thead tr td:last-child > button + .oc-button,
   .oc-content table thead tr td:last-child > button + button,
   .oc-content table thead tr td:last-child > button + .button,
+  .oc-content table thead tr td:last-child > .button + .oc-button,
   .oc-content table thead tr td:last-child > .button + button,
   .oc-content table thead tr td:last-child > .button + .button,
+  .oc-content table tbody tr th:last-child > .oc-button + .oc-button,
+  .oc-content table tbody tr th:last-child > .oc-button + button,
+  .oc-content table tbody tr th:last-child > .oc-button + .button,
+  .oc-content table tbody tr th:last-child > button + .oc-button,
   .oc-content table tbody tr th:last-child > button + button,
   .oc-content table tbody tr th:last-child > button + .button,
+  .oc-content table tbody tr th:last-child > .button + .oc-button,
   .oc-content table tbody tr th:last-child > .button + button,
   .oc-content table tbody tr th:last-child > .button + .button,
+  .oc-content table tbody tr td:last-child > .oc-button + .oc-button,
+  .oc-content table tbody tr td:last-child > .oc-button + button,
+  .oc-content table tbody tr td:last-child > .oc-button + .button,
+  .oc-content table tbody tr td:last-child > button + .oc-button,
   .oc-content table tbody tr td:last-child > button + button,
   .oc-content table tbody tr td:last-child > button + .button,
+  .oc-content table tbody tr td:last-child > .button + .oc-button,
   .oc-content table tbody tr td:last-child > .button + button,
   .oc-content table tbody tr td:last-child > .button + .button,
+  .oc-content table tfoot tr th:last-child > .oc-button + .oc-button,
+  .oc-content table tfoot tr th:last-child > .oc-button + button,
+  .oc-content table tfoot tr th:last-child > .oc-button + .button,
+  .oc-content table tfoot tr th:last-child > button + .oc-button,
   .oc-content table tfoot tr th:last-child > button + button,
   .oc-content table tfoot tr th:last-child > button + .button,
+  .oc-content table tfoot tr th:last-child > .button + .oc-button,
   .oc-content table tfoot tr th:last-child > .button + button,
   .oc-content table tfoot tr th:last-child > .button + .button,
+  .oc-content table tfoot tr td:last-child > .oc-button + .oc-button,
+  .oc-content table tfoot tr td:last-child > .oc-button + button,
+  .oc-content table tfoot tr td:last-child > .oc-button + .button,
+  .oc-content table tfoot tr td:last-child > button + .oc-button,
   .oc-content table tfoot tr td:last-child > button + button,
   .oc-content table tfoot tr td:last-child > button + .button,
+  .oc-content table tfoot tr td:last-child > .button + .oc-button,
   .oc-content table tfoot tr td:last-child > .button + button,
   .oc-content table tfoot tr td:last-child > .button + .button {
     margin-top: 1rem;
@@ -397,6 +599,10 @@ h5.oc-title {
 
 .oc-content table tbody tr:nth-child(even) {
   background-color: #F8F8F8;
+}
+
+.oc-content table tbody + tfoot {
+  border-top: 0 none;
 }
 
 .oc-content table tbody,
@@ -497,7 +703,6 @@ h5.oc-title {
 
 .oc-content figure figcaption {
   font-size: 14px;
-  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   padding: 5px 0;
@@ -514,7 +719,6 @@ h5.oc-title {
 
 .oc-content blockquote {
   font-size: 14px;
-  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   padding: 1rem;
@@ -530,7 +734,6 @@ h5.oc-title {
 .oc-content ul li,
 .oc-content ol li {
   font-size: 14px;
-  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }

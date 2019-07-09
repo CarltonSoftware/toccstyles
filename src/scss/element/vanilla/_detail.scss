@@ -40,7 +40,7 @@ $site-detail-summary-font-weight: bold !default;
         text-transform: $site-detail-summary-text-transform;
         font-weight: $site-detail-summary-font-weight;
         background: $site-detail-summary-background;
-        font-size: map-get($site-font-size, largep);
+        font-size: map-get($site-font-size, large);
 
         &:after {
             @include fa-icon;

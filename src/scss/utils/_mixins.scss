@@ -36,8 +36,8 @@
 }
 
 @mixin paragraph() {
-    font-size: map-get($site-font-size, p);
-    line-height: map-get($site-font-line-height, p);
+    font-size: map-get($site-font-size, normal);
+    line-height: map-get($site-font-line-height, normal);
     color: $site-content-paragraph-font-color;
     font-family: $site-content-paragraph-font-family;
 }

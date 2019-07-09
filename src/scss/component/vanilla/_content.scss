@@ -47,7 +47,19 @@ h5.#{$site-prefix}title {
 }
 
 .#{$site-prefix}large {
-    font-size: map-get($site-font-size, largep) !important;
+    font-size: map-get($site-font-size, large) !important;
+}
+    
+@each $key, $value in $site-font-size {
+    .#{$site-prefix}size--#{$key} {
+        &,
+        thead tr th,
+        thead tr td,
+        tbody tr td,
+        tfoot tr td {
+            font-size: $value !important;
+        }
+    }
 }
 
 .#{$site-prefix}prefix {
@@ -59,6 +71,12 @@ h5.#{$site-prefix}title {
             &:before {
                 content: attr(data-prefix);
             }
+        }
+    }
+    &--bold {
+        &:before {
+            font-weight: bold;
+            color: $site-color-one;
         }
     }
 }
@@ -120,6 +138,13 @@ h5.#{$site-prefix}title {
         @include breakpoint(medium) {
             display: table-header-group;
         }
+        
+        tr {
+            th,
+            td {
+                color: $site-color-one;
+            }
+        }
     }
 
     thead,
@@ -130,8 +155,10 @@ h5.#{$site-prefix}title {
         tr {
             th,
             td {
+                @include paragraph();
                 padding: $site-global-padding / 2;
-
+                vertical-align: middle;
+                
                 .#{$site-prefix}button,
                 button,
                 .button {
@@ -139,11 +166,13 @@ h5.#{$site-prefix}title {
                 }
                 
                 &:last-child {
+                    > .#{$site-prefix}button,
                     > button,
                     > .button {
                         @include breakpoint(small only) {
                             width: 100%;
 
+                            + .#{$site-prefix}button,
                             + button,
                             + .button {
                                 margin-top: $site-global-margin;
@@ -168,6 +197,10 @@ h5.#{$site-prefix}title {
             &:nth-child(even) {
                 background-color: $site-color-reallylightgrey;
             }
+        }
+        
+        + tfoot {
+            border-top: 0 none;
         }
     }
 

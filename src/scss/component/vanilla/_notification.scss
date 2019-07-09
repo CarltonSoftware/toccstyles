@@ -54,7 +54,7 @@ $site-toccnotificationbarheight: $site-global-padding * 2;
         
         @include breakpoint(medium) {
             text-align: center;
-            font-size: map-get($site-font-size, p);
+            font-size: map-get($site-font-size, normal);
         }
     }
     

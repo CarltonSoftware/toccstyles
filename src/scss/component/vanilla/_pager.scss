@@ -36,7 +36,7 @@ $site-pager-current-item-background-color: $site-color-one !default;
         
         margin-right: $site-global-margin / 2;
         border-radius: $site-global-radius;
-        font-size: map-get($site-font-size, p);
+        font-size: map-get($site-font-size, normal);
         border: 1px solid $site-color-lightgrey;
         
         &,

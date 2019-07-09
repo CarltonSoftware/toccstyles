@@ -16,7 +16,6 @@
   overflow: hidden;
   padding: 1rem 1rem 1rem 1.5rem;
   font-size: 14px;
-  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }
@@ -32,7 +31,6 @@
 .oc-customerreview > .tocc__title {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  line-height: 1.8;
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
 }

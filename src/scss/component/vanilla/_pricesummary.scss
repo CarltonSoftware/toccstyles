@@ -18,7 +18,7 @@
     margin-bottom: $site-global-margin;
     border-radius: $site-global-radius;
     position: relative;
-    font-size: map-get($site-font-size, p);
+    font-size: map-get($site-font-size, normal);
 
     thead {
         background-color: white;
@@ -27,7 +27,7 @@
         th {
             color: $site-color-one;
             font-weight: bold;
-            font-size: map-get($site-font-size, largep);
+            font-size: map-get($site-font-size, large);
             text-align: left;
             padding: 0;
         }
