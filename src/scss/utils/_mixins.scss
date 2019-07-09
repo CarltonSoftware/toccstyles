@@ -42,6 +42,13 @@
     font-family: $site-content-paragraph-font-family;
 }
 
+@mixin slider() {
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 100%;
+    white-space: nowrap;
+}
+
 @mixin fa() {
     font-family: 'Font Awesome 5 Pro';
     font-weight: 900;

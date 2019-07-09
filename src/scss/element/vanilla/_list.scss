@@ -17,9 +17,12 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-bottom: $site-global-margin;
     
     @include paragraph();
+    
+    > * {
+        margin-bottom: $site-global-margin;
+    }
     
     &--inline {
         > * {
@@ -29,10 +32,7 @@
         }
         
         &.slider {
-            overflow-y: hidden;
-            overflow-x: auto;
-            width: 100%;
-            white-space: nowrap;
+            @include slider();
         }
     }
     

@@ -126,6 +126,10 @@ h5.#{$site-prefix}title {
     }
 }
 
+.#{$site-prefix}slider {
+    @include slider();
+}
+
 @mixin octable() {
     border-collapse: collapse;
     width: 100%;

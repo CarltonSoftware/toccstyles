@@ -230,6 +230,13 @@ h5.oc-title {
   text-transform: none;
 }
 
+.oc-slider {
+  overflow-y: hidden;
+  overflow-x: auto;
+  width: 100%;
+  white-space: nowrap;
+}
+
 .oc-table {
   border-collapse: collapse;
   width: 100%;
