@@ -77,6 +77,8 @@ $site-label-padding: 0.33333rem 0.5rem !default;
         &:before {
             margin-right: $site-global-margin * 2;
             line-height: 37px;
+            font-size: map-get($site-font-size, normal);
+            font-weight: bold;
         }
         
         > * {

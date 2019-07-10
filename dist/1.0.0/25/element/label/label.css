@@ -133,6 +133,8 @@
 .oc-label__related:before {
   margin-right: 2rem;
   line-height: 37px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .oc-label__related > * {
