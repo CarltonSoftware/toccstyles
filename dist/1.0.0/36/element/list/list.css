@@ -24,13 +24,13 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.oc-list > * {
-  margin-bottom: 5px;
+.oc-list > *, .oc-list--inline > * {
+  margin-bottom: 8px;
 }
 
 .oc-list--inline > * {
   display: inline-block;
-  margin-right: 1rem;
+  margin-right: 8px;
   vertical-align: top;
 }
 

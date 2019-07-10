@@ -13,7 +13,7 @@
 @import '../../variables/vanilla';
 
 $site-list-margin: $site-global-margin;
-$site-list-item-margin: 5px;
+$site-list-item-margin: 8px;
 
 
 .#{$site-prefix}list {
@@ -24,14 +24,17 @@ $site-list-item-margin: 5px;
     
     @include paragraph();
     
-    > * {
-        margin-bottom: $site-list-item-margin;
+    &,
+    &--inline {
+        > * {
+            margin-bottom: $site-list-item-margin;
+        }
     }
     
     &--inline {
         > * {
             display: inline-block;
-            margin-right: $site-global-margin;
+            margin-right: $site-list-item-margin;;
             vertical-align: top;
         }
         
