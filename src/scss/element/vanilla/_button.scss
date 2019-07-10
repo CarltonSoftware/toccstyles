@@ -12,7 +12,6 @@
 // Include global variables
 @import '../../variables/vanilla';
 
-$site-button-font-family: inherit !default;
 $site-button-padding: 0.85em 1em !default;
 $site-button-margin: 0 0 $site-global-margin 0 !default;
 $site-button-fill: solid !default;
@@ -22,6 +21,9 @@ $site-button-color: white !default;
 $site-button-color-alt: black !default;
 $site-button-radius: $site-global-radius !default;
 $site-button-hollow-border-width: 1px !default;
+$site-button-font-weight: normal !default;
+$site-button-font-family: 'Open Sans', sans-serif !default;
+$site-button-text-transform: none !default;
 
 $site-button-sizes: (
   tiny: 0.6rem,
@@ -56,6 +58,8 @@ $button-responsive-expanded: false !default;
     border-radius: $site-button-radius;
     transition: $site-button-transition;
     font-family: $site-button-font-family;
+    font-weight: $site-button-font-weight;
+    text-transform: $site-button-text-transform;
     font-size: map-get($site-button-sizes, default);
     -webkit-appearance: none; // sass-lint:disable-line no-vendor-prefixes
     line-height: 1;

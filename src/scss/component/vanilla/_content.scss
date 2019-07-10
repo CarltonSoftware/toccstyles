@@ -66,6 +66,13 @@ h5.#{$site-prefix}title {
     &:before {
         content: attr(data-prefix);
     }
+    &--bos {
+        @include breakpoint(small only) {
+            &:before {
+                display: block;
+            }
+        }
+    }
     &--smallonly {
         @include breakpoint(small only) {
             &:before {

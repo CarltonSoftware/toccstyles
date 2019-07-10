@@ -12,14 +12,21 @@
 // Include global variables
 @import '../../variables/vanilla';
 
+$site-list-margin: $site-global-margin;
+$site-list-item-margin: 5px;
+
 
 .#{$site-prefix}list {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-bottom: $site-global-margin;
+    margin-bottom: $site-list-margin;
     
     @include paragraph();
+    
+    > * {
+        margin-bottom: $site-list-item-margin;
+    }
     
     &--inline {
         > * {
@@ -46,6 +53,17 @@
                 &:after {
                     display: none;
                 }
+            }
+        }
+    }
+    
+    
+    &--inline.#{$site-prefix}prefix,
+    &--comma.#{$site-prefix}prefix,
+    &.#{$site-prefix}prefix {
+        @include breakpoint(small only) {
+            &:before {
+                display: block;
             }
         }
     }

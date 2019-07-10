@@ -67,7 +67,13 @@ $site-label-padding: 0.33333rem 0.5rem !default;
     }
     
     &__related {
-        margin-bottom: $site-global-margin;
+        white-space: nowrap;
+        overflow-y: auto;
+        
+        @include breakpoint(medium) {
+            white-space: normal;
+        }
+        
         &:before {
             margin-right: $site-global-margin * 2;
             line-height: 37px;
@@ -75,6 +81,7 @@ $site-label-padding: 0.33333rem 0.5rem !default;
         
         > * {
             margin-right: 4px;
+            margin-bottom: $site-global-margin;
         }
         
         .#{$site-prefix}label {

@@ -120,7 +120,14 @@
 }
 
 .oc-label__related {
-  margin-bottom: 1rem;
+  white-space: nowrap;
+  overflow-y: auto;
+}
+
+@media screen and (min-width: 40em) {
+  .oc-label__related {
+    white-space: normal;
+  }
 }
 
 .oc-label__related:before {
@@ -130,4 +137,5 @@
 
 .oc-label__related > * {
   margin-right: 4px;
+  margin-bottom: 1rem;
 }

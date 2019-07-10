@@ -22,7 +22,9 @@
   border: 1px solid transparent;
   border-radius: 2px;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
-  font-family: inherit;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  text-transform: none;
   font-size: 0.9rem;
   -webkit-appearance: none;
   line-height: 1;
