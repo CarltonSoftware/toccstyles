@@ -22,9 +22,10 @@
 
 @media screen and (max-width: 39.99875em) {
   .oc-tabletcolumn--small > * {
-    width: 50%;
+    width: calc(50% - 1px);
     display: inline-block;
     vertical-align: top;
+    font-size: 0;
   }
   .oc-tabletcolumn--small > *:first-child {
     padding-right: 0.5rem;
@@ -42,9 +43,10 @@
 
 @media screen and (min-width: 40em) and (max-width: 64.06125em) {
   .oc-tabletcolumn--small > * {
-    width: 50%;
+    width: calc(50% - 1px);
     display: inline-block;
     vertical-align: top;
+    font-size: 0;
   }
   .oc-tabletcolumn--small > *:first-child {
     padding-right: 0.5rem;
@@ -62,9 +64,10 @@
 
 @media screen and (max-width: 39.99875em) {
   .oc-tabletcolumn--smallonly > * {
-    width: 50%;
+    width: calc(50% - 1px);
     display: inline-block;
     vertical-align: top;
+    font-size: 0;
   }
   .oc-tabletcolumn--smallonly > *:first-child {
     padding-right: 0.5rem;
@@ -82,9 +85,10 @@
 
 @media screen and (min-width: 40em) and (max-width: 64.06125em) {
   .oc-tabletcolumn--mediumonly > * {
-    width: 50%;
+    width: calc(50% - 1px);
     display: inline-block;
     vertical-align: top;
+    font-size: 0;
   }
   .oc-tabletcolumn--mediumonly > *:first-child {
     padding-right: 0.5rem;
@@ -102,9 +106,10 @@
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 40em) and (max-width: 64.06125em), screen and (min-resolution: 192dpi) and (min-width: 40em) and (max-width: 64.06125em) {
   .oc-tabletcolumn--retina > * {
-    width: 50%;
+    width: calc(50% - 1px);
     display: inline-block;
     vertical-align: top;
+    font-size: 0;
   }
   .oc-tabletcolumn--retina > *:first-child {
     padding-right: 0.5rem;

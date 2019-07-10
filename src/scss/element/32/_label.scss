@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _label.scss
+ * @brand    Above Beach Cottages
+ * @name     label
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/32';
+
+
+@import '../vanilla/label';

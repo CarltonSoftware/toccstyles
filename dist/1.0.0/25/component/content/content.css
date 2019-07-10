@@ -192,6 +192,65 @@ h5.oc-title {
   color: #1E345D;
 }
 
+.oc-prefix--title:before {
+  color: #1E345D;
+  font-weight: normal;
+  font-family: "Roboto Slab", sans-serif;
+  text-transform: none;
+}
+
+.oc-prefix .oc-prefix--h1:before {
+  font-size: 38px !important;
+}
+
+.oc-prefix .oc-prefix--h2:before {
+  font-size: 30px !important;
+}
+
+.oc-prefix .oc-prefix--notificationdesktop:before {
+  font-size: 28px !important;
+}
+
+.oc-prefix .oc-prefix--h3:before {
+  font-size: 24px !important;
+}
+
+.oc-prefix .oc-prefix--h42:before {
+  font-size: 20px !important;
+}
+
+.oc-prefix .oc-prefix--h4:before {
+  font-size: 18px !important;
+}
+
+.oc-prefix .oc-prefix--h5:before {
+  font-size: 16px !important;
+}
+
+.oc-prefix .oc-prefix--large:before {
+  font-size: 16px !important;
+}
+
+.oc-prefix .oc-prefix--normal:before {
+  font-size: 14px !important;
+}
+
+.oc-prefix .oc-prefix--small:before {
+  font-size: 12px !important;
+}
+
+.oc-prefix .oc-prefix--mini:before {
+  font-size: 11px !important;
+}
+
+.oc-prefix .oc-prefix--tiny:before {
+  font-size: 10px !important;
+}
+
+.oc-prefix .oc-prefix--nano:before {
+  font-size: 8px !important;
+}
+
 .oc-clear__margin--small {
   margin: 0 !important;
   padding: 0 !important;

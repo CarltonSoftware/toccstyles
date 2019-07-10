@@ -7,14 +7,7 @@ $site-prefix: 'oc-' !default;
 
 $site-open-sans: 'Open+Sans:400,600' !default;
 
-$site-font-size: (
-  "h1":                  38px,
-  "h2":                  30px,
-  "notificationdesktop": 28px,
-  "h3":                  24px,
-  "h42":                 20px,
-  "h4":                  18px,
-  "h5":                  16px,
+$site-normal-font-sizes: (
   "large":               16px,
   "normal":              14px,
   "small":               12px,
@@ -22,6 +15,18 @@ $site-font-size: (
   "tiny":                10px,
   "nano":                8px
 ) !default;
+
+$site-title-font-sizes: (
+  "h1":                  38px,
+  "h2":                  30px,
+  "notificationdesktop": 28px,
+  "h3":                  24px,
+  "h42":                 20px,
+  "h4":                  18px,
+  "h5":                  16px
+) !default;
+
+$site-font-size: map-merge($site-title-font-sizes, $site-normal-font-sizes);
 
 $site-font-line-height: (
   "h1": 48px,

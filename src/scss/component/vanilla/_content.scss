@@ -79,6 +79,22 @@ h5.#{$site-prefix}title {
             color: map-get($site-colors, one);
         }
     }
+    &--title {
+        &:before {
+            color: $site-content-header-font-color;
+            font-weight: $site-content-header-font-weight;
+            font-family: $site-content-header-font-family;
+            text-transform: $site-content-header-text-transform;
+        }
+    }
+    
+    @each $key, $value in $site-font-size {
+        .#{$site-prefix}prefix--#{$key} {
+            &:before {
+                font-size: $value !important;
+            }
+        }
+    }
 }
 
 .#{$site-prefix}clear {

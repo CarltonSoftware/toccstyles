@@ -121,6 +121,12 @@
       "short": "Button",
       "description": "A button element",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "label",
+      "short": "Label",
+      "description": "A label element",
+      "createdby": "Tabs System User"
     }
   ],
   "layout": [

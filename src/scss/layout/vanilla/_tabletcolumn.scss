@@ -12,22 +12,25 @@
 // Include global variables
 @import '../../variables/vanilla';
 
+$site-tablet-padding: $site-global-padding / 2;
+
 @mixin tabletcol($size) {
     @include breakpoint($size) {
         font-size: 0;
     }
     > * {
         @include breakpoint($size) {
-            width: 50%;
+            width: calc(50% - 1px);
             display: inline-block;
             vertical-align: top;
+            font-size: 0;
 
             &:first-child {
-                padding-right: $site-global-padding / 2;
+                padding-right: $site-tablet-padding;
             }
 
             &:last-child {
-                padding-left: $site-global-padding / 2;
+                padding-left: $site-tablet-padding;
             }
         }
     }

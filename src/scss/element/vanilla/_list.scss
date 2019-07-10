@@ -33,6 +33,23 @@
         }
     }
     
+    &--comma {
+        > * {
+            display: inline;
+            padding: 0;
+            
+            &:after {
+                content: ', ';
+            }
+            
+            &:last-child {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+    
     &--numbered {
         > * {
             counter-increment: sequence;

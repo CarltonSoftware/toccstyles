@@ -37,6 +37,19 @@
   white-space: nowrap;
 }
 
+.oc-list--comma > * {
+  display: inline;
+  padding: 0;
+}
+
+.oc-list--comma > *:after {
+  content: ', ';
+}
+
+.oc-list--comma > *:last-child:after {
+  display: none;
+}
+
 .oc-list--numbered > * {
   counter-increment: sequence;
 }

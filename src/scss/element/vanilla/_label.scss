@@ -1,0 +1,86 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _label.scss
+ * @brand    Vanilla
+ * @name     label
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+$site-label-padding: 0.33333rem 0.5rem !default;
+
+@mixin label {
+    display: inline-block;
+    padding: $site-label-padding;
+    border-radius: $site-global-radius;
+    line-height: 1;
+    white-space: nowrap;
+    font-family: $site-content-paragraph-font-family;
+}
+
+.#{$site-prefix}label {
+    @include label;
+    background: map-get($site-colors, one);
+    font-size: map-get($site-normal-font-sizes, small);
+
+    &,
+    &:hover,
+    &:visited {
+        color: white;
+    }
+
+    &--upper {
+        text-transform: uppercase;
+    }
+
+    @each $name, $color in $site-colors {
+      &--#{$name} {
+        background: $color;
+      }
+    }
+
+    @each $name, $size in $site-normal-font-sizes {
+      &--#{$name} {
+        font-size: $size;
+      }
+    }
+    
+    &--hollow {
+        background: none;
+        border: 1px solid map-get($site-colors, lightgrey);
+        
+        &,
+        &:hover,
+        &:visited {
+            color: map-get($site-colors, one);
+        }
+    }
+    
+    &--padded {
+        padding: 8px 12px;
+        line-height: 20px;
+    }
+    
+    &__related {
+        margin-bottom: $site-global-margin;
+        &:before {
+            margin-right: $site-global-margin * 2;
+            line-height: 37px;
+        }
+        
+        > * {
+            margin-right: 4px;
+        }
+        
+        .#{$site-prefix}label {
+            @extend .#{$site-prefix}label--hollow;
+            @extend .#{$site-prefix}label--normal;
+            @extend .#{$site-prefix}label--padded;
+        }
+    }
+}
