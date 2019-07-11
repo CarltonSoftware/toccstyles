@@ -42,26 +42,6 @@ h5.#{$site-prefix}title {
     @include title(h5);
 }
 
-.#{$site-prefix}small {
-    font-size: map-get($site-font-size, small) !important;
-}
-
-.#{$site-prefix}large {
-    font-size: map-get($site-font-size, large) !important;
-}
-    
-@each $key, $value in $site-font-size {
-    .#{$site-prefix}size--#{$key} {
-        &,
-        thead tr th,
-        thead tr td,
-        tbody tr td,
-        tfoot tr td {
-            font-size: $value !important;
-        }
-    }
-}
-
 .#{$site-prefix}prefix {
     &:before {
         content: attr(data-prefix);

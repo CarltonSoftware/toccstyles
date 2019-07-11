@@ -9,3 +9,12 @@
         background-color: $color !important;
     }
 }
+
+@each $key, $value in $site-font-size {
+    .#{$site-prefix}#{$key} {
+        &,
+        & * {
+            font-size: $value !important;
+        }
+    }
+}

@@ -71,7 +71,7 @@
   content: "\f2e7";
 }
 
-.oc-propertyattribute--attr63:before {
+.oc-propertyattribute--bathrooms:before, .oc-propertyattribute--attr63:before {
   content: "\f2cd";
 }
 
@@ -112,7 +112,9 @@
 }
 
 .oc-propertyattributes {
+  margin: 0;
   margin-top: 0.5rem;
+  overflow: hidden;
 }
 
 .oc-propertyattributes--featured:before, .oc-propertyattributes--featured:after {
@@ -134,17 +136,19 @@
 
 .oc-propertyattributes--featured .oc-propertyattribute {
   float: left;
-  width: 45%;
-  margin: 0 5% 16px 0 !important;
+  padding: 0 5% 16px 0;
+  margin: 0;
 }
 
 @media screen and (min-width: 64.0625em) {
   .oc-propertyattributes--featured .oc-propertyattribute {
-    min-width: 200px;
-    font-size: 16px;
+    width: 25%;
+    padding: 0 0 16px 0;
+  }
+  .oc-propertyattributes--featured .oc-propertyattribute, .oc-propertyattributes--featured .oc-propertyattribute:before {
+    font-size: 18px;
   }
   .oc-propertyattributes--featured .oc-propertyattribute:before {
-    font-size: 16px;
     width: 24px;
   }
 }
