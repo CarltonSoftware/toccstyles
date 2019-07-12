@@ -56,22 +56,14 @@
             float: left;
             border-right: 90px solid white;
             
-            + .#{$site-prefix}marketingmessage {
-                &:after {
-                    content: '';
-                    height: 100%;
-                    position: absolute;
-                    width: 1px;
-                    background-color: map-get($site-colors, grey);
-                    top: 0;
-                    left: -45px;
-                }
-            }
-            
-            &:last-of-type {
-                &:after {
-                    //display: none;
-                }
+            &:after {
+                content: '';
+                height: 100%;
+                position: absolute;
+                width: 1px;
+                background-color: map-get($site-colors, grey);
+                top: 0;
+                left: -45px;
             }
 
             .#{$site-prefix}title {
