@@ -26,7 +26,7 @@
   overflow: hidden;
   white-space: nowrap;
   min-height: auto !important;
-  padding-bottom: 0;
+  padding: 0;
 }
 
 .oc-marketingmessage > .oc-content {

@@ -21,7 +21,7 @@
     > .#{$site-prefix}title {
         @include ellipsis();
         min-height: auto !important;
-        padding-bottom: 0;
+        padding: 0;
     }
     
     > .#{$site-prefix}content {
