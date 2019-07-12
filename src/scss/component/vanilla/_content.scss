@@ -16,6 +16,8 @@ $site-content-header-font-family: 'Open Sans', sans-serif !default;
 $site-content-header-text-transform: none !default;
 $site-content-blockquote-border-color: map-get($site-colors, one) !default;
 $site-content-link-color: map-get($site-colors, two) !default;
+$site-content-header-padding: 0.5em !default;
+$site-content-header-margin: 0.5em !default;
 
 .#{$site-prefix}content h1,
 h1.#{$site-prefix}title {
@@ -110,8 +112,8 @@ h2.#{$site-prefix}title,
 h3.#{$site-prefix}title,
 h4.#{$site-prefix}title,
 h5.#{$site-prefix}title {
-    padding-top: $site-global-padding / 2;
-    padding-bottom: $site-global-padding / 2;
+    padding-top: $site-content-header-padding;
+    padding-bottom: $site-content-header-padding;
 }
 
 .#{$site-prefix}title,
