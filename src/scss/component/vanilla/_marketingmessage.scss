@@ -57,12 +57,12 @@
             border-right: 90px solid white;
             
             + .#{$site-prefix}marketingmessage {
-                &:before {
+                &:after {
                     content: '';
                     height: 100%;
                     position: absolute;
                     width: 1px;
-                    background-color: map-get($site-colors, reallylightgrey);
+                    background-color: map-get($site-colors, grey);
                     top: 0;
                     left: -45px;
                 }

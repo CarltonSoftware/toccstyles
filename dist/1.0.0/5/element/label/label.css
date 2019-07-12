@@ -65,6 +65,10 @@
   background: #9899B1;
 }
 
+.oc-label--grey {
+  background: #EEEEEE;
+}
+
 .oc-label--lightgrey {
   background: #F1F1F1;
 }
