@@ -22,6 +22,11 @@
         @include ellipsis();
         min-height: auto !important;
         padding: 0;
+        
+        &,
+        & > a {
+            font-weight: bold;
+        }
     }
     
     > .#{$site-prefix}content {

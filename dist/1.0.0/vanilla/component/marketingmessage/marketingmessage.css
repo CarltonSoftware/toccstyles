@@ -21,6 +21,11 @@
   padding: 0;
 }
 
+.oc-marketingmessage > .oc-title,
+.oc-marketingmessage > .oc-title > a {
+  font-weight: bold;
+}
+
 .oc-marketingmessage > .oc-content {
   height: 60px;
   position: relative;
