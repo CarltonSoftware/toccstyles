@@ -65,6 +65,12 @@
       "short": "Notifcation",
       "description": "A notification bar component.",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "overlay",
+      "short": "Overlay",
+      "description": "An overlay element",
+      "createdby": "Tabs System User"
     }
   ],
   "element": [

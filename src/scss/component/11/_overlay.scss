@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _overlay.scss
+ * @brand    Flagship Holiday Homes
+ * @name     overlay
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/11';
+
+
+@import '../vanilla/overlay';
