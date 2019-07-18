@@ -70,6 +70,8 @@ $site-overlay-zindex: 30;
         padding: 0;
         position: relative;
         z-index: $site-overlay-zindex + 1;
+        background: none;
+        border: 0 none;
             
         @include breakpoint(large) {
             position: absolute;
