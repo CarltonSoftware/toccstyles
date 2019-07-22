@@ -10,7 +10,7 @@
         "watchcss": "node src/watchcss.js",
         "postinstall": "node src/postinstall.js",
         "upload": "node src/uploadToS3.js"
-    },
+    }, 
     "vendorCopy": [
         {
             "from": "node_modules/@fortawesome/fontawesome-pro/webfonts",
