@@ -84,6 +84,7 @@ $site-property-icons-color: map-get($site-colors, one) !default;
         content: fa-content($fa-var-bath);
     }
 
+    &--attr29:before,
     &--attr06:before  {
         content: fa-content($fa-var-tree-alt);
     }
