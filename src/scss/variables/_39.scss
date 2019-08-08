@@ -1,0 +1,17 @@
+$brand-colors: (
+    one: #655D4B,
+    two: #5D87A1,
+    three: #C7B68D,
+    four: #454343,
+    five: #8A1204,
+    six: #D4BE8F,
+    seven: #311637,
+    eight: #311637
+);
+
+$site-colors: map-merge($site-colors, $brand-colors);
+$site-reassurance-bar-icon-odd: map-get($site-colors, one);
+$site-reassurance-bar-icon-even: map-get($site-colors, six);
+$site-content-header-font-weight: bold;
+$tocc-google-fonts: '#{$site-open-sans}|Montserrat:600';
+$site-slogan-font-weight: bold;
