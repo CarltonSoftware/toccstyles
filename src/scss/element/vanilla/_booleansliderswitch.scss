@@ -24,7 +24,7 @@
     line-height: 30px;
 }
 
-.#{site-prefix}booleansliderswitch {
+.#{$site-prefix}booleansliderswitch {
     height: 40px;
     border: 1px solid #DEDEDE;
     max-width: 300px;
@@ -45,7 +45,7 @@
         appearance: initial;
         font-weight: bold;
         border: none;
-        
+
         &:focus {
             outline: none;
         }
