@@ -133,6 +133,12 @@
       "short": "Label",
       "description": "A label element",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "booleansliderswitch",
+      "short": "Boolean Slider Switch",
+      "description": "On off slider button",
+      "createdby": "Tabs System User"
     }
   ],
   "layout": [
