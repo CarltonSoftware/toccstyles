@@ -22,6 +22,7 @@
     margin-right: 4px;
     text-align: center;
     line-height: 30px;
+    cursor: pointer;
 }
 
 .#{$site-prefix}booleansliderswitch {
@@ -39,13 +40,14 @@
 
     input {
         align-self: center;
-        ;
+        display: flex;
+        align-items: stretch;
         border-radius: 2px;
         -webkit-appearance: initial;
         appearance: initial;
         font-weight: bold;
         border: none;
-
+        
         &:focus {
             outline: none;
         }
