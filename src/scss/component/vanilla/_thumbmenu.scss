@@ -1,0 +1,74 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _thumbmenu.scss
+ * @brand    Vanilla
+ * @name     thumbmenu
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/vanilla';
+
+$site-thumbmenu-background: map-get($site-colors, one) !default;
+$site-thumbmenu-color: map-get($site-colors, almostwhite) !default;
+
+.#{$site-prefix}thumbmenu {
+    @include breakpoint(medium up) {
+        display: none;
+    }
+
+    background: $site-thumbmenu-background;
+    color: $site-thumbmenu-color;
+
+    font-size: 9pt;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+
+    z-index: 9999;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        width: 100%;
+
+        li {
+            padding: 12px 8px 8px 8px;
+            list-style: none;
+            display: inline-block;
+            text-align: center;
+            flex-basis: 0;
+            flex-grow: 1;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+
+                &:hover, &:active, &:visited {
+                    color: inherit;
+                }
+            }
+        }
+    }
+
+    &__icon {
+        display: block;
+        padding-bottom: 5px;
+
+        &.fa {
+            font-size: 2em;
+        }
+    }
+}
