@@ -71,6 +71,12 @@
       "short": "Overlay",
       "description": "An overlay element",
       "createdby": "Tabs System User"
+    },
+    {
+      "name": "thumbmenu",
+      "short": "Thumb menu",
+      "description": "Quick navigation menu for mobile use sitting at the bottom of the viewport.",
+      "createdby": "Tabs System User"
     }
   ],
   "element": [

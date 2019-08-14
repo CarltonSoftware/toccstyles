@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _thumbmenu.scss
+ * @brand    Peak District Cottages
+ * @name     thumbmenu
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/20';
+
+
+@import '../vanilla/thumbmenu';

@@ -27,8 +27,20 @@ const outputStyle = 'compressed';
   fs.emptyDirSync(basecsspath);
 
   // Loop through all of the brands to create a new file
-  const marketingbrands = await clientUtils.getCollection(instance, 'MarketingBrand');
+  let marketingbrands = await clientUtils.getCollection(instance, 'MarketingBrand');
   marketingbrands.push({ id: 'vanilla' })
+
+  // Filter brands being processed based on the command line?
+  if (process.argv.length>2) {
+    const filterbrands = process.argv;
+    filterbrands.shift();
+    filterbrands.shift();
+
+    marketingbrands = marketingbrands.filter(function(value, index, arr) {
+      return filterbrands.includes(value.id);
+    });
+  }
+
   marketingbrands.forEach((mb) => {
     const baseCssPath = basecsspath + mb.id;
     const scssPath = basescsspath + mb.id + '.scss';
