@@ -16,23 +16,32 @@ $site-thumbmenu-background: map-get($site-colors, one) !default;
 $site-thumbmenu-color: map-get($site-colors, almostwhite) !default;
 
 .#{$site-prefix}thumbmenu {
-    @include breakpoint(medium up) {
-        display: none;
-    }
 
     background: $site-thumbmenu-background;
     color: $site-thumbmenu-color;
 
-    font-size: 9pt;
+    &--sticky {
+        position: sticky;
+    }
 
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
+    &--fixed {
+        position: fixed;
+    }
 
-    z-index: 9999;
+    &--sticky, &--fixed {
+        @include breakpoint(medium up) {
+            display: none;
+        }
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+
+        z-index: 9999;
+    }
 
     ul {
+        @include reset();
+
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -50,6 +59,8 @@ $site-thumbmenu-color: map-get($site-colors, almostwhite) !default;
             flex-grow: 1;
 
             a {
+                font-size: 9pt;
+                color: inherit;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -64,10 +75,10 @@ $site-thumbmenu-color: map-get($site-colors, almostwhite) !default;
     }
 
     &__icon {
-        display: block;
         padding-bottom: 5px;
 
         &.fa {
+            display: block;
             font-size: 2em;
         }
     }

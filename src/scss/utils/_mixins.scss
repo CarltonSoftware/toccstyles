@@ -1,6 +1,11 @@
 @import 'unit';
 @import 'breakpoint';
 
+@mixin reset() {
+    margin: 0;
+    padding: 0;
+}
+
 @mixin ellipsis() {
     text-overflow: ellipsis;
     overflow: hidden;
