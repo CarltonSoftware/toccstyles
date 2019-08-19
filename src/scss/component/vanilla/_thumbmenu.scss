@@ -13,7 +13,9 @@
 @import '../../variables/vanilla';
 
 $site-thumbmenu-background: map-get($site-colors, one) !default;
+$site-thumbmenu-bg-current: map-get($site-colors, two) !default;
 $site-thumbmenu-color: map-get($site-colors, almostwhite) !default;
+$site-thumbmenu-current: map-get($site-colors, almostwhite) !default;
 
 .#{$site-prefix}thumbmenu {
 
@@ -37,6 +39,13 @@ $site-thumbmenu-color: map-get($site-colors, almostwhite) !default;
         width: 100vw;
 
         z-index: 9999;
+    }
+
+    &__item {
+        &--current {
+            background: $site-thumbmenu-bg-current;
+            color: $site-thumbmenu-current;
+        }
     }
 
     ul {
