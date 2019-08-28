@@ -55,14 +55,14 @@
 
         &:before {
             @include pseudostate;
-            content: 'On';
+            content: attr(data-msg-on);
             color: #5B5B5B;
             margin-left: 4px;
         }
 
         &:after {
             @include pseudostate;
-            content: 'Off';
+            content: attr(data-msg-off);
             background: #5b5b5b;
             color: white;
         }
@@ -71,7 +71,7 @@
     input[type="checkbox"]:checked {
         &:before {
             @include pseudostate;
-            content: 'On';
+            content: attr(data-msg-on);
             background: #019701;
             color: white;
             margin-left: 4px;
@@ -79,7 +79,7 @@
 
         &:after {
             @include pseudostate;
-            content: 'Off';
+            content: attr(data-msg-off);
             color: #5B5B5B;
             background: white;
         }
