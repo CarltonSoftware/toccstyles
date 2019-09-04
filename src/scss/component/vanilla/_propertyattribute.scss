@@ -152,8 +152,8 @@ $site-property-icons-color: map-get($site-colors, one) !default;
     }
     
     // style exception for attributes
-    &--attr867 {
-        overflow: initial;
-        white-space: initial;
+    .#{$site-prefix}propertyattribute--attr867 {
+        overflow: visible;
+        white-space: normal;
     }
 }
