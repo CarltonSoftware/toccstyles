@@ -150,4 +150,10 @@ $site-property-icons-color: map-get($site-colors, one) !default;
             }
         }
     }
+    
+    // style exception for attributes
+    &--attr867 {
+        overflow: initial;
+        white-space: initial;
+    }
 }
