@@ -54,6 +54,10 @@
 
 .#{$site-prefix}marketingmessages--wrapper {
     @include clearfix;
+
+    .#{$site-prefix}marketingmessage {
+        width: 100%;
+    }
     
     @include breakpoint(medium) {
         .#{$site-prefix}marketingmessage {
