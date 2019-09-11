@@ -105,6 +105,10 @@ $site-property-icons-color: map-get($site-colors, one) !default;
         content: fa-content($fa-var-crown);
     }
 
+    &--attr904:before {
+        content: fa-content($fa-var-golf-club);
+    }
+
     &--attr83:before {
         content: fa-content($fa-var-table-tennis);
     }
