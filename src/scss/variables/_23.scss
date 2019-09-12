@@ -1,0 +1,18 @@
+$brand-colors: (
+    one: #002F56,
+    two: #407CC9,
+    three: #D5CD9E,
+    four: #7C97AB,
+    five: #490C66,
+    six: #DC0031,
+    seven: #497527,
+    eight: #FF5000
+);
+
+$site-colors: map-merge($site-colors, $brand-colors);
+$tocc-google-fonts: '#{$site-open-sans}|Lora';
+$site-content-header-font-family: 'Lora', sans-serif;
+$site-slogan-font-family: 'Lora', sans-serif;
+$site-global-radius: 5px;
+$site-reassurance-bar-icon-odd: map-get($site-colors, one);
+$site-reassurance-bar-icon-even: map-get($site-colors, four);
