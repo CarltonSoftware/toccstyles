@@ -8,7 +8,7 @@ $brand-colors: (
 $site-colors: map-merge($site-colors, $brand-colors);
 $tocc-google-fonts: '#{$site-open-sans}';
 $site-content-header-font-family: 'TT Norms', sans-serif;
-$site-slogan-font-family: 'Lora', sans-serif;
+$site-slogan-font-family: 'TT Norms', sans-serif;
 $site-global-radius: 5px;
 $site-reassurance-bar-icon-odd: map-get($site-colors, two);
 $site-reassurance-bar-icon-even: map-get($site-colors, two);
