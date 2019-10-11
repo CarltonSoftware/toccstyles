@@ -1,6 +1,6 @@
 $brand-colors: (
-    one: #450C34,
-    two: #033234,
+    one: #033234,
+    two: #450C34,
     three: #798286,
     four: #F9F7f0,
 );
@@ -12,3 +12,4 @@ $site-slogan-font-family: 'TT Norms', sans-serif;
 $site-global-radius: 5px;
 $site-reassurance-bar-icon-odd: map-get($site-colors, two);
 $site-reassurance-bar-icon-even: map-get($site-colors, two);
+$site-button-radius: 0px;
