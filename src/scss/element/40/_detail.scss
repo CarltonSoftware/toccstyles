@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _detail.scss
+ * @brand    Project King
+ * @name     detail
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/40';
+
+
+@import '../vanilla/detail';

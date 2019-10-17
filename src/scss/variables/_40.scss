@@ -1,0 +1,16 @@
+$brand-colors: (
+    one: #46B29D,
+    two: #004AA2,
+    three: #384C5B,
+    four: #026DC8,
+    five: #F53855,
+    six: #F0CA4D,
+    seven: #E5F1F5
+);
+
+$site-colors: map-merge($site-colors, $brand-colors);
+$site-reassurance-bar-icon-odd: map-get($site-colors, one);
+$site-reassurance-bar-icon-even: map-get($site-colors, six);
+$site-content-header-font-weight: bold;
+$tocc-google-fonts: '#{$site-open-sans}|Philosopher:400,700';
+$site-slogan-font-weight: bold;
