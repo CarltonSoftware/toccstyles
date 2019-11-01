@@ -1,7 +1,3 @@
-@import 'vanilla';
-@import '../variables/8';
-@import url("https://fonts.googleapis.com/css?family=#{$tocc-google-fonts}&display=swap");
-
 @font-face {
     font-family: 'sharpsansbook';
     src: url('SharpSans-Book.woff2') format('woff2'),
