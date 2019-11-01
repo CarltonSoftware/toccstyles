@@ -11,5 +11,6 @@ $site-colors: map-merge($site-colors, $brand-colors);
 $site-reassurance-bar-icon-odd: map-get($site-colors, three);
 $site-reassurance-bar-icon-even: map-get($site-colors, two);
 $site-content-header-font-weight: bold;
+$site-content-header-font-family: 'sharpsansbook', 'Open Sans', sans-serif !default;
 $tocc-google-fonts: '#{$site-open-sans}';
 $site-slogan-font-weight: bold;
