@@ -1,6 +1,6 @@
 $brand-colors: (
-    one: #F07E26,
-    two: #D9610E,
+    one: #D9610E,
+    two: #F07E26,
     three: #705F6F,
     four: #ECB086,
     five: #E49056,
@@ -9,7 +9,7 @@ $brand-colors: (
 
 $site-colors: map-merge($site-colors, $brand-colors);
 $site-reassurance-bar-icon-odd: map-get($site-colors, three);
-$site-reassurance-bar-icon-even: map-get($site-colors, two);
+$site-reassurance-bar-icon-even: map-get($site-colors, one);
 $site-content-header-font-weight: bold;
 $site-content-header-font-family: 'sharpsansbook', 'Open Sans', sans-serif !default;
 $tocc-google-fonts: '#{$site-open-sans}';
