@@ -14,3 +14,4 @@ $site-reassurance-bar-icon-odd: map-get($site-colors, one);
 $site-reassurance-bar-icon-even: map-get($site-colors, one);
 $site-button-radius: 0px;
 $site-content-header-font-color:  map-get($site-colors, two);
+$site-content-header-text-transform: capitalize;
