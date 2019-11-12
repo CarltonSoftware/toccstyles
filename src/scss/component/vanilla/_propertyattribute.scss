@@ -49,6 +49,31 @@ $site-property-icons-color: map-get($site-colors, one) !default;
         content: fa-content($fa-var-car-side);
     }
 
+    &--attr27:before {
+        content: fa-content($fa-var-blanket);
+    }
+
+    &--attr17:before {
+        content: fa-content($fa-var-washer);
+    }
+
+    &--attr70:before {
+        content: fa-content($fa-var-dryer);
+    }
+
+    &--attr31:before {
+        content: fa-content($fa-var-wallet);
+        transform: rotate(-90deg);
+    }
+
+    &--attr26:before {
+        content: fa-content($fa-var-container-storage);
+    }
+
+    &--attr07:before {
+        content: fa-content($fa-var-rectangle-landscape);
+    }
+
     &--bedrooms:before,
     &--attr116:before,
     &--attr115:before, 
