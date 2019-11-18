@@ -70,8 +70,13 @@ $site-property-icons-color: map-get($site-colors, one) !default;
         content: fa-content($fa-var-container-storage);
     }
 
+    &--attr34:before,
     &--attr07:before {
-        content: fa-content($fa-var-rectangle-landscape);
+        content: fa-content($fa-var-container-storage);
+    }
+
+    &--attr19:before {
+        content: fa-content($fa-var-chair);
     }
 
     &--bedrooms:before,
