@@ -1,0 +1,16 @@
+/**
+ * TOCC Style Guide Element
+ * 
+ * @filename _overlay.scss
+ * @brand    Home From Home
+ * @name     overlay
+ * @author   Tabs System User
+ */
+// Include Utilities
+@import '../../utils/index';
+
+// Include global variables
+@import '../../variables/41';
+
+
+@import '../vanilla/overlay';

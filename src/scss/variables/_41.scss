@@ -1,0 +1,18 @@
+$brand-colors: (
+    one: #1F407B, 
+    two: #F17021,
+    three: #B61E3B,
+    four: #6B4D74,
+    five: #478FAC,
+    six: #005E20,
+    seven: #F8992A,
+    eight: #3C0152
+);
+
+$site-colors: map-merge($site-colors, $brand-colors);
+$site-reassurance-bar-icon-odd: map-get($site-colors, five);
+$site-reassurance-bar-icon-even: map-get($site-colors, one);
+$site-content-header-font-weight: bold;
+$tocc-google-fonts: '#{$site-open-sans}|Lato:400,700';
+$site-slogan-font-weight: bold;
+
