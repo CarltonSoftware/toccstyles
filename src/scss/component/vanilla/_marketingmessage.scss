@@ -9,6 +9,7 @@
 // Include Utilities
 @import '../../utils/index';
 
+$site-marketingmessage-headerlink-font-weight: bold !default;
 // Include global variables
 @import '../../variables/vanilla';
 
@@ -25,7 +26,7 @@
         
         &,
         & > a {
-            font-weight: bold;
+            font-weight: $site-marketingmessage-headerlink-font-weight;
         }
     }
     
