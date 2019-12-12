@@ -12,6 +12,7 @@ $brand-colors: (
 $site-colors: map-merge($site-colors, $brand-colors);
 $tocc-google-fonts: '#{$site-open-sans}|Lora';
 $site-content-header-font-family: 'Lora', sans-serif;
+$site-marketingmessage-headerlink-font-family: 'Lora', sans-serif;
 $site-slogan-font-family: 'Lora', sans-serif;
 $site-global-radius: 5px;
 $site-reassurance-bar-icon-odd: map-get($site-colors, one);

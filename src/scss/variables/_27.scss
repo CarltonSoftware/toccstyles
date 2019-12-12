@@ -11,5 +11,6 @@ $brand-colors: (
 $site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: 'sharpsansbook', sans-serif;
 $site-slogan-font-family: 'sharpsansbook', sans-serif;
+$site-marketingmessage-headerlink-font-family: 'sharpsansbook', sans-serif;
 $site-reassurance-bar-icon-odd: map-get($site-colors, one);
 $site-reassurance-bar-icon-even: map-get($site-colors, one);

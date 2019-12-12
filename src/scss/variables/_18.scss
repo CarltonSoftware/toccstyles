@@ -13,6 +13,7 @@ $site-colors: map-merge($site-colors, $brand-colors);
 $site-global-radius: 0;
 $site-content-header-font-family: 'Avenir LT', 'Avenir', sans-serif;
 $site-slogan-font-family: 'Avenir LT', 'Avenir', sans-serif;
+$site-marketingmessage-headerlink-font-family: 'Avenir LT', 'Avenir', sans-serif;
 $site-slogan-font-weight: bold;
 $site-content-header-font-weight: bold;
 $site-reassurance-bar-icon-odd: map-get($site-colors, four);

@@ -10,6 +10,7 @@ $brand-colors: (
 
 $site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: "Helvetica Neue", Helvetica, Arial ,sans-serif;
+$site-marketingmessage-headerlink-font-family: "Helvetica Neue", Helvetica, Arial ,sans-serif;
 $site-content-header-font-weight: bold;
 $site-slogan-font-family: "blackjackregular";
 $site-slogan-font-color: map-get($site-colors, two);

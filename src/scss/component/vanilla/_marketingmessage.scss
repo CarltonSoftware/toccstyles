@@ -10,6 +10,7 @@
 @import '../../utils/index';
 
 $site-marketingmessage-headerlink-font-weight: bold !default;
+$site-marketingmessage-headerlink-font-family: 'Open Sans', sans-serif !default;
 // Include global variables
 @import '../../variables/vanilla';
 
@@ -27,6 +28,7 @@ $site-marketingmessage-headerlink-font-weight: bold !default;
         &,
         & > a {
             font-weight: $site-marketingmessage-headerlink-font-weight;
+            font-family: $site-marketingmessage-headerlink-font-family;
         }
     }
     

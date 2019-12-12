@@ -12,6 +12,7 @@ $brand-colors: (
 $site-colors: map-merge($site-colors, $brand-colors);
 $tocc-google-fonts: '#{$site-open-sans}|Oswald';
 $site-content-header-font-family: 'Oswald', sans-serif;
+$site-marketingmessage-headerlink-font-family: 'Oswald';
 $site-content-header-text-transform: uppercase;
 $site-content-header-font-weight: normal;
 $site-slogan-font-family: 'Oswald', sans-serif;

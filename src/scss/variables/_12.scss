@@ -11,6 +11,7 @@ $brand-colors: (
 $site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: 'AvenirLTPro-Heavy', sans-serif;
 $site-slogan-font-family: 'AvenirLTPro-Heavy', sans-serif;
+$site-marketingmessage-headerlink-font-family: 'AvenirLTPro-Heavy', sans-serif;
 $site-marketingmessage-headerlink-font-weight: normal;
 $site-slogan-text-transform: uppercase;
 $site-slogan-letter-spacing: 1px;
