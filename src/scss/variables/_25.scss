@@ -11,6 +11,7 @@ $brand-colors: (
 $site-colors: map-merge($site-colors, $brand-colors);
 $tocc-google-fonts: '#{$site-open-sans}|Roboto+Slab';
 $site-content-header-font-family: 'Roboto Slab', sans-serif;
+$site-marketingmessage-headerlink-font-weight: normal;
 $site-slogan-font-family: 'Roboto Slab', sans-serif;
 $site-global-radius: 5px;
 $site-reassurance-bar-icon-odd: map-get($site-colors, five);

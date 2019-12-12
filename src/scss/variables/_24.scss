@@ -11,10 +11,11 @@ $brand-colors: (
 
 $site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: 'Actor', sans-serif;
+$site-content-header-font-weight: bold;
 $tocc-google-fonts: '#{$site-open-sans}|Actor';
 $site-slogan-font-family: 'wheatland';
 $site-slogan-font-size: 28px;
 $site-slogan-font-weight: bold;
 $site-slogan-font-color: map-get($site-colors, three);
 $site-reassurance-bar-icon-odd: map-get($site-colors, four);
-$site-reassurance-bar-icon-even: map-get($site-colors, five);
+$site-reassurance-bar-icon-even: map-get($site-colors, five); 
