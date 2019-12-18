@@ -42,6 +42,13 @@ const outputStyle = 'compressed';
   }
 
   marketingbrands.forEach((mb) => {
+
+    if(mb.id == 42 || mb.id == "42") {
+      //prevent building css for Lakes Cottage Care, this is a PMS branding
+      if(mb.name === "Lakes Cottage Care")
+        return;
+    }
+
     const baseCssPath = basecsspath + mb.id;
     const scssPath = basescsspath + mb.id + '.scss';
 
