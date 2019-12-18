@@ -13,6 +13,7 @@ $tocc-google-fonts: '#{$site-open-sans}|Open+Sans+Condensed';
 $site-content-header-font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
 $site-marketingmessage-headerlink-font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
 $site-content-header-font-weight: bold;
+$site-marketingmessage-headerlink-font-weight: bold;
 $site-content-header-text-transform: uppercase; 
 $site-reassurance-bar-icon-odd: map-get($site-colors, four);
 $site-reassurance-bar-icon-even: map-get($site-colors, one);
