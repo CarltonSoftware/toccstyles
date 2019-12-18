@@ -12,6 +12,7 @@ $brand-colors: (
 $site-colors: map-merge($site-colors, $brand-colors);
 $site-content-header-font-family: 'Arcon Regular', sans-serif;
 $site-content-header-font-weight: bold;
+$site-marketingmessage-headerlink-font-weight: bold;
 $site-slogan-font-family: 'Arcon Regular', sans-serif;
 $site-marketingmessage-headerlink-font-family: 'Arcon Regular', sans-serif;
 $site-slogan-font-weight: bold;

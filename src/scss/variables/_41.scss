@@ -13,7 +13,9 @@ $site-colors: map-merge($site-colors, $brand-colors);
 $site-reassurance-bar-icon-odd: map-get($site-colors, five);
 $site-reassurance-bar-icon-even: map-get($site-colors, one);
 $site-content-header-font-weight: bold;
+$site-marketingmessage-headerlink-font-weight: bold;
 $tocc-google-fonts: '#{$site-open-sans}|Lato:400,700';
 $site-marketingmessage-headerlink-font-family: "Lato";
 $site-slogan-font-weight: bold;
+
 
