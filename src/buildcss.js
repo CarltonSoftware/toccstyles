@@ -3,10 +3,13 @@ const clientUtils = require('tabsutils/utils/clientUtils');
 const prompt = require('tabsutils/utils/prompt');
 const whoAmi = require('tabsutils/utils/whoAmi');
 const fs = require('fs-extra');
+const glob = require('glob');
+const path = require('path');
 const utils = require('./utils');
 const packageJson = require('../package.json');
 const basecsspath = utils.getCssDir(packageJson.version);
 const basescsspath = utils.getScssDir();
+const basehtmlpath = utils.getHtmlDir();
 const getdir = utils.getdir;
 const getbranddir = utils.getbranddir;
 const getfilepath = utils.getfilepath;
@@ -169,6 +172,25 @@ const outputStyle = 'compressed';
         JSON.stringify(result.map)
       );
     }
+
+    // Build html files
+    var destDir = baseCssPath + '/html';
+    fsCheckAndCreateDirExists(destDir);
+
+    glob(basehtmlpath + '/*.html', {}, (err, files) => {
+      files.forEach(f => {
+        let data = fs.readFileSync(f, 'utf8');
+        data = data.replace(/{version}/g, packageJson.version);
+        data = data.replace(/{brand}/g, mb.id);
+        
+        let fName = destDir + '/' + path.basename(f);
+        if (fsCheckExists(fName)) {
+          fs.unlinkSync(fName);
+        }
+
+        fs.writeFileSync(fName, data);
+      });        
+    });
   });
   
   exec('cp -R ' + __dirname + '/scss/fonts ' + __dirname + '/../dist/' + packageJson.version + ' && find ' + __dirname + '/../dist/' + packageJson.version + '/fonts -name \"*.scss\" -type f -delete', (err, out) => {
