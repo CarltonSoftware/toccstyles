@@ -83,14 +83,14 @@ h5.oc-title {
 
 .oc-prefix--bold:before {
   font-weight: bold;
-  color: #555555;
+  color: #033234;
 }
 
 .oc-prefix--title:before {
-  color: #555555;
+  color: #450C34;
   font-weight: normal;
-  font-family: "Open Sans", sans-serif;
-  text-transform: none;
+  font-family: "TT Norms", sans-serif;
+  text-transform: uppercase;
 }
 
 .oc-prefix .oc-prefix--h1:before {
@@ -185,10 +185,10 @@ h5.oc-title {
 .oc-content h4 > a,
 .oc-content h5,
 .oc-content h5 > a {
-  color: #555555;
+  color: #450C34;
   font-weight: normal;
-  font-family: "Open Sans", sans-serif;
-  text-transform: none;
+  font-family: "TT Norms", sans-serif;
+  text-transform: uppercase;
 }
 
 .oc-slider {
@@ -202,7 +202,7 @@ h5.oc-title {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 2px;
+  border-radius: 0px;
 }
 
 .oc-table thead {
@@ -217,7 +217,7 @@ h5.oc-title {
 
 .oc-table thead tr th,
 .oc-table thead tr td {
-  color: #555555;
+  color: #033234;
 }
 
 .oc-table thead,
@@ -402,14 +402,14 @@ h5.oc-title {
 .oc-content table a,
 .oc-content figure a,
 .oc-content blockquote a {
-  color: #666666;
+  color: #450C34;
 }
 
 .oc-content table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 2px;
+  border-radius: 0px;
 }
 
 .oc-content table thead {
@@ -424,7 +424,7 @@ h5.oc-title {
 
 .oc-content table thead tr th,
 .oc-content table thead tr td {
-  color: #555555;
+  color: #033234;
 }
 
 .oc-content table thead,
@@ -682,7 +682,7 @@ h5.oc-title {
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   padding: 1rem;
-  border-left: 2px solid #555555;
+  border-left: 2px solid #033234;
 }
 
 .oc-content ul,

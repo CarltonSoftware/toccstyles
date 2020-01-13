@@ -32,7 +32,7 @@
 
 @media screen and (min-width: 64.0625em) {
   .oc-overlay__container {
-    border-radius: 2px;
+    border-radius: 5px;
     width: 60%;
     height: auto;
     left: 20%;
@@ -64,7 +64,7 @@
 
 .oc-overlay__close {
   float: right;
-  color: #555555;
+  color: #6ba4b8;
   margin: 0;
   padding: 0;
   position: relative;
@@ -95,7 +95,7 @@
   content: "\f00d";
   font-size: 2em;
   font-weight: bold;
-  color: #555555;
+  color: #6ba4b8;
 }
 
 .oc-overlay__target .oc-overlay__container {
@@ -125,17 +125,17 @@
 
 /* Track */
 .oc-overlay__container::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 2px grey;
-  border-radius: 2px;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
 }
 
 /* Handle */
 .oc-overlay__container::-webkit-scrollbar-thumb {
-  background: #555555;
-  border-radius: 2px;
+  background: #6ba4b8;
+  border-radius: 5px;
 }
 
 /* Handle on hover */
 .oc-overlay__container::-webkit-scrollbar-thumb:hover {
-  background: #666666;
+  background: #004851;
 }

@@ -17,7 +17,6 @@
 .oc-figure {
   position: relative;
   zoom: 1;
-  margin-bottom: 1rem;
 }
 
 .oc-figure,
@@ -56,11 +55,11 @@
   white-space: nowrap;
   font-size: 14px;
   color: #5b5b5b;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   max-width: 100%;
   color: white;
   pointer-events: none;
-  background-color: #555555;
+  background-color: #6ba4b8;
   font-weight: bold;
 }
 

@@ -21,7 +21,7 @@
   line-height: 1;
   white-space: nowrap;
   font-family: "Open Sans", sans-serif;
-  background: #555555;
+  background: #D9610E;
   font-size: 12px;
 }
 
@@ -34,27 +34,27 @@
 }
 
 .oc-label--one {
-  background: #555555;
+  background: #D9610E;
 }
 
 .oc-label--two {
-  background: #666666;
+  background: #F07E26;
 }
 
 .oc-label--three {
-  background: #777777;
+  background: #706F6F;
 }
 
 .oc-label--four {
-  background: #888888;
+  background: #ECB086;
 }
 
 .oc-label--five {
-  background: #999999;
+  background: #E49056;
 }
 
 .oc-label--six {
-  background: #AAAAAA;
+  background: #F4cFB6;
 }
 
 .oc-label--seven {
@@ -115,7 +115,7 @@
 }
 
 .oc-label--hollow, .oc-label__related .oc-label, .oc-label--hollow:hover, .oc-label__related .oc-label:hover, .oc-label--hollow:visited, .oc-label__related .oc-label:visited {
-  color: #555555;
+  color: #D9610E;
 }
 
 .oc-label--padded, .oc-label__related .oc-label {

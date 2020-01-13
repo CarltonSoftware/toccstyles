@@ -83,13 +83,13 @@ h5.oc-title {
 
 .oc-prefix--bold:before {
   font-weight: bold;
-  color: #555555;
+  color: #002F56;
 }
 
 .oc-prefix--title:before {
-  color: #555555;
+  color: #002F56;
   font-weight: normal;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   text-transform: none;
 }
 
@@ -185,9 +185,9 @@ h5.oc-title {
 .oc-content h4 > a,
 .oc-content h5,
 .oc-content h5 > a {
-  color: #555555;
+  color: #002F56;
   font-weight: normal;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   text-transform: none;
 }
 
@@ -202,7 +202,7 @@ h5.oc-title {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .oc-table thead {
@@ -217,7 +217,7 @@ h5.oc-title {
 
 .oc-table thead tr th,
 .oc-table thead tr td {
-  color: #555555;
+  color: #002F56;
 }
 
 .oc-table thead,
@@ -402,14 +402,14 @@ h5.oc-title {
 .oc-content table a,
 .oc-content figure a,
 .oc-content blockquote a {
-  color: #666666;
+  color: #407CC9;
 }
 
 .oc-content table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .oc-content table thead {
@@ -424,7 +424,7 @@ h5.oc-title {
 
 .oc-content table thead tr th,
 .oc-content table thead tr td {
-  color: #555555;
+  color: #002F56;
 }
 
 .oc-content table thead,
@@ -682,7 +682,7 @@ h5.oc-title {
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   padding: 1rem;
-  border-left: 2px solid #555555;
+  border-left: 2px solid #002F56;
 }
 
 .oc-content ul,

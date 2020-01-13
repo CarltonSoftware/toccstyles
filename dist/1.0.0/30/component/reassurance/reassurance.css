@@ -33,7 +33,7 @@
 .oc-reassurance p {
   font-size: 14px;
   color: #5b5b5b;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.5;
@@ -63,11 +63,11 @@
   position: absolute;
   font-size: 28px;
   margin-top: 0.5rem;
-  color: #BBBBBB;
+  color: #004851;
 }
 
 .oc-reassurance:nth-child(even):before {
-  color: #777777;
+  color: #6ba4b8;
 }
 
 .oc-reassurance[href^=tel]:before {

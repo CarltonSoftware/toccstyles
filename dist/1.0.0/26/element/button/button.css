@@ -30,7 +30,7 @@
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: #006068;
+  background-color: #F5C400;
   color: #3E3935;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .oc-button:hover, .oc-button:focus {
-  background-color: #005258;
+  background-color: #d0a700;
   color: #3E3935;
 }
 
@@ -56,13 +56,13 @@
 }
 
 .oc-button--disabled, .oc-button--disabled:hover, .oc-button--disabled:focus, .oc-button[disabled], .oc-button[disabled]:hover, .oc-button[disabled]:focus {
-  background-color: #006068;
+  background-color: #F5C400;
   color: #3E3935;
 }
 
 .oc-button--hollow {
-  border: 1px solid #006068;
-  color: #006068;
+  border: 1px solid #F5C400;
+  color: #F5C400;
 }
 
 .oc-button--hollow, .oc-button--hollow:hover, .oc-button--hollow:focus {
@@ -74,13 +74,13 @@
 }
 
 .oc-button--hollow:hover, .oc-button--hollow:focus {
-  border-color: #003034;
-  color: #003034;
+  border-color: #7b6200;
+  color: #7b6200;
 }
 
 .oc-button--hollow:hover.disabled, .oc-button--hollow:hover[disabled], .oc-button--hollow:focus.disabled, .oc-button--hollow:focus[disabled] {
-  border: 1px solid #006068;
-  color: #006068;
+  border: 1px solid #F5C400;
+  color: #F5C400;
 }
 
 a.oc-button:hover, a.oc-button:focus {

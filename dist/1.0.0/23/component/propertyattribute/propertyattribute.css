@@ -37,7 +37,7 @@
   line-height: 1;
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
-  color: #555555;
+  color: #002F56;
   font-size: 1.25em;
   margin-right: 0.5rem;
   content: "\f059";
@@ -53,6 +53,35 @@
 
 .oc-propertyattribute--attr30:before, .oc-propertyattribute--attr136:before, .oc-propertyattribute--attr632:before, .oc-propertyattribute--attr866:before {
   content: "\f5e4";
+}
+
+.oc-propertyattribute--attr27:before {
+  content: "\f498";
+}
+
+.oc-propertyattribute--attr17:before {
+  content: "\f898";
+}
+
+.oc-propertyattribute--attr70:before {
+  content: "\f861";
+}
+
+.oc-propertyattribute--attr31:before {
+  content: "\f555";
+  transform: rotate(-90deg);
+}
+
+.oc-propertyattribute--attr26:before {
+  content: "\f4b7";
+}
+
+.oc-propertyattribute--attr34:before, .oc-propertyattribute--attr07:before {
+  content: "\f538";
+}
+
+.oc-propertyattribute--attr19:before {
+  content: "\f6c0";
 }
 
 .oc-propertyattribute--bedrooms:before, .oc-propertyattribute--attr116:before, .oc-propertyattribute--attr115:before, .oc-propertyattribute--attr156:before, .oc-propertyattribute--attr20:before, .oc-propertyattribute--attr564:before {
@@ -83,7 +112,7 @@
   content: "\f2cd";
 }
 
-.oc-propertyattribute--attr06:before {
+.oc-propertyattribute--attr29:before, .oc-propertyattribute--attr06:before {
   content: "\f400";
 }
 
@@ -101,6 +130,10 @@
 
 .oc-propertyattribute--attr225:before {
   content: "\f521";
+}
+
+.oc-propertyattribute--attr904:before {
+  content: "\f451";
 }
 
 .oc-propertyattribute--attr83:before {
@@ -159,4 +192,9 @@
   .oc-propertyattributes--featured .oc-propertyattribute:before {
     width: 24px;
   }
+}
+
+.oc-propertyattributes .oc-propertyattribute--attr867 {
+  overflow: visible;
+  white-space: normal;
 }

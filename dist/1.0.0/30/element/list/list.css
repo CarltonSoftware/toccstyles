@@ -21,7 +21,7 @@
   margin-bottom: 1rem;
   font-size: 14px;
   color: #5b5b5b;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
 }
 
 .oc-list > *, .oc-list--inline > * {
@@ -67,7 +67,7 @@
 .oc-list--numbered > *:before {
   content: counter(sequence);
   padding: 1px 7px;
-  background: #555555;
+  background: #6ba4b8;
   border-radius: 50%;
   color: white;
   font-weight: bold;

@@ -67,7 +67,7 @@
 .oc-list--numbered > *:before {
   content: counter(sequence);
   padding: 1px 7px;
-  background: #555555;
+  background: #002F56;
   border-radius: 50%;
   color: white;
   font-weight: bold;

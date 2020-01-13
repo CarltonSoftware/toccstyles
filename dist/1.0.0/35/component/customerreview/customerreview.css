@@ -17,7 +17,7 @@
 .oc-customerreview {
   padding: 1rem;
   border: 1px solid #D8D8D8;
-  border-radius: 2px;
+  border-radius: 0px;
   height: 270px;
   width: 100%;
   position: relative;
@@ -60,7 +60,7 @@
   font-size: 12pt;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
-  color: #555555;
+  color: #033234;
   padding: 0;
 }
 

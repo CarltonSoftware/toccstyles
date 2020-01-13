@@ -83,13 +83,13 @@ h5.oc-title {
 
 .oc-prefix--bold:before {
   font-weight: bold;
-  color: #555555;
+  color: #D9610E;
 }
 
 .oc-prefix--title:before {
-  color: #555555;
-  font-weight: normal;
-  font-family: "Open Sans", sans-serif;
+  color: #D9610E;
+  font-weight: bold;
+  font-family: "sharpsansbook", "Open Sans", sans-serif;
   text-transform: none;
 }
 
@@ -185,9 +185,9 @@ h5.oc-title {
 .oc-content h4 > a,
 .oc-content h5,
 .oc-content h5 > a {
-  color: #555555;
-  font-weight: normal;
-  font-family: "Open Sans", sans-serif;
+  color: #D9610E;
+  font-weight: bold;
+  font-family: "sharpsansbook", "Open Sans", sans-serif;
   text-transform: none;
 }
 
@@ -217,7 +217,7 @@ h5.oc-title {
 
 .oc-table thead tr th,
 .oc-table thead tr td {
-  color: #555555;
+  color: #D9610E;
 }
 
 .oc-table thead,
@@ -402,7 +402,7 @@ h5.oc-title {
 .oc-content table a,
 .oc-content figure a,
 .oc-content blockquote a {
-  color: #666666;
+  color: #F07E26;
 }
 
 .oc-content table {
@@ -424,7 +424,7 @@ h5.oc-title {
 
 .oc-content table thead tr th,
 .oc-content table thead tr td {
-  color: #555555;
+  color: #D9610E;
 }
 
 .oc-content table thead,
@@ -682,7 +682,7 @@ h5.oc-title {
   color: #5b5b5b;
   font-family: "Open Sans", sans-serif;
   padding: 1rem;
-  border-left: 2px solid #555555;
+  border-left: 2px solid #D9610E;
 }
 
 .oc-content ul,

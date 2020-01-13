@@ -49,8 +49,8 @@
 .oc-pager__item.current,
 .oc-pager__item.current a {
   color: white;
-  background-color: #555555;
-  border-color: #555555;
+  background-color: #D9610E;
+  border-color: #D9610E;
 }
 
 .oc-pager__item.oc-pager__item--current:hover, .oc-pager__item.current:hover {
@@ -81,6 +81,6 @@
 
 .oc-pager__item,
 .oc-pager__item a {
-  color: #555555;
+  color: #D9610E;
   cursor: pointer;
 }

@@ -64,7 +64,7 @@
 
 .oc-overlay__close {
   float: right;
-  color: #555555;
+  color: #D9610E;
   margin: 0;
   padding: 0;
   position: relative;
@@ -95,7 +95,7 @@
   content: "\f00d";
   font-size: 2em;
   font-weight: bold;
-  color: #555555;
+  color: #D9610E;
 }
 
 .oc-overlay__target .oc-overlay__container {
@@ -131,11 +131,11 @@
 
 /* Handle */
 .oc-overlay__container::-webkit-scrollbar-thumb {
-  background: #555555;
+  background: #D9610E;
   border-radius: 2px;
 }
 
 /* Handle on hover */
 .oc-overlay__container::-webkit-scrollbar-thumb:hover {
-  background: #666666;
+  background: #F07E26;
 }

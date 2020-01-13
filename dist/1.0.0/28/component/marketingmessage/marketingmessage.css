@@ -32,6 +32,7 @@
 .oc-marketingmessage > .oc-title,
 .oc-marketingmessage > .oc-title > a {
   font-weight: bold;
+  font-family: "Montserrat";
 }
 
 .oc-marketingmessage > .oc-content {
@@ -81,6 +82,10 @@
 
 .oc-marketingmessages--wrapper {
   *zoom: 1;
+}
+
+.oc-marketingmessages--wrapper .oc-marketingmessage {
+  width: 100%;
 }
 
 @media screen and (min-width: 40em) {

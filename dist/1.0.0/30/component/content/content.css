@@ -83,13 +83,13 @@ h5.oc-title {
 
 .oc-prefix--bold:before {
   font-weight: bold;
-  color: #555555;
+  color: #6ba4b8;
 }
 
 .oc-prefix--title:before {
-  color: #555555;
+  color: #6ba4b8;
   font-weight: normal;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   text-transform: none;
 }
 
@@ -185,9 +185,9 @@ h5.oc-title {
 .oc-content h4 > a,
 .oc-content h5,
 .oc-content h5 > a {
-  color: #555555;
+  color: #6ba4b8;
   font-weight: normal;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   text-transform: none;
 }
 
@@ -202,7 +202,7 @@ h5.oc-title {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .oc-table thead {
@@ -217,7 +217,7 @@ h5.oc-title {
 
 .oc-table thead tr th,
 .oc-table thead tr td {
-  color: #555555;
+  color: #6ba4b8;
 }
 
 .oc-table thead,
@@ -235,7 +235,7 @@ h5.oc-title {
 .oc-table tfoot tr td {
   font-size: 14px;
   color: #5b5b5b;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   padding: 0.5rem;
   vertical-align: middle;
 }
@@ -388,7 +388,7 @@ h5.oc-title {
 .oc-content table tfoot tr td {
   font-size: 14px;
   color: #5b5b5b;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
 }
 
 .oc-content p:not(:last-child),
@@ -402,14 +402,14 @@ h5.oc-title {
 .oc-content table a,
 .oc-content figure a,
 .oc-content blockquote a {
-  color: #666666;
+  color: #004851;
 }
 
 .oc-content table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .oc-content table thead {
@@ -424,7 +424,7 @@ h5.oc-title {
 
 .oc-content table thead tr th,
 .oc-content table thead tr td {
-  color: #555555;
+  color: #6ba4b8;
 }
 
 .oc-content table thead,
@@ -442,7 +442,7 @@ h5.oc-title {
 .oc-content table tfoot tr td {
   font-size: 14px;
   color: #5b5b5b;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   padding: 0.5rem;
   vertical-align: middle;
 }
@@ -664,7 +664,7 @@ h5.oc-title {
 .oc-content figure figcaption {
   font-size: 14px;
   color: #5b5b5b;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   padding: 5px 0;
   font-weight: bold;
   font-size: 12px;
@@ -680,9 +680,9 @@ h5.oc-title {
 .oc-content blockquote {
   font-size: 14px;
   color: #5b5b5b;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   padding: 1rem;
-  border-left: 2px solid #555555;
+  border-left: 2px solid #6ba4b8;
 }
 
 .oc-content ul,
@@ -695,7 +695,7 @@ h5.oc-title {
 .oc-content ol li {
   font-size: 14px;
   color: #5b5b5b;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
 }
 
 .oc-content ul {

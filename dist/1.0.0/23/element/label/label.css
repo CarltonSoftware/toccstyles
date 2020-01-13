@@ -17,11 +17,11 @@
 .oc-label {
   display: inline-block;
   padding: 0.33333rem 0.5rem;
-  border-radius: 2px;
+  border-radius: 5px;
   line-height: 1;
   white-space: nowrap;
   font-family: "Open Sans", sans-serif;
-  background: #555555;
+  background: #002F56;
   font-size: 12px;
 }
 
@@ -34,35 +34,35 @@
 }
 
 .oc-label--one {
-  background: #555555;
+  background: #002F56;
 }
 
 .oc-label--two {
-  background: #666666;
+  background: #407CC9;
 }
 
 .oc-label--three {
-  background: #777777;
+  background: #D5CD9E;
 }
 
 .oc-label--four {
-  background: #888888;
+  background: #7C97AB;
 }
 
 .oc-label--five {
-  background: #999999;
+  background: #490C66;
 }
 
 .oc-label--six {
-  background: #AAAAAA;
+  background: #DC0031;
 }
 
 .oc-label--seven {
-  background: #BBBBBB;
+  background: #497527;
 }
 
 .oc-label--eight {
-  background: #CCCCCC;
+  background: #FF5000;
 }
 
 .oc-label--grey {
@@ -115,7 +115,7 @@
 }
 
 .oc-label--hollow, .oc-label__related .oc-label, .oc-label--hollow:hover, .oc-label__related .oc-label:hover, .oc-label--hollow:visited, .oc-label__related .oc-label:visited {
-  color: #555555;
+  color: #002F56;
 }
 
 .oc-label--padded, .oc-label__related .oc-label {

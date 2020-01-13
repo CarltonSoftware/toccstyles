@@ -30,7 +30,7 @@
   display: inline-block;
   position: relative;
   margin-right: 0.5rem;
-  border-radius: 2px;
+  border-radius: 5px;
   font-size: 14px;
   border: 1px solid #F1F1F1;
 }
@@ -49,8 +49,8 @@
 .oc-pager__item.current,
 .oc-pager__item.current a {
   color: white;
-  background-color: #555555;
-  border-color: #555555;
+  background-color: #002F56;
+  border-color: #002F56;
 }
 
 .oc-pager__item.oc-pager__item--current:hover, .oc-pager__item.current:hover {
@@ -81,6 +81,6 @@
 
 .oc-pager__item,
 .oc-pager__item a {
-  color: #555555;
+  color: #002F56;
   cursor: pointer;
 }

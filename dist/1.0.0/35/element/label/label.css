@@ -17,11 +17,11 @@
 .oc-label {
   display: inline-block;
   padding: 0.33333rem 0.5rem;
-  border-radius: 2px;
+  border-radius: 0px;
   line-height: 1;
   white-space: nowrap;
   font-family: "Open Sans", sans-serif;
-  background: #555555;
+  background: #033234;
   font-size: 12px;
 }
 
@@ -34,19 +34,19 @@
 }
 
 .oc-label--one {
-  background: #555555;
+  background: #033234;
 }
 
 .oc-label--two {
-  background: #666666;
+  background: #450C34;
 }
 
 .oc-label--three {
-  background: #777777;
+  background: #798286;
 }
 
 .oc-label--four {
-  background: #888888;
+  background: #F9F7f0;
 }
 
 .oc-label--five {
@@ -115,7 +115,7 @@
 }
 
 .oc-label--hollow, .oc-label__related .oc-label, .oc-label--hollow:hover, .oc-label__related .oc-label:hover, .oc-label--hollow:visited, .oc-label__related .oc-label:visited {
-  color: #555555;
+  color: #033234;
 }
 
 .oc-label--padded, .oc-label__related .oc-label {
