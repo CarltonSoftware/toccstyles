@@ -41,7 +41,8 @@ walkSync(testResultsPath, async (filePath) => {
     Key: filePath.split('/dist/').pop(),
     Body: fs.readFileSync(filePath),
     ContentType: contentType,
-    ACL: 'public-read'
+    ACL: 'public-read',
+    CacheControl: 'public, max-age=86400'
   };
   try {
     await s3.putObject(params).promise().catch((err) => {
