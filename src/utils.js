@@ -23,6 +23,9 @@ module.exports = {
   getCssDir: (version) => {
     return __dirname + '/../dist/' + version + '/';
   },
+  getHtmlDir: () => {
+    return __dirname + '/pages/';
+  },
   getdir: (type, component) => { 
     return type + '/' + component;
   },
