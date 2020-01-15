@@ -42,7 +42,7 @@ walkSync(testResultsPath, async (filePath) => {
     Body: fs.readFileSync(filePath),
     ContentType: contentType,
     ACL: 'public-read',
-    CacheControl: 'public, max-age=86400'
+    CacheControl: 'public, max-age=315360000'
   };
   try {
     await s3.putObject(params).promise().catch((err) => {
