@@ -123,6 +123,10 @@ $site-property-icons-color: map-get($site-colors, one) !default;
         content: fa-content($fa-var-hot-tub);
     }
 
+    &--attr801:before {
+        content: fa-content($fa-var-charging-station);
+    }
+
     &--attr05:before {
         content: fa-content($fa-var-glass-cheers);
     }
