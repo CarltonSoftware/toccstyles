@@ -13,5 +13,6 @@ $site-reassurance-bar-icon-odd: map-get($site-colors, one);
 $site-reassurance-bar-icon-even: map-get($site-colors, four);
 $site-content-header-font-weight: bold;
 $tocc-google-fonts: '#{$site-open-sans}|Philosopher:400,700';
+$site-content-header-font-family: "Philosopher",sans-serif;
 $site-marketingmessage-headerlink-font-family: 'Philosopher';
 $site-slogan-font-weight: bold;
