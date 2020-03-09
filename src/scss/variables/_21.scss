@@ -1,11 +1,15 @@
 $brand-colors: (
-    one: #159A8D,
-    two: #008ECF,
-    three: #F0CA46,
+    one: #377C6F, // #159A8D,
+    two: #407597, //#008ECF,
+    three: #588B78, //#F0CA46,
     four: #005171,
     five: #D6D9DB,
     six: #D7E1D7,
     seven: #FFF0DB
+);
+
+$brand-color: (
+    on
 );
 
 $site-colors: map-merge($site-colors, $brand-colors);
